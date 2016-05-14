@@ -1,0 +1,1590 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>world capitals</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>Afghanistan</name>
+				<description><![CDATA[National Assembly, Kabul, Afghanistan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>69.142166,34.496897,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Albania</name>
+				<description><![CDATA[Parliament, Tirana, Albania]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>19.823343,41.32603700000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Algeria</name>
+				<description><![CDATA[Parliament, Alger, Algeria]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>3.060894,36.779135,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Andorra</name>
+				<description><![CDATA[Parliament, Andorra la Vella, Andorra]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>1.520257,42.506799,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Angola</name>
+				<description><![CDATA[National Assembly, Luanda, Angola]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>13.2284,-8.819478,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Antigua and Barbuda</name>
+				<description><![CDATA[Parliament, Saint John's, Antigua]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-61.833200000000005,17.118188,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Argentina</name>
+				<description><![CDATA[National Congress, Buenos Aires, Argentina]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-58.39216,-34.60976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Armenia</name>
+				<description><![CDATA[National Assembly, Yerevan, Armenia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>44.509346,40.190412,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Australia</name>
+				<description><![CDATA[Parliament, Canberra, Australia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>149.125344,-35.307189,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Austria</name>
+				<description><![CDATA[Parliament, Vienna, Austria]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>16.35934,48.207944,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Azerbaijan</name>
+				<description><![CDATA[Parliament, Baku, Azerbaijan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>49.825664,40.357699000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bahamas</name>
+				<description><![CDATA[Parliament, Nassau, Bahamas]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-77.34052600000001,25.077704,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bahrain</name>
+				<description><![CDATA[National Assembly, Manama, Bahrain]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>50.593106,26.223032000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bangladesh</name>
+				<description><![CDATA[Parliament, Dhaka, Bangladesh]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>90.378438,23.763249,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Barbados</name>
+				<description><![CDATA[Parliament, Bridgetown, Barbados]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-59.614145,13.097241,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Belarus</name>
+				<description><![CDATA[Parliament, Minsk, Belarus]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>27.545187,53.895905,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Belgium</name>
+				<description><![CDATA[Parliament, Brussels, Belgium]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>4.364863,50.846733,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Belize</name>
+				<description><![CDATA[National Assembly, Belmopan, Belize]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-88.773005,17.251006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Benin</name>
+				<description><![CDATA[(official capital) Porto-Novo, Benin]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>2.619789,6.469398,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bhutan</name>
+				<description><![CDATA[National Assembly, Thimphu, Bhutan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>89.637816,27.489733,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bolivia</name>
+				<description><![CDATA[(constitutional capital) Sucre, Bolivia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-65.265044,-19.039787,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bosnia and Herzegovina</name>
+				<description><![CDATA[Parliament, Sarajevo, Bosnia and Herzegovina]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>18.40497,43.855028,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Botswana</name>
+				<description><![CDATA[National Assembly, Gaborone, Botswana]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>25.91107,-24.658238,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brazil</name>
+				<description><![CDATA[National Congress, Brasilia, Brazil]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-47.863805,-15.799821000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brunei Darussalam</name>
+				<description><![CDATA[Legislative Council, Bandar Seri Begawan, Brunei Darussalam]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>114.94888400000002,4.913903,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bulgaria</name>
+				<description><![CDATA[National Assembly, Sofia, Bulgaria]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>23.332571,42.694089,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Burkina Faso</name>
+				<description><![CDATA[National Assembly, Ouagadougou, Burkina Faso]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-1.514423,12.372066,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Burundi</name>
+				<description><![CDATA[National Assembly, Bujumbura, Burundi]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>29.372635,-3.359953,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cambodia</name>
+				<description><![CDATA[National Assembly, Phnom Penh, Cambodia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>104.935605,11.554329,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cameroon</name>
+				<description><![CDATA[National Assembly, Yaounde, Cameroon]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>11.509064,3.857024,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Canada</name>
+				<description><![CDATA[Parliament, Ottawa, Canada]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-75.699655,45.42476400000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Verde</name>
+				<description><![CDATA[National Assembly, Praia, Cape Verde]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-23.515256,14.906049,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Central African Republic</name>
+				<description><![CDATA[National Assembly, Bangui, Central African Republic]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>18.562426,4.393002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chad</name>
+				<description><![CDATA[National Assembly, Ndjamena, Chad]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>15.028535,12.123804,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chile</name>
+				<description><![CDATA[(official capital) Santiago, Chile]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-70.65286700000001,-33.438276,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>China</name>
+				<description><![CDATA[National People's Congress, Beijing, China]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>116.388388,39.903506,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Colombia</name>
+				<description><![CDATA[National Congress, Bogotá, Colombia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-74.07627,4.597637,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Comoros</name>
+				<description><![CDATA[Assembly of the Union, Moroni, Comoros]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>43.24613,-11.718207,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Congo, Democratic Republic of the</name>
+				<description><![CDATA[Parliament, Kinshasa, Democratic Republic of the Congo]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>15.303322,-4.332712,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Congo, Republic of the</name>
+				<description><![CDATA[National Assembly, Brazzaville, Republic of the Congo]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>15.258025000000002,-4.268087,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Costa Rica</name>
+				<description><![CDATA[Legislative Assembly, San Jose, Costa Rica]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-84.071798,9.933772,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Côte d'Ivoire</name>
+				<description><![CDATA[(official capital) Yamoussoukro, Côte d'Ivoire]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-5.279768,6.817885,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Croatia</name>
+				<description><![CDATA[Parliament, Zagreb, Croatia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>15.974030000000003,45.816466,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cuba</name>
+				<description><![CDATA[National Assembly, Havana, Cuba]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-82.360243,23.135141000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cyprus</name>
+				<description><![CDATA[House of Representatives, Nicosia, Cyprus]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>33.354278,35.172094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Czech Republic</name>
+				<description><![CDATA[Parliament, Prague, Czech Republic]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>14.403956999999998,50.089716,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Denmark</name>
+				<description><![CDATA[Parliament, Copenhagen, Denmark]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>12.580817,55.676372,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Djibouti</name>
+				<description><![CDATA[National Assembly, Djibouti, Djibouti]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>43.148927,11.595904000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dominica</name>
+				<description><![CDATA[House of Assembly, Roseau, Dominica]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-61.385261,15.295106000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dominican Republic</name>
+				<description><![CDATA[National Congress, Santo Domingo, Dominican Republic]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-69.925538,18.449135,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Timor-Leste</name>
+				<description><![CDATA[National Parliament, Dili, Timor-Leste]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>125.57852100000001,-8.55418,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ecuador</name>
+				<description><![CDATA[National Assembly, Quito, Ecuador]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-78.498586,-0.212929,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Egypt</name>
+				<description><![CDATA[Parliament, Cairo, Egypt]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>31.236695,30.039972,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>El Salvador</name>
+				<description><![CDATA[Legislative Assembly, San Salvador, El Salvador]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-89.199149,13.705668,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Equatorial Guinea</name>
+				<description><![CDATA[House of Peoples' Representatives, Malabo, Equatorial Guinea]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>8.779079,3.756074,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eritrea</name>
+				<description><![CDATA[(no national assembly) Āsmara, Eritrea]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>38.931615,15.336194999999998,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Estonia</name>
+				<description><![CDATA[Parliament, Tallinn, Estonia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>24.737273,59.43569899999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ethiopia</name>
+				<description><![CDATA[Parliament, Addis Ababa, Ethiopia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>38.764583,9.029951,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fiji</name>
+				<description><![CDATA[Parliament, Suva, Fiji]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>178.43367,-18.158499,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Finland</name>
+				<description><![CDATA[Parliament, Helsinki, Finland]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>24.933536,60.17263100000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>France</name>
+				<description><![CDATA[National Assembly, Paris, France]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>2.318405,48.86093900000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gabon</name>
+				<description><![CDATA[National Assembly, Libreville, Gabon]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>9.443007,0.411608,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Gambia</name>
+				<description><![CDATA[National Assembly, Banjul, The Gambia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-16.580644,13.459940000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Georgia</name>
+				<description><![CDATA[Parliament, Tbilisi, Georgia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>44.798759,41.696953,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Germany</name>
+				<description><![CDATA[Bundestag, Berlin, Germany]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>13.375307,52.518636,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ghana</name>
+				<description><![CDATA[Parliament, Accra, Ghana]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-0.19135400000000002,5.557599,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Greece</name>
+				<description><![CDATA[Hellenic Parliament, Athens, Greece]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>23.736501,37.975306,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grenada</name>
+				<description><![CDATA[Parliament, Saint George's, Grenada]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-61.75233999999999,12.053181000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Guatemala</name>
+				<description><![CDATA[National Congress, Guatemala City, Guatemala]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-90.511108,14.639204000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Guinea-Bissau</name>
+				<description><![CDATA[People's National Assembly , Bissau, Guinea-Bissau]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-15.590552,11.858573,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Guinea-Conakry</name>
+				<description><![CDATA[Parliament, Conakry, Guinea-Conakry]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-13.692661,9.520137,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Guyana</name>
+				<description><![CDATA[National Assembly, Georgetown, Guyana]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-58.166613,6.808697,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Haiti</name>
+				<description><![CDATA[Parliament, Port-au-Prince, Haiti]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-72.347071,18.54912,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Honduras</name>
+				<description><![CDATA[National Congress, Tegucigalpa, Honduras]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-87.205028,14.103809,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hungary</name>
+				<description><![CDATA[Parliament, Budapest, Hungary]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>19.046624,47.507077,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Iceland</name>
+				<description><![CDATA[Parliament, Reykjavik, Iceland]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-21.940282,64.146645,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>India</name>
+				<description><![CDATA[Parliament, New Delhi, India]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>77.208534,28.617886000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Indonesia</name>
+				<description><![CDATA[House of Representatives, Jakarta, Indonesia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>106.801229,-6.209066,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Iran</name>
+				<description><![CDATA[Islamic Parliament, Tehran, Iran]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>51.434126,35.690895,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Iraq</name>
+				<description><![CDATA[National Parliament, Baghdad, Iraq]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>44.381933,33.321353,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ireland</name>
+				<description><![CDATA[Parliament, Dublin, Ireland]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-6.253769,53.340524,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Israel</name>
+				<description><![CDATA[Parliament, Jerusalem, Israel]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>35.205447,31.776989000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Italy</name>
+				<description><![CDATA[Parliament, Rome, Italy]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>12.478688,41.901243,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jamaica</name>
+				<description><![CDATA[Parliament, Kingston, Jamaica]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-76.790496,17.974103,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Japan</name>
+				<description><![CDATA[Parliament, Tokyo, Japan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>139.74545,35.676006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jordan</name>
+				<description><![CDATA[Parliament, Amman, Jordan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>35.91252,31.962699,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kazakhstan</name>
+				<description><![CDATA[Parliament, Astana, Kazakhstan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>71.440895,51.126192,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kenya</name>
+				<description><![CDATA[National Assembly, Nairobi, Kenya]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>36.820325,-1.290103,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kiribati</name>
+				<description><![CDATA[House of Assembly, South Tarawa, Kiribati]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>173.039126,1.350094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Korea, North</name>
+				<description><![CDATA[Supreme People's Assembly, Pyongyang, North Korea]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>125.74934,39.027986,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Korea, South</name>
+				<description><![CDATA[National Assembly, Seoul, South Korea]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>126.914636,37.531476,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kuwait</name>
+				<description><![CDATA[National Assembly, Kuwait City, Kuwait]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>47.964796,29.369759,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kyrgyzstan</name>
+				<description><![CDATA[Supreme Council, Bishkek, Kyrgyzstan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>74.604024,42.879565,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lao People's Democratic Republic</name>
+				<description><![CDATA[National Assembly, Vientiane, Laos]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>102.633446,17.978376,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Latvia</name>
+				<description><![CDATA[Parliament, Riga, Latvia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>24.104674,56.951066,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lebanon</name>
+				<description><![CDATA[Parliament, Beirut, Lebanon]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>35.504218,33.896753,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lesotho</name>
+				<description><![CDATA[Parliament, Maseru, Lesotho]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>27.486476,-29.311133000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Liberia</name>
+				<description><![CDATA[Parliament, Montserrado, Liberia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-10.796004,6.30163,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Libya</name>
+				<description><![CDATA[General People's Congress, Tripoli, Libya]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>13.152416,32.879353,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Liechtenstein</name>
+				<description><![CDATA[Diet, Vaduz, Liechtenstein]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>9.522558,47.137063,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lithuania</name>
+				<description><![CDATA[Parliament, Vilnius, Lithuania]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>25.261549,54.690478,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Luxembourg</name>
+				<description><![CDATA[Chamber of Deputies, Luxembourg, Luxembourg]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>6.13304,49.61066300000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Macedonia/FYROM</name>
+				<description><![CDATA[Assembly of the Republic, Skopje, former Yugoslav Republic of Macedonia (FYROM)]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>21.433023,41.992988,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Madagascar</name>
+				<description><![CDATA[(no legislature) Antananarivo, Madagascar]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>47.532048,-18.923921,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Malawi</name>
+				<description><![CDATA[Parliament, Lilongwe, Malawi]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>33.787878,-13.953039,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Malaysia</name>
+				<description><![CDATA[Parliament, Kuala Lumpur, Malaysia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>101.679022,3.149418,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Maldives</name>
+				<description><![CDATA[Parliament, Male, Maldives]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>73.513572,4.17753,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mali</name>
+				<description><![CDATA[National Assembly, Bamako, Mali]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-7.99375,12.649135,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Malta</name>
+				<description><![CDATA[Parliament, Valletta, Malta]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>14.514482000000001,35.898826,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marshall Islands</name>
+				<description><![CDATA[Parliament, Majuro Atoll, Marshall Islands]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>171.380526,7.0892,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mauritania</name>
+				<description><![CDATA[National Assembly, Nouakchott,  Mauritania]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-15.973852999999998,18.085062,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mauritius</name>
+				<description><![CDATA[Parliament, Port Louis, Mauritius]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>57.50309099999999,-20.162762,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mexico</name>
+				<description><![CDATA[Parliament, Mexico City, Mexico]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-99.118416,19.430344,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Micronesia</name>
+				<description><![CDATA[Congress, Palikir, Federated States of Micronesia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>158.160059,6.924395,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Moldova</name>
+				<description><![CDATA[Parliament, Chisinau, Republic of Moldova]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>28.826698000000004,47.027473,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monaco</name>
+				<description><![CDATA[National Council, Monaco, Monaco]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>7.422227999999999,43.729935,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mongolia</name>
+				<description><![CDATA[State Great Hural, Ulaanbaatar, Mongolia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>106.917454,47.919664,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Montenegro</name>
+				<description><![CDATA[Parliament, Podgorica, Montenegro]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>19.260385,42.439736,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Morocco</name>
+				<description><![CDATA[Parliament, Rabat, Morocco]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-6.836725,34.017734,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mozambique</name>
+				<description><![CDATA[Assembly of the Republic, Maputo, Mozambique]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>32.560717,-25.959123,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Myanmar (Burma)</name>
+				<description><![CDATA[Parliament, Rangoon, Myanmar]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>96.138203,16.79504,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Namibia</name>
+				<description><![CDATA[Parliament, Windhoek, Namibia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>17.088804,-22.5668,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nauru</name>
+				<description><![CDATA[Parliament, Yaren, Nauru]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>166.917338,-0.547361,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nepal</name>
+				<description><![CDATA[Constituent Assembly, Kathmandu, Nepal]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>85.313945,27.712364,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Netherlands</name>
+				<description><![CDATA[(constitutional capital) Amsterdam, Netherlands]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>4.890686,52.37318900000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>New Zealand</name>
+				<description><![CDATA[Parliament, Wellington, New Zealand]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>174.776891,-41.277992000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nicaragua</name>
+				<description><![CDATA[National Assembly, Managua, Nicaragua]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-86.272971,12.150207,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Niger</name>
+				<description><![CDATA[National Assembly, Niamey, Niger]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>2.114345,13.511383,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nigeria</name>
+				<description><![CDATA[National Assembly, Abuja, Nigeria]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>7.510818,9.067899,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Norway</name>
+				<description><![CDATA[Parliament, Oslo, Norway]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>10.739608,59.913109000000006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Oman</name>
+				<description><![CDATA[(sultanate) Muscat, Oman]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>58.594685,23.615825,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pakistan</name>
+				<description><![CDATA[Parliament, Islamabad, Pakistan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>73.097481,33.730385,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Palau</name>
+				<description><![CDATA[Parliament, Melekeok, Palau]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>134.624013,7.499956,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Panama</name>
+				<description><![CDATA[National Assembly, Panama City, Panama]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-79.542196,8.961864,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Papua New Guinea</name>
+				<description><![CDATA[Parliament, Port Moresby, Papua New Guinea]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>147.192496,-9.428202,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Paraguay</name>
+				<description><![CDATA[National Congress, Asuncion, Paraguay]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-57.635787,-25.278585000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Peru</name>
+				<description><![CDATA[Congress of the Republic, Lima, Peru]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-77.02502,-12.048145,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Philippines</name>
+				<description><![CDATA[Parliament, Manila, Philippines]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>120.983891,14.547541,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Poland</name>
+				<description><![CDATA[Parliament, Warsaw, Poland]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>21.028497,52.22521,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Portugal</name>
+				<description><![CDATA[Assembly of the Republic, Lisbon, Portugal]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-9.153508,38.7124,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Qatar</name>
+				<description><![CDATA[(emirate) Doha, Qatar]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>51.527022,25.291912,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Romania</name>
+				<description><![CDATA[Parliament, Bucharest, Romania]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>26.088667,44.427436,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Russia</name>
+				<description><![CDATA[State Duma, Moscow, Russia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>37.615718,55.757715,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rwanda</name>
+				<description><![CDATA[National Assembly, Kigali, Rwanda]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>30.099127,-1.9526540000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Saint Kitts and Nevis</name>
+				<description><![CDATA[National Assembly, Basseterre, Saint Kitts and Nevis]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-62.724941,17.295605,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Saint Lucia</name>
+				<description><![CDATA[Parliament, Castries, Saint Lucia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-60.989911,14.010206,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Saint Vincent and the Grenadines</name>
+				<description><![CDATA[House of Assembly, Kingstown, Saint Vincent and the Grenadines]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-61.22329799999999,13.153838,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Samoa</name>
+				<description><![CDATA[Legislative Assembly, Apia, Samoa]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-171.778563,-13.819359,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Marino</name>
+				<description><![CDATA[Great and General Council, San Marino, San Marino]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>12.446453,43.936633,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sao Tome and Principe</name>
+				<description><![CDATA[National Assembly, Sao Tome, Sao Tome and Principe]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>6.740426,0.331785,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Saudi Arabia</name>
+				<description><![CDATA[Consultative Council, Riyadh, Suadi Arabia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>46.637403,24.663272,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Senegal</name>
+				<description><![CDATA[National Assembly, Dakar, Senegal]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-17.43821,14.662671,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Serbia</name>
+				<description><![CDATA[National Assembly, Belgrade, Serbia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>20.465622,44.811481,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seychelles</name>
+				<description><![CDATA[National Assembly, Victoria, Seychelles]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>55.454205,-4.628559,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sierra Leone</name>
+				<description><![CDATA[Parliament, Freetown, Sierra Leone]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-13.232855000000002,8.480729,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Singapore</name>
+				<description><![CDATA[Parliament, Singapore, Singapore]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>103.850144,1.289256,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Slovakia</name>
+				<description><![CDATA[National Council, Bratislava, Slovakia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>17.097479000000003,48.142049,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Slovenia</name>
+				<description><![CDATA[Parliament, Ljubljana, Slovenia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>14.501119,46.051335,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Solomon Islands</name>
+				<description><![CDATA[National Parliament, Honiara, Solomon Islands]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>159.955863,-9.433737,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Somalia</name>
+				<description><![CDATA[(provisional government) Mogadishu, Somalia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>45.32936500000001,2.038639,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>South Africa</name>
+				<description><![CDATA[Parliament, Cape Town, South Africa]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>18.419059,-33.926958,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spain</name>
+				<description><![CDATA[Congress of Deputies, Madrid, Spain]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-3.6967130000000004,40.416102,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sri Lanka</name>
+				<description><![CDATA[Parliament, Sri Jayewardenepura Kotte, Sri Lanka]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>79.918724,6.887253000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sudan</name>
+				<description><![CDATA[Parliament, Khartoum, Sudan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>32.486953,15.617927000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Suriname</name>
+				<description><![CDATA[National Assembly, Paramaribo, Suriname]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-55.150981,5.825365,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Swaziland</name>
+				<description><![CDATA[Parliament, Lobamba, Swaziland]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>31.206225000000003,-26.446498000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sweden</name>
+				<description><![CDATA[Parliament, Stockholm, Sweden]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>18.068969,59.327848,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Switzerland</name>
+				<description><![CDATA[Parliament, Bern, Switzerland]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>7.444127999999999,46.946866,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Syria</name>
+				<description><![CDATA[People's Assembly, Damascus, Syria]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>36.293268,33.518157,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tajikistan</name>
+				<description><![CDATA[Parliament, Dushanbe, Tajikistan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>68.787348,38.573946,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tanzania</name>
+				<description><![CDATA[National Assembly, Dodoma, Tanzania]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>35.756665,-6.180286,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thailand</name>
+				<description><![CDATA[Parliament, Bangkok, Thailand]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>100.514466,13.774184,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Togo</name>
+				<description><![CDATA[National Assembly, Lome, Togo]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>1.217101,6.130327,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tonga</name>
+				<description><![CDATA[Legislative Assembly, Nuku'alofa, Tonga]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-175.198296,-21.132813,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trinidad &amp; Tobago</name>
+				<description><![CDATA[Parliament, Port-of-Spain, Trinidad & Tobago]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-61.511802,10.653375000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tunisia</name>
+				<description><![CDATA[Chamber of Deputies, Tunis, Tunisia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>10.13488,36.809048,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Turkey</name>
+				<description><![CDATA[Grand National Assembly, Ankara, Turkey]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>32.851138,39.91218,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Turkmenistan</name>
+				<description><![CDATA[Assembly, Ashgabat, Turkmenistan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>58.379052,37.93087,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tuvalu</name>
+				<description><![CDATA[Parliament, Vaiaku, Tuvalu]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>179.194946,-8.524902,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uganda</name>
+				<description><![CDATA[Parliament, Kampala, Uganda]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>32.587557,0.315273,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ukraine</name>
+				<description><![CDATA[Parliament, Kyiv, Ukraine]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>30.537317000000005,50.447155,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>United Arab Emirates</name>
+				<description><![CDATA[Federal National Council, Abu Dhabi, United Arab Emirates]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>54.331234,24.463093000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>United Kingdom</name>
+				<description><![CDATA[Parliament, London, United Kingdom]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-0.125839,51.49944,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>United States of America</name>
+				<description><![CDATA[Congress, Washington D.C., United States of America]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-77.009933,38.889814,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uruguay</name>
+				<description><![CDATA[Parliament, Montevideo, Uruguay]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-56.186998,-34.890859,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uzbekistan</name>
+				<description><![CDATA[National Assembly, Tashkent, Uzbekistan]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>69.265843,41.314297,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vanuatu</name>
+				<description><![CDATA[Parliament, Port Vila, Vanuatu]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>168.315825,-17.745493,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vatican</name>
+				<description><![CDATA[(holy see) Vatican City, Vatican]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>12.45575,41.902213,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Venezuela</name>
+				<description><![CDATA[National Assembly, Caracas, Venezuela]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>-66.915783,10.505672000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vietnam</name>
+				<description><![CDATA[National Assembly, Hanoi, Vietnam]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>105.854779,21.022362,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Yemen</name>
+				<description><![CDATA[Parliament, Sana'a, Yemen]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>44.202925,15.354933999999998,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zambia</name>
+				<description><![CDATA[National Assembly, Lusaka, Zambia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>28.309169,-15.392049,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zimbabwe</name>
+				<description><![CDATA[Parliament, Harare, Zimbabwe]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<Point>
+					<coordinates>31.052231000000003,-17.828248,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-22-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-22-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-22'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

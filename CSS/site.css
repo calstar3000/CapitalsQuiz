@@ -1,0 +1,71 @@
+.map-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#map {
+    background-color: #CCC;
+}
+
+.start-button {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    margin: -70px 0 0 -170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.answer-container {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.answer-container > form > label {
+    display: block;
+}
+
+.answer-container > form > input {
+    display: block;
+    margin: 10px 0;
+}
+
+.answer-container > form > input[type=text] {
+    width: 100%;
+}
+
+.scoreboard {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+}
+
+.panel {
+    height: auto;
+    padding: 10px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.scoreboard > div {
+    color: #000;
+    text-align: center;
+}
+
+.scoreboard > div > div:first-child {
+    text-decoration: underline;
+}
+
+.scoreboard > div > div:last-child {
+    font-size: 24px;
+}
