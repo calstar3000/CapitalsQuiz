@@ -279,6 +279,10 @@ function submitAnswer() {
     return false;
 }
 
+function skipQuestion() {
+    moveToNextCountry();
+}
+
 function getNextCountry() {
     var countryCount = countries.length;
     var countryId = getRandomInt(0, countryCount);

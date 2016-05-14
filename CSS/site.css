@@ -35,8 +35,18 @@
     display: block;
 }
 
-.answer-container > form > input {
+.answer-container > form > input,
+.answer-container > form > button {
     display: block;
+    margin: 10px 0;
+}
+
+.button-submit {
+    float: left;
+}
+
+.button-skip {
+    float: right;
     margin: 10px 0;
 }
 
