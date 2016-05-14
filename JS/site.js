@@ -241,11 +241,13 @@ function updateScore() {
 }
 
 function askQuestion(country) {
+    var answerValidation = document.getElementById('answerValidation');
     var answerContainer = document.getElementById('pnlAnswerContainer');
     var answerForm = answerContainer.getElementsByTagName('form')[0];
     var answerLabel = answerForm.getElementsByTagName('label')[0];
     var answerInput = answerForm.getElementsByTagName('input')[0];
 
+    answerValidation.textContent = "";
     answerForm.dataset.id = country.id;
     answerInput.value = "";
     answerLabel.textContent = "What's the capital of " + country.name + "?";
@@ -255,6 +257,7 @@ function askQuestion(country) {
 
 function submitAnswer() {
     try {
+        var answerValidation = document.getElementById('answerValidation');
         var answerForm = document.getElementById('formAnswer');
         var answerLabel = answerForm.getElementsByTagName('label')[0];
         var answerInput = answerForm.getElementsByTagName('input')[0];
@@ -263,10 +266,10 @@ function submitAnswer() {
         var country = getCountryById(answerId);
 
         if (guess.trim().toLowerCase() === country.capital.trim().toLowerCase()) {
-            //alert("You got it right!");
+            answerValidation.textContent = 'You got it right!';
             playerScore += 1;
         } else {
-            //alert("You got it wrong! The answer was " + country.capital);
+            answerValidation.textContent = 'You got it wrong! The answer was ' + country.capital;
             playerScore -= 1;
         }
 
