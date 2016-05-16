@@ -2,7 +2,7 @@
 *  KmlMapParser.js
 *  KmlMapParser  - A Google Maps API Extension
 *  Project: http://code.google.com/p/kmlmapparser/
-*  Author:  R. Raponi 
+*  Author:  R. Raponi
 *  Version: 1.0
 *
 *
@@ -42,7 +42,7 @@
 *    showRootName: true
 *    showBubble: false
 *    showSidebarBubble: true
-*    highlightColor: 'ff0000' 
+*    highlightColor: 'ff0000'
 *    showFolders: false
 *    showMultiPointsAsMarkers: true
 *    useMapCenter: true
@@ -87,14 +87,14 @@ KmlMapParser  = function(config){
   this.showMarkers = (config.showMarkers!==undefined) ? this.config.showMarkers : true;
   this.showSidebar = (config.showSidebar!==undefined) ? this.config.showSidebar : true;
   this.showSidebarDescriptions = (config.showSidebarDescriptions!==undefined) ? this.config.showSidebarDescriptions : true;
-  
+
   this.showBubble = (config.showBubble!==undefined) ? this.config.showBubble : true;
   if (this.showBubble){
 	  this.showSidebarBubble = (config.showSidebarBubble!==undefined) ? this.config.showSidebarBubble : false;
   }else{
 	  this.showSidebarBubble = false;
   }
-  
+
   this.showFolders = (config.showFolders!==undefined) ? this.config.showFolders : true;
   if (this.showFolders){
 	  this.allFoldersOpen = (config.allFoldersOpen!==undefined) ? this.config.allFoldersOpen : undefined;
@@ -102,20 +102,20 @@ KmlMapParser  = function(config){
   this.defaultImageSize = (config.imageSize!== undefined) ? this.config.imageSize : {width: 32, height:32};
   this.defaultHotspot = (config.imageHotspot!== undefined) ? this.config.imageHotspot : {x: 16, y:32};
   this.showImageShadow = (config.showImageShadow !== undefined) ? this.config.showImageShadow : true;
-  
+
   this.showMultiPointsAsMarkers = (config.showMultiPointsAsMarkers!==undefined) ? this.config.showMultiPointsAsMarkers : false;
   this.showRootName = (config.showRootName!==undefined) ? this.config.showRootName : true;
-  
+
   this.showDragZoomButton = (config.showDragZoomButton!==undefined) ? this.config.showDragZoomButton : false;
   if (this.showDragZoomButton){
 	  this.dragZoomButtonImage = (config.dragZoomButtonImage!==undefined) ? this.config.dragZoomButtonImage : 'http://maps.gstatic.com/mapfiles/ftr/controls/dragzoom_btn.png';
   }
-  
+
   this.useMapCenter = (config.useMapCenter!==undefined) ? this.config.useMapCenter : false;
   if (this.useMapCenter){
       this.mapCenter = this.map.getCenter();
   }
-  
+
   this.defaultZoomLevel = (config.zoomLevel!==undefined) ? this.config.zoomLevel : 15;
   this.shouldZoom = (config.zoomOnClick!==undefined) ? this.config.zoomOnClick : true;
 
@@ -124,9 +124,9 @@ KmlMapParser  = function(config){
   } else {
     this.highlightColor = config.highlightColor;
   }
-    
+
   this.showOverlaysInSidebar = (config.showOverlaysInSidebar!==undefined) ? this.config.showOverlaysInSidebar : true;
-  
+
   if (config.afterParseFn === undefined){
     this.hasAfterParse = false;
   } else {
@@ -141,7 +141,7 @@ KmlMapParser  = function(config){
   this.placemarkIndex  = 0;
   this.overlayIndex = 0;
   this.zindex=100;
-  
+
   if (this.showDragZoomButton){
 	  this.enableDragZoom();
   }
@@ -152,7 +152,7 @@ KmlMapParser  = function(config){
 
 KmlMapParser.prototype = {
 
-   /* 
+   /*
    * Process one or more KML documents
    */
    parse :  function (urls) {
@@ -183,70 +183,70 @@ KmlMapParser.prototype = {
       this.fetchXMLdoc(url, callback);
   },
 
-  
+
   /*
    * Get the document associated with the id
    * @param {Number or String} docId the document id is the index number of the KML url
    * @return {Object} document
    */
-  getDocumentById : function (docId) { 
+  getDocumentById : function (docId) {
 	  var iDocId = (typeof docId === 'string') ? parseInt(docId, 10) : docId;
 	  return this.docSet.docs[docId];
   },
 
-  
-  
+
+
   /*
    *  Show the map objects associated with a document
-   *  by the documents id 
+   *  by the documents id
    * @param {String} docId
    */
-   hideDocumentById : function (docId) { 
-       var doc = this.getDocumentById(docId);   
-       if (doc && doc.isVisible){ 
-           this.setVisibilityByDoc(doc, false);  
-       }   
+   hideDocumentById : function (docId) {
+       var doc = this.getDocumentById(docId);
+       if (doc && doc.isVisible){
+           this.setVisibilityByDoc(doc, false);
+       }
    },
-   
-   
+
+
    /*
    *  Show the map objects associated with a document
-   *  by the documents id 
+   *  by the documents id
    * @param {String} docId
    */
    showDocumentById : function (docId){
  	  var doc = this.getDocumentById(docId);
-       if (doc && !doc.isVisible ){ 
-           this.setVisibilityByDoc(doc, true);  
-       }   
+       if (doc && !doc.isVisible ){
+           this.setVisibilityByDoc(doc, true);
+       }
    },
-   
-   
+
+
    /*
    *  Sets visibility on all map objects and the sidebar
-   * @param {Boolean} isVisible 
+   * @param {Boolean} isVisible
    */
-   setVisibility : function (isVisible){               
-       this.setVisibilityOnMarkers(isVisible);      
-       this.setOverlayVisibility(isVisible);       
-       
+   setVisibility : function (isVisible){
+       this.setVisibilityOnMarkers(isVisible);
+       this.setOverlayVisibility(isVisible);
+
        if (this.showSidebar && !!this.sidebarId){
            var side = document.getElementById(this.sidebarId);
            if (side !== null){
                this.setVisibilitybyNode(side, isVisible);
            }
-       }                       
+       }
    },
-   
-   
+
+
    /*
-   *  Sets visibility on all map markers and shapes 
+   *  Sets visibility on all map markers and shapes
    * @param {Boolean} isVisible
    * @param {Number}  docId  (optional)
    */
    setVisibilityOnMarkers : function (isVisible, docId){
        var ms = this.mapshapes,
-           mss, shapeId; 
+           mss, shapeId;
 
        for ( shapeId in ms){
           if (ms.hasOwnProperty(shapeId)) {
@@ -257,38 +257,38 @@ KmlMapParser.prototype = {
           }
        }
    },
-   
-   
+
+
    /*
-   *  sets the visiblility on map objects 
+   *  sets the visiblility on map objects
    *  by the documents id
    * @param {Number} docId
-   * @param {boolean} isVisible 
+   * @param {boolean} isVisible
    */
    setVisibilityByDoc : function (doc, isVisible) {
        var docRoot = document.getElementById('doc-'+ doc.id),
            i, overlayId, overlay;
-       
-       if (doc !== undefined && doc.isVisible !== isVisible){ 
-          //markers and shapes     
+
+       if (doc !== undefined && doc.isVisible !== isVisible){
+          //markers and shapes
           this.setVisibilityOnMarkers(isVisible, doc.id);
-         
+
           //overlays
-          if (doc.hasOverlays){  
+          if (doc.hasOverlays){
              for (i = 0; i < doc.overlays.length; i++){
                 this.setOverlayVisibility(doc.overlays[i].overlay, isVisible);
              }
           }
-           
-          //folders    
+
+          //folders
           if (this.showSidebar && docRoot !== null){
              this.setVisibilitybyNode(docRoot, isVisible);
-          }          
+          }
           doc.isVisible = isVisible;
        }
    },
-  
-  
+
+
   /*
   * set Overlay visibility on a marker or shape
   * actually removes it form the map
@@ -296,46 +296,46 @@ KmlMapParser.prototype = {
   * @param {Boolean} isVisible
   */
   setMapObjectVisibility: function (shape, isVisible) {
-      if ( typeof shape === 'object'){    
+      if ( typeof shape === 'object'){
           //shapes
           if (isVisible){
             shape.setMap(this.map);
           }else{
             shape.setMap(null);
           }
-      }     
+      }
   },
-  
-  
+
+
   /*
    *  sets the overlay visibility by the documents id
    * @param {Number} docId
-   * @param {Boolean} visibility 
+   * @param {Boolean} visibility
    */
-   setOverlayVisibilityByDocId : function (docId, isVisible){      
+   setOverlayVisibilityByDocId : function (docId, isVisible){
        var doc = this.getDocumentById[docId];
-       
-       if (doc !== undefined && doc.hasOverlays){    
+
+       if (doc !== undefined && doc.hasOverlays){
            for (i = 0; i < doc.overlays.length; i++){
               this.setVisibilitybyOverlay(doc.overlays[i].overlay, isVisible);
            }
        }
    },
-  
-   
+
+
    /*
     *  sets the overlay visibility by the overlays id
     * @param {Number} overlayId
-    * @param {Boolean} visibility 
+    * @param {Boolean} visibility
     */
-    setOverlayVisibilityById:  function (id, isVisible){	  
+    setOverlayVisibilityById:  function (id, isVisible){
 	  var docs = this.docSet.docs,
 	      doc, overlay, i, j;
-	  
+
 	  if (docs.length > 0){
 		  for (i = 0; i < docs.length; i++){
-			  doc = docs[i]; 
-			  if (doc !== undefined && doc.hasOverlays){    
+			  doc = docs[i];
+			  if (doc !== undefined && doc.hasOverlays){
 				  for (j = 0; j < doc.overlays.length; j++){
 					  overlay = doc.overlays[j].overlay;
 					  if (id && id === overlay.id_){
@@ -346,8 +346,8 @@ KmlMapParser.prototype = {
 		  }
 	  }
   },
-  
-  
+
+
   /*
   * set Overlay visibility
   * @param {Object} Overly
@@ -356,10 +356,10 @@ KmlMapParser.prototype = {
   setVisibilitybyOverlay: function (overlay, isVisible) {
       if (overlay !== undefined && overlay !== null){
     	  overlay.setVisibility(isVisible);
-      } 
+      }
   },
-  
-  
+
+
   /*
   *  sets all the visibility on all overlays
   * @param {Boolean} isVisible
@@ -367,11 +367,11 @@ KmlMapParser.prototype = {
   setOverlayVisibility : function (isVisible) {
 	  var docs = this.docSet.docs,
           doc, overlay, i, j;
-  
+
 	  if (docs.length > 0){
 		  for (i = 0; i < docs.length; i++){
-			  doc = docs[i]; 
-			  if (doc !== undefined && doc.hasOverlays){    
+			  doc = docs[i];
+			  if (doc !== undefined && doc.hasOverlays){
 				  for (j = 0; j < doc.overlays.length; j++){
 					  overlay = doc.overlays[j].overlay;
 					  this.setVisibilitybyOverlay(overlay, isVisible);
@@ -380,8 +380,8 @@ KmlMapParser.prototype = {
 		  }
 	  }
   },
-  
-  
+
+
   /*
   *  set Overlay opacity
   * @param {Number} opacity 0.0 - 1.0.
@@ -392,8 +392,8 @@ KmlMapParser.prototype = {
 
       if (docs.length > 0){
     	  for (i = 0; i < docs.length; i++){
-    		  doc = docs[i]; 
-    		  if (doc !== undefined && doc.hasOverlays){    
+    		  doc = docs[i];
+    		  if (doc !== undefined && doc.hasOverlays){
     			  for (j = 0; j < doc.overlays.length; j++){
     				  overlay = doc.overlays[j].overlay;
     				  this.setOpacityByOverlay(overlay, opacity);
@@ -401,9 +401,9 @@ KmlMapParser.prototype = {
     		  }
     	  }
       }
-  }, 
-  
-  
+  },
+
+
   /*
   *  sets the overlay opacity by the documents id
   * @param {Number} docId
@@ -411,14 +411,14 @@ KmlMapParser.prototype = {
   */
   setOverlayOpacityByDocId : function (docId, opacity) {
 	  var doc = this.getDocumentById[docId];
-      
-      if (doc !== undefined && doc.hasOverlays){    
+
+      if (doc !== undefined && doc.hasOverlays){
           for (i = 0; i < doc.overlays.length; i++){
              this.setOverlayOpacity(doc.overlays[i], opacity);
           }
       }
   },
-  
+
 
   /*
   *  set Overlay opacity
@@ -429,8 +429,8 @@ KmlMapParser.prototype = {
       this.setVisibilitybyOverlay(overlay, true);
       overlay.setOpacity(opacity);
   },
-  
-  
+
+
   /*
   *  clears Map of all object displayed on it and
   *  removes contents the side bar and destroys all references to the KML
@@ -445,7 +445,7 @@ KmlMapParser.prototype = {
 	      if (docs.length > 0){
 	    	  for (i = 0; i < docs.length; i++){
 	    		  doc = docs[i];
-	    		  if (doc !== undefined && doc.hasOverlays){    
+	    		  if (doc !== undefined && doc.hasOverlays){
 	    			  for (j = 0; j < doc.overlays.length; j++){
 	    				  overlay = doc.overlays[j].overlay;
 	    				  overlay.setMap(null);
@@ -453,16 +453,16 @@ KmlMapParser.prototype = {
 	    		  }
 	    	  }
 	      }
-	      
+
 	      this.setVisibilityOnMarkers(false);
-	      
+
 	      if (this.showSidebar && !!this.sidebarId){
 	        side = document.getElementById(this.sidebarId);
 	        if (side !== null){
 	            side.innerHTML='';
 	        }
 	      }
-	      //reset 
+	      //reset
 	      this.mapshapes  = [];
 	      this.folderIndex  = 0;
 	      this.placemarkIndex  = 0;
@@ -471,10 +471,10 @@ KmlMapParser.prototype = {
 	      this.docSet=undefined;
 	  }
   },
-  
-  
+
+
   /*
-  *  Filter Sidebar 
+  *  Filter Sidebar
   * @param {String} text string.
   */
   filterSidebar: function (text) {
@@ -483,14 +483,14 @@ KmlMapParser.prototype = {
     }
     var t = text.toLowerCase().trim(),
         isVisible, side;
-          
+
       if (this.showSidebar && !!this.sidebarId){
           side = document.getElementById(this.sidebarId);
           if (side !== null){
             var nodes=side.getElementsByTagName("li"),
                 i, node, li;
-                
-            if (nodes !== null && nodes.length > 0){    
+
+            if (nodes !== null && nodes.length > 0){
                 for (i = 0; i < nodes.length; i++){
                    node = nodes[i];
                    if ( -1 !== node.className.search('placemark')) {
@@ -500,18 +500,18 @@ KmlMapParser.prototype = {
                        }
                        this.setVisibilitybyNode(node, isVisible);
                    }
-                }  
+                }
              }
           }
-      }   
+      }
   },
-  
-  
-  
+
+
+
   /*
-   * filter Markers on all map markers and shapes 
+   * filter Markers on all map markers and shapes
    * @param {Boolean} isVisible
-   * @param {String}  text  
+   * @param {String}  text
    */
    filterMarkers : function (text){
 	   if (text === undefined || text === null ){
@@ -521,7 +521,7 @@ KmlMapParser.prototype = {
 	           isVisible,
 	           ms = this.mapshapes,
 	           mss, shapeId, it;
-	   
+
        for ( shapeId in ms){
           if (ms.hasOwnProperty(shapeId)) {
              mss = ms[shapeId];
@@ -538,22 +538,22 @@ KmlMapParser.prototype = {
           }
        }
    },
-   
-  
+
+
   /*
-   *  Filter Sidebar 
+   *  Filter Sidebar
    * @param {String} text string.
    */
    filterMap: function (text) {
      if (text === undefined || text === null ){
        text='';
      }
-     var t = text.toLowerCase().trim();    
-     this.filterSidebar(t); 
+     var t = text.toLowerCase().trim();
+     this.filterSidebar(t);
      this.filterMarkers(t);
    },
-   
-  
+
+
   /**
    * Parses anXML string and returns the parsed document in a DOM data structure.
    * Returns an empty DOM node if XML parsing is not supported in this browser.
@@ -571,19 +571,19 @@ KmlMapParser.prototype = {
         }
         return createElement('div', null);
   },
-  
-    
+
+
   fetchXMLdoc : function (url, callback){
-      var callBack = callback, 
+      var callBack = callback,
       	  xmlParse = this.xmlParse,
-      	  req = false; 
-            
+      	  req = false;
+
       if (window.XMLHttpRequest && !(window.ActiveXObject)) {
-    	  req = new window.XMLHttpRequest(); 
+    	  req = new window.XMLHttpRequest();
       } else if (window.ActiveXObject) {
-    	  req = new window.ActiveXObject('Microsoft.XMLHTTP'); 
-      }     
-      
+    	  req = new window.ActiveXObject('Microsoft.XMLHTTP');
+      }
+
       if (req){
        	  req.open('GET', url, true);
     	  req.onreadystatechange = function (){
@@ -605,8 +605,8 @@ KmlMapParser.prototype = {
     	   callBack(null);
       }
   },
-  
-    
+
+
   //private
   setVisibilitybyNode : function(node, isVisible) {
       if (isVisible){
@@ -617,7 +617,7 @@ KmlMapParser.prototype = {
   },
 
 
-  getNodeValue : function(node) {     
+  getNodeValue : function(node) {
       if (node === undefined || node === null) {
     	  return '';
       } else {
@@ -636,25 +636,25 @@ KmlMapParser.prototype = {
       }
   },
 
-  
+
   //private
   findStyle: function(node, styles, styleId){
 	  var style;
-	  
+
       if (styles[styleId] === undefined){
     	  styles[styleId] = { width: 4, fill: true, outline: true };
       }
 
       var styleNodes = node.getElementsByTagName('IconStyle');
-      if (styleNodes && styleNodes.length > 0){  
+      if (styleNodes && styleNodes.length > 0){
     	  style = styleNodes[0];
-    	  
+
     	  var hotspot = style.getElementsByTagName('hotSpot')[0],
     	  	  scale = this.getNodeValue(style.getElementsByTagName('scale')[0]),
     	  	  w =  parseInt(this.defaultImageSize.width, 10),
     	  	  h =  parseInt(this.defaultImageSize.height, 10),
     	  	  x =  parseInt(this.defaultHotspot.x, 10),
-        	  y =  parseInt(this.defaultHotspot.y, 10); 
+        	  y =  parseInt(this.defaultHotspot.y, 10);
 
     	  // the default google maps icon is 32 x 32; default bottom center is 16,32;
     	  // hotspots are assumed to be pixels
@@ -662,10 +662,10 @@ KmlMapParser.prototype = {
     		  x =  parseInt(hotspot.getAttribute('x'), 10);
     		  y =  parseInt(hotspot.getAttribute('y'), 10);
     	  }
-    	  if (!isNaN(scale)){	
+    	  if (!isNaN(scale)){
     		  scale = 1.0;
     	  }
-    	  
+
     	  styles[styleId] = {
     		 href: this.getNodeValue(style.getElementsByTagName('href')[0]),
     		 size: {width: w, height: h},
@@ -673,14 +673,14 @@ KmlMapParser.prototype = {
           	 anchor: {x: x, y: y}
           };
       }
-      
+
       styleNodes = node.getElementsByTagName('LineStyle');
       if (styleNodes && styleNodes.length > 0){
     	  style = styleNodes[0];
     	  styles[styleId].color = this.getNodeValue(style.getElementsByTagName('color')[0]);
     	  styles[styleId].width = this.getNodeValue(style.getElementsByTagName('width')[0]);
       }
-      
+
       styleNodes = node.getElementsByTagName('PolyStyle');
       if (styleNodes && styleNodes.length > 0){
     	  style = styleNodes[0];
@@ -688,7 +688,7 @@ KmlMapParser.prototype = {
     	  styles[styleId].fill      = this.getBooleanValue(style.getElementsByTagName('fill')[0]);
     	  styles[styleId].outline   = this.getBooleanValue(style.getElementsByTagName('outline')[0]);
       }
-    
+
       return styles[styleId];
   },
 
@@ -702,11 +702,11 @@ KmlMapParser.prototype = {
       }
       return styles;
   },
-  
-  
+
+
   /*
    * Converts the KML style into a google maps marker image with a 32 x 32 default style
-   * 
+   *
    * see http://www.mymapsplus.com/Markers for a visual marker reference
    */
   convertKmlStyle : function (style) {
@@ -714,37 +714,37 @@ KmlMapParser.prototype = {
       	  size	= style.size,
        	  scale	= style.scale,
        	  anchor = style.anchor;
-      
+
       if (style && style.href !== undefined && style.href !== '') {
         var anchorPoint = new google.maps.Point(anchor.x * scale, anchor.y * scale),
         	imageSize = new google.maps.Size(size.width * scale, size.height * scale),
         	href = style.href;
-        
+
         if (this.imageDirectory !== undefined){
            var hrefs = href.split('/'),
            	   image;
-           
+
            if ( hrefs.length > 0){
               image = hrefs[hrefs.length-1];
               style.href = this.imageDirectory + '/' + image;
               href = style.href;
            }
         }
-    
+
         //now create marker image
         style.icon =  new google.maps.MarkerImage(href, imageSize, zeroPoint, anchorPoint, imageSize);
-        
+
         if (this.showImageShadow){
-	        // Look for a  shadow on a standard marker (same as the dot marker) or push-pin; 
+	        // Look for a  shadow on a standard marker (same as the dot marker) or push-pin;
 	        var regEx = /\/(blue|red|green|ltblue|lightblue|yellow|purple|pink)\.png/,
         		shadowSize = new google.maps.Size(size.width * scale * 2, size.height * scale);
-	        
+
 	        if (regEx.test(href)) {
 	            style.shadow = new google.maps.MarkerImage('http://maps.google.com/mapfiles/ms/micons/msmarker.shadow.png',
 	        		  									  shadowSize,
 	                                                      zeroPoint,
 	                                                      anchorPoint);
-	        } else if (href.indexOf('-pushpin.png') > -1) {      
+	        } else if (href.indexOf('-pushpin.png') > -1) {
 	            style.shadow = new google.maps.MarkerImage('http://maps.google.com/mapfiles/ms/micons/pushpin_shadow.png',
 	        		  									  shadowSize,
 	                                                      zeroPoint,
@@ -767,7 +767,7 @@ KmlMapParser.prototype = {
             doc.placemarks    = [];
             doc.overlays    = [];
             doc.isVisible = true;
-        
+
         // get KML styles if any
         var styleId, pnNode, styleNode, styleNodeId,
             nodes = responseXML.getElementsByTagName('Style'),
@@ -776,7 +776,7 @@ KmlMapParser.prototype = {
         for (i = 0; i < nodeCount; i++) {
         	styleNode = nodes[i];
         	styleNodeId = styleNode.getAttribute('id');
-          
+
         	if (styleNodeId !== null) {
         		styleId = '#' + styleNodeId;
         		scope.findStyle(styleNode, styles, styleId);
@@ -784,20 +784,20 @@ KmlMapParser.prototype = {
         }
 
         doc.styles = scope.convertStyles(styles);
-        
+
         //get the file name
         var s = doc.baseUrl.lastIndexOf('/'),
             docFileName = doc.baseUrl;
-        
+
         if (s > -1){
-            docFileName = doc.baseUrl.slice(s+1); 
+            docFileName = doc.baseUrl.slice(s+1);
         }
         doc.fileName = docFileName;
-        
+
         // get the doc name if it does not have one use the file name
         var docName = responseXML.getElementsByTagName('name')[0],
             docTag = docName.parentNode.tagName;
-            
+
         if (docTag === 'Document' || docTag === 'document'){
             docName = scope.getNodeValue(docName);
         }else{
@@ -807,7 +807,7 @@ KmlMapParser.prototype = {
         doc.name = docName;
 
         // get folder names to show in the sidebar
-        var folderNodes = responseXML.getElementsByTagName('Folder'), 
+        var folderNodes = responseXML.getElementsByTagName('Folder'),
             placemarkNodes,
             parentFolder = doc;
 
@@ -822,7 +822,7 @@ KmlMapParser.prototype = {
             }else{
             	doc.hasPlacemarks = false;
             }
-            
+
             var groundNodes = responseXML.getElementsByTagName('GroundOverlay');
             if (groundNodes && groundNodes.length > 0){
                 doc.hasOverlays = true;
@@ -830,7 +830,7 @@ KmlMapParser.prototype = {
             } else {
                 doc.hasOverlays = false;
             }
-            
+
         } else {
             doc.hasFolders = true;
             doc.hasPlacemarks = false;
@@ -838,29 +838,29 @@ KmlMapParser.prototype = {
             scope.processChildren(doc, responseXML.documentElement);
         }
         scope.createMapObjects(doc);
-        
+
         if (scope.showSidebar){
             scope.createSidebar(doc);
         }
-        
+
         scope.docSet.remaining -= 1;
         if (scope.docSet.remaining === 0) {
             if (scope.useMapCenter){
               scope.map.setCenter(scope.mapCenter);
             } else {
               scope.map.fitBounds(scope.bounds);
-            } 
+            }
             if (scope.hasAfterParse){
                 scope.afterParseFn(doc);
-            }         
+            }
         }
       }
    },
-   
-  
+
+
   /*
   * parses kml lookinging for folders and placemarks
-  */ 
+  */
   processChildren : function(doc, node, parentFolder){
     var i, child, pf;
     for (i = 0; i < node.childNodes.length; i++){
@@ -895,8 +895,8 @@ KmlMapParser.prototype = {
      }
      return;
   },
-  
-  
+
+
  /*
   * finds and creates a folder
   */
@@ -916,16 +916,16 @@ KmlMapParser.prototype = {
                   placemarks: [],
                   hasPlacemarks: false,
                   hasOverlays: false
-                },      
-          subNodes = folderNode.getElementsByTagName('Folder'); 
-      
+                },
+          subNodes = folderNode.getElementsByTagName('Folder');
+
       if (subNodes && subNodes.length > 0){
           folder.hasFolders = true;
           parentFolder.folders.push(folder);
-          this.processChildren(doc, folderNode, folder);  
-      } else {    
+          this.processChildren(doc, folderNode, folder);
+      } else {
           //this is a leaf now look for placemarks
-          placemarkNodes = folderNode.getElementsByTagName('Placemark');  
+          placemarkNodes = folderNode.getElementsByTagName('Placemark');
           if (placemarkNodes && placemarkNodes.length > 0){
               folder.hasPlacemarks = true;
               this.findPlacemarks(doc, placemarkNodes, folder, parentFolder);
@@ -940,7 +940,7 @@ KmlMapParser.prototype = {
           } else {
         	  folder.hasOverlays = false;
           }
-          parentFolder.folders.push(folder); 
+          parentFolder.folders.push(folder);
       }
   },
 
@@ -963,8 +963,8 @@ KmlMapParser.prototype = {
           }
        }
   },
-  
-  
+
+
   /*
   * create a Placemark
   */
@@ -975,6 +975,8 @@ KmlMapParser.prototype = {
     		  		folderName: folder.name,
     		  		name:  this.getNodeValue(placemarkNode.getElementsByTagName('name')[0]),
     		  		description: this.getNodeValue(placemarkNode.getElementsByTagName('description')[0]),
+                    landMass: this.getNodeValue(placemarkNode.getElementsByTagName('landMass')[0]),
+                    zoomLevel: this.getNodeValue(placemarkNode.getElementsByTagName('zoomLevel')[0]),
     		  		styleUrl: this.getNodeValue(placemarkNode.getElementsByTagName('styleUrl')[0]),
     		  		shape: []
       				},
@@ -984,26 +986,26 @@ KmlMapParser.prototype = {
 
       //add style to placemark
       placemark.style = doc.styles[placemark.styleUrl] || { width: 4, fill: true, outline: true };
-      
+
       // inline style overrides shared style
       if (inlineStyles && (inlineStyles.length > 0)){
           style = this.findStyle(node,docStyles,'inline');
           this.convertKmlStyle(style);
           if (style){ placemark.style = style;}
       }
-      
+
       //look for link in placemark
       if (regex.test(placemark.description)){
         placemark.description = ['<a href="', placemark.description, '">', placemark.description, '</a>'].join('');
       }
-      
+
       // check if it is a MultiGeometry
       placemark.multi = (multi.length > 0) ? true : false;
-            
+
       // process coordinates
       this.processPlacemarkCoords(placemark, placemarkNode);
       placemark.id=folder.id+'-'+this.placemarkIndex++;
-      
+
       if (folder !== doc){
          doc.placemarks.push(placemark);
       }
@@ -1024,7 +1026,7 @@ KmlMapParser.prototype = {
 
         //create bounds for the map
         this.bounds = this.bounds || new google.maps.LatLngBounds();
-        
+
         //loop through the placemarks
         for (pm = 0; pm <placemarks.length; pm++){
             placemark = placemarks[pm];
@@ -1084,35 +1086,35 @@ KmlMapParser.prototype = {
         		  title:    placemark.name,
         		  zIndex:   this.zindex++,
         		  description: content,
-        		  clickable: true
+        		  clickable: false
           		};
-  
+
   	  if (placemark.style.icon !== undefined){
   		  markerOptions.icon = placemark.style.icon;
-  	  } 
+  	  }
       if (placemark.style.shadow !== undefined){
     	  markerOptions.shadow = placemark.style.shadow;
       }
-     
+
       marker = new google.maps.Marker(markerOptions);
 
       marker.id = placemark.id+'-'+shapeNumber;
       marker.docId = doc.id;
-      
+
       if (this.showBubble){
     	  var that = this;
     	  google.maps.event.addListener(marker, 'click', function(){
     		  that.openBubble(marker);
     	  });
       }
-    
+
       this.mapshapes[marker.id]=marker;
       placemark.marker=marker;
       placemark.points.push(marker);
       marker.setMap(this.map);
 
       return marker;
-      
+
   },
 
 
@@ -1130,17 +1132,17 @@ KmlMapParser.prototype = {
                     strokeWeight: placemark.style.width,
                     strokeOpacity: rgb.opacity,
                     fillColor: rgb.color,
-                    fillOpacity: rgb.opacity,               
+                    fillOpacity: rgb.opacity,
     	  			title:    placemark.name,
     	  			description: content,
     	  			folderId:   placemark.folderId,
     	  			zIndex:   this.zindex++
       				},
       	  circle = new google.maps.Circle(circleOptions);
-      
+
       circle.id = placemark.id+'-'+shapeNumber;
       circle.docId = doc.id;
-      
+
       if (this.showBubble){
     	  var that = this;
     	  google.maps.event.addListener(circle, 'click', function() {
@@ -1151,7 +1153,7 @@ KmlMapParser.prototype = {
       placemark.circles.push(circle);
       placemark.mapObject = circle;
       circle.setMap(this.map);
-      
+
       return circle;
   },
 
@@ -1162,7 +1164,7 @@ KmlMapParser.prototype = {
   createPolyline : function(doc, placemark, path, bounds, shapeNumber) {
       var point = path[Math.floor(path.length/2)],
       	  content= '<div><h3>' + placemark.name + '</h3><div>' + placemark.description + '</div></div>',
-      	  rgb = this.getRGBColorTransparency(placemark.style.color),      
+      	  rgb = this.getRGBColorTransparency(placemark.style.color),
           polyOptions = { map:  this.map,
     	  		path: path,
     	  		position: point,
@@ -1174,23 +1176,23 @@ KmlMapParser.prototype = {
     	  		folderId:   placemark.folderId,
     	  		zIndex:   this.zindex++},
       	poly = new google.maps.Polyline(polyOptions);
-      
+
       poly.bounds = bounds;
       poly.id = placemark.id+'-'+shapeNumber;
       poly.docId = doc.id;
-      
+
       if (this.showBubble){
     	  var that = this;
     	  google.maps.event.addListener(poly, 'click', function() {
     		  that.openBubble(poly);
     	  });
       }
-      
+
       this.mapshapes[poly.id] = poly;
       placemark.lines.push(poly);
       placemark.mapObject = poly;
       poly.setMap(this.map);
-      
+
       return poly;
   },
 
@@ -1204,7 +1206,7 @@ KmlMapParser.prototype = {
       var point = bounds.getCenter(),
           content= '<div><h3>' + placemark.name + '</h3><div>' + placemark.description + '</div></div>',
           rgb = this.getRGBColorTransparency(placemark.style.color);
- 
+
       var polyOptions = { map:  this.map,
                           paths: paths,
                           title: placemark.name,
@@ -1220,18 +1222,18 @@ KmlMapParser.prototype = {
                         };
 
         var poly = new google.maps.Polygon(polyOptions);
-        
+
         poly.bounds = bounds;
         poly.id = placemark.id+'-'+shapeNumber;
         poly.docId = doc.id;
-        
+
         if (this.showBubble){
       	  var that = this;
       	  google.maps.event.addListener(poly, 'click', function() {
       		  that.openBubble(poly);
       	  });
         }
-        
+
         this.mapshapes[poly.id]= poly;
         placemark.areas.push(poly);
         placemark.mapObject = poly;
@@ -1290,15 +1292,15 @@ KmlMapParser.prototype = {
                 }
            }
        }
-       
+
        this.processShapeNodes(placemark, node, 'LineString');
        this.processShapeNodes(placemark, node, 'LinearRing');
        this.processShapeNodes(placemark, node, 'Polygon');
 
        return placemark;
   },
-  
-  
+
+
   /*
    * process the shape node for a given KML shape
    * except for points
@@ -1311,7 +1313,7 @@ KmlMapParser.prototype = {
           }
       }
   },
-  
+
 
   /*
   * get coordinates for lat/longs and return them in an array (currently, altitude is not being used).
@@ -1339,18 +1341,18 @@ KmlMapParser.prototype = {
 
       return coordListA;
   },
-  
-  
+
+
   /*
   * find map overlays
   */
   findOverlays: function  (doc, groundNodes, folder, parentFolder) {
       var node, groundOverlay, color, overlay, id;
-  
+
       doc.overlays = doc.overlays || [];
       for (i = 0; i < groundNodes.length; i++) {
         node = groundNodes[i];
-        
+
         // Init the ground overlay object
         groundOverlay = { name: this.getNodeValue(node.getElementsByTagName('name')[0]),
         				  description: this.getNodeValue(node.getElementsByTagName('description')[0]),
@@ -1360,62 +1362,62 @@ KmlMapParser.prototype = {
         					  			south: parseFloat(this.getNodeValue(node.getElementsByTagName('south')[0])),
         					  			west:  parseFloat(this.getNodeValue(node.getElementsByTagName('west')[0]))}
         				};
-        
+
         //look to see if the overlay has an id
         id = node.getAttribute('id');
         groundOverlay.id = (id !== null) ? id : 'overlayview-'+ this.overlayIndex++;
-        
+
         //get bounds
         var box = groundOverlay.latLonBox,
         	bounds = new google.maps.LatLngBounds(new google.maps.LatLng(box.south, box.west),
         							              new google.maps.LatLng(box.north, box.east));
         groundOverlay.bounds = bounds;
-        
+
         if (this.bounds) {
             this.bounds.union(bounds);
         }
 
         // Opacity is encoded in the kml color node
-        color = this.getNodeValue(node.getElementsByTagName('color')[0]);        
+        color = this.getNodeValue(node.getElementsByTagName('color')[0]);
         if ((color !== '') && (color.length === 8)) {
            var rgb = this.getRGBColorTransparency(color);
            this.overlayOpacity = rgb.opacity;
-        } 
-        
+        }
+
         if (groundOverlay.opacity === undefined) {
             groundOverlay.opacity = 0.7;
             this.overlayOpacity = 0.7;
-        }   
-        
+        }
+
         this.createOverlay(doc, groundOverlay, folder);
       }
   },
-  
-  
+
+
   /*
   * Add a ProjectedOverlay to the map from a groundOverlay KML object
   */
-  createOverlay : function  (doc, groundOverlay, folder){  
+  createOverlay : function  (doc, groundOverlay, folder){
 	  if (!window.KmlOverlayView){
 		  throw 'KmlMapParser error: KmlOverlayView not found while rendering GroundOverlay from KML';
 	  }
       var overlay = new KmlOverlayView({ map: this.map, href: groundOverlay.icon.href, percentOpacity: groundOverlay.opacity, bounds: groundOverlay.bounds, id: groundOverlay.id});
-    
+
 	  groundOverlay.overlay = overlay;
 	  groundOverlay.id = overlay.id_;
-          
+
 	  if (folder !== undefined) {
 		  folder.overlays = folder.overlays || [];
 		  groundOverlay.folderId = folder.id;
 		  groundOverlay.folderName = folder.name;
 		  folder.overlays.push(groundOverlay);
 	  }
-    
+
 	  if (folder !== doc){
 		  doc.overlays.push(groundOverlay);
 		  doc.hasOverlays=true;
 	  }
- 
+
 	  return overlay;
   },
 
@@ -1427,14 +1429,14 @@ KmlMapParser.prototype = {
              contents = '',
              innerContents ='';
              folderName = doc.name;
-             
+
          if (side !== null){
               if (this.showFolders && doc.hasFolders){
                   innerContents += this.addSidebarFolder(folderName, doc.folders);
               } else {
                   placemarks = doc.placemarks;
                   innerContents += this.addSidebarList(placemarks);
-                 
+
                   //overlays
                   overlays = doc.overlays;
                   if (this.showOverlaysInSidebar && overlays !== undefined){
@@ -1454,7 +1456,7 @@ KmlMapParser.prototype = {
                  root.appendChild(c);
              } else {
                  side.innerHTML = '<ul id="root" >'+ contents + '</ul>';
-                  
+
                  //add click listener
                  var scope=this,
                      clickSidebar = function(e){
@@ -1471,7 +1473,7 @@ KmlMapParser.prototype = {
 	                           className = t.className;
 	                       }
 	                    }
-	                    
+
                     switch(className) {
                         case "placemark":
                         	if (scope.showBubble){
@@ -1497,10 +1499,10 @@ KmlMapParser.prototype = {
                         case "unchecked":
                             t.className='checked';
                             scope.setOverlayVisibilityById(t.id.replace('-check', ''),true);
-                            break; 
+                            break;
                     }
                 };
-       
+
                if (side.addEventListener){
                   side.addEventListener('click',clickSidebar,false);
                } else if (side.attachEvent){
@@ -1517,7 +1519,7 @@ KmlMapParser.prototype = {
   */
   addSidebarFolder : function(parentName, childFolders) {
       var folder, i, folderName, cls,
-      	  contents='', folderContents='', placemarkContents='', 
+      	  contents='', folderContents='', placemarkContents='',
       	  overlayContents='', placemarks, sameName = false;
 
       if (!!parentName && childFolders.length > 0){
@@ -1531,36 +1533,36 @@ KmlMapParser.prototype = {
                       sameName = true;
                   } else{
                       sameName = false;
-                  } 
+                  }
                   placemarkContents = this.addSidebarList(placemarks);
               }else{
                   placemarkContents='';
               }
-              
+
               if (this.showOverlaysInSidebar && folder.hasOverlays){
             	  overlayContents = this.addSidebarOverlayList(folder.overlays);
               } else {
             	  overlayContents='';
               }
-              
+
               if (folder.hasFolders){
                   folderContents = this.addSidebarFolder(folderName, folder.folders);
               } else {
                   folderContents='';
               }
-    
+
               if (sameName){
                   contents += placemarkContents+overlayContents;
               }else{
             	  var d = folder.isOpen ? 'block' : 'none';
            		  contents += '<li><span class="'+cls+'"></span>'+ folderName +'<ul style="display:'+d+';">'+folderContents+placemarkContents+overlayContents+'</ul></li>';
-              }         
+              }
           }
-      }  
+      }
       return contents;
   },
- 
-  
+
+
  /**
   * createMarkerIconString
   */
@@ -1592,7 +1594,7 @@ KmlMapParser.prototype = {
                   markerIcon = placemark.style.href;
                   icon=this.createMarkerIconString(markerIcon);
             }
-                
+
             if (this.showSidebarDescriptions){
                  innerContents = '<li class="placemark" id="'+ id + '">'+ folderHtml + icon + placemark.name;
                  descrip = this.createDescriptionString(placemark.description);
@@ -1606,10 +1608,10 @@ KmlMapParser.prototype = {
             		  innerContents = '<li class="placemark" id="'+ id + '">'+ placemark.name;
             	  }
             }
-            
+
 
              itemList[placemark.name]=innerContents;
-          
+
       }
 
       var placemarkId, lc;
@@ -1630,8 +1632,8 @@ KmlMapParser.prototype = {
 
       return contents;
   },
-  
-  
+
+
   /**
    * adds an overlay to the sidebar
    */
@@ -1639,14 +1641,14 @@ KmlMapParser.prototype = {
        var  i, groundOverlay, overlay, contents='', innerContents='', descrip='',
        		itemList = [], itemListContents=[],
        		folderHtml = '<span class="closed"></span>';
-       
+
        //look for the overlays
        for (i = 0; i < overlays.length; i++){
     	   groundOverlay = overlays[i];
            if (groundOverlay.overlay){
            	   overlay = groundOverlay.overlay;
            	   overlayId = groundOverlay.id;
-                   
+
                if (this.showSidebarDescriptions){
                	   descrip = this.createDescriptionString(groundOverlay.description);
                    innerContents = '<li class="overlay">'+ folderHtml + '<span id="'+overlayId + '-check" class="checked"></span>' + groundOverlay.name+ '<ul style="display:none;">'+ descrip +'</ul></li>';
@@ -1658,8 +1660,8 @@ KmlMapParser.prototype = {
        }
        return contents;
    },
-  
-  
+
+
   /**
   * create a description for a placemark
   */
@@ -1670,8 +1672,8 @@ KmlMapParser.prototype = {
       }
       return undefined;
   },
-  
- 
+
+
   /**
   * gets the placemark from the id
   */
@@ -1695,8 +1697,8 @@ KmlMapParser.prototype = {
       }
       return undefined;
   },
-  
-  
+
+
   /**
   * gets the doc id from a placemark or folder id.
   */
@@ -1709,22 +1711,22 @@ KmlMapParser.prototype = {
       }
       return undefined;
   },
-  
-    
+
+
   /**
   * returns the placemarks for a folder and placemark name
   */
   getPlacemarksByName : function(folderId, placemarkName) {
         if (folderId){
-          var ids = this.getDocFolderIds(folderId), 
+          var ids = this.getDocFolderIds(folderId),
               placemarks, pm, placemark, aPlacemarks=[], doc;
-              
+
           if (ids !== undefined){
               doc = this.getDocumentById(ids[0]);
           }
           if (doc !== undefined && doc.placemarks){
             placemarks = doc.placemarks;
-            
+
             //loop through the placemarks
             for (pm = 0; pm <placemarks.length; pm++){
                 placemark = placemarks[pm];
@@ -1734,7 +1736,7 @@ KmlMapParser.prototype = {
             }
             return aPlacemarks;
           }
-        } 
+        }
         return undefined;
   },
 
@@ -1746,7 +1748,7 @@ KmlMapParser.prototype = {
   hilightShapesById : function(id) {
       var 	placemark, center,
       		object = this.mapshapes[id];
-      
+
       if (object === undefined){
         object = this.mapshapes[id+'-0'];
       }
@@ -1781,17 +1783,17 @@ KmlMapParser.prototype = {
 
 
    /**
-  * hilights and unhilight shapes  
+  * hilights and unhilight shapes
   */
   changeShapeColors : function(placemarks, hilight) {
       var pm, placemark, points, point, lines, line, areas, area, circles, circle, markerLatLng, i,
       	  hilite = (hilight!==undefined) ? hilight : true,
       	  hiliteColor;
-      
+
       if (hilite){
-          this.lastSelectedPlacemarks=placemarks; 
+          this.lastSelectedPlacemarks=placemarks;
           hiliteColor = this.highlightColor;
-      }   
+      }
       //look for the placemarks
       for (pm = 0; pm < placemarks.length; pm++){
           placemark = placemarks[pm];
@@ -1806,10 +1808,10 @@ KmlMapParser.prototype = {
           if (points!== undefined){
               for (i = 0; i < points.length; i++){
                   point = points[i];
-                  if (hilite){              
+                  if (hilite){
                      point.setOptions({zIndex:this.zindex++});
-                  } 
-              }             
+                  }
+              }
           }else if (circles !== undefined){
                   for (i = 0; i < circles.length; i++){
                       circle = circles[i];
@@ -1819,17 +1821,17 @@ KmlMapParser.prototype = {
                         circle.setOptions({strokeColor:hiliteColor, fillColor: hiliteColor, zIndex:this.zindex++});
                       } else {
                         circle.setOptions({strokeColor:circle.origStrokeColor, fillColor: circle.origFillColor});
-                      } 
+                      }
                   }
            }else if (lines!== undefined){
               for (i = 0; i < lines.length; i++){
                   line = lines[i];
                   if (hilite){
-                      line.origStrokeColor = line.strokeColor;                    
+                      line.origStrokeColor = line.strokeColor;
                       line.setOptions({strokeColor:hiliteColor, zIndex:this.zindex++});
                   } else {
                       line.setOptions({strokeColor:line.origStrokeColor});
-                  }   
+                  }
               }
           }else if (areas!== undefined){
               for (i = 0; i < areas.length; i++){
@@ -1840,7 +1842,7 @@ KmlMapParser.prototype = {
                       area.setOptions({strokeColor:hiliteColor, fillColor: hiliteColor, zIndex:this.zindex++});
                   } else {
                       area.setOptions({strokeColor:area.origStrokeColor, fillColor: area.origFillColor});
-                  }     
+                  }
               }
           }
       }
@@ -1868,9 +1870,9 @@ KmlMapParser.prototype = {
           if (placemarks){
               this.hilightShapes(placemarks);
           }
-      }       
+      }
   },
- 
+
 
   /**
   * zooms map
@@ -1909,14 +1911,14 @@ KmlMapParser.prototype = {
 	  }
   },
 
-  
+
   /*
    *  KML color and opacity (alpha) values are expressed in hexadecimal notation. The range of values for any one color is 0 to 255 (00 to ff).
    *  For alpha, 00 is fully transparent and ff is fully opaque.
    *  The order of expression is aabbggrr, where aa=alpha (00 to ff); bb=blue (00 to ff); gg=green (00 to ff); rr=red (00 to ff).
-   *  
-   *  For example, if you want to apply a blue color with 50 percent opacity to an overlay, 
-   *  you would specify the following: <color>7fff0000</color>, where alpha=0x7f, blue=0xff, green=0x00, and red=0x00. 
+   *
+   *  For example, if you want to apply a blue color with 50 percent opacity to an overlay,
+   *  you would specify the following: <color>7fff0000</color>, where alpha=0x7f, blue=0xff, green=0x00, and red=0x00.
    */
    getRGBColorTransparency: function (kmlColor) {
       var color = {};
@@ -1927,7 +1929,7 @@ KmlMapParser.prototype = {
         rr = kmlColor.substr(6,2);
         color.color = "#" + rr + gg + bb;
         color.opacity = parseFloat(parseInt(aa,16)/256).toFixed(1);
-      } 
+      }
       if (isNaN(color.opacity)){
     	  color.color = this.getRandomColor();
     	  color.opacity = 1.0;
@@ -1939,11 +1941,11 @@ KmlMapParser.prototype = {
  /*
   * getRandomColor
   */
-  getRandomColor : function(){     
+  getRandomColor : function(){
       return  '#' + Math.round(0xffffff * Math.random()).toString(16);
   },
- 
-  
+
+
   /*
   *  enable DragZoom icon on the map
   */

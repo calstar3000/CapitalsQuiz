@@ -3,6 +3,7 @@ var map = null;
 var playerScore = 0;
 var countries = null;
 var gameTime = 60 * 1;
+var hasTimer = false;
 
 function initMap() {
     var mapDiv = document.getElementById('map');
@@ -25,7 +26,7 @@ function initMap() {
 
     xml = new KmlMapParser({
         map: map,
-        kml: '/Data/world-capitals.kml',
+        kml: '/Data/world-capitals-test.kml',
         afterParseFn: mapLoaded
     });
 }
@@ -46,15 +47,18 @@ function reset() {
 function startGame() {
      document.getElementById('startButton').style.display = "none";
      var display = document.getElementById('time');
-     startTimer(gameTime, display);
+
+     if (hasTimer)
+        startTimer(gameTime, display);
+
      moveToNextCountry();
 }
 
 function moveToNextCountry() {
     var country = getNextCountry();
 
-    map.setCenter({ lat: country.lat, lng: country.lng });
-    map.setZoom(6);
+    map.setCenter({ lat: country.midLat, lng: country.midLng });
+    map.setZoom(parseInt(country.zoomLevel, 10));
 
     window.setTimeout(function() {
         askQuestion(country);
@@ -108,6 +112,13 @@ function submitAnswer() {
 }
 
 function skipQuestion() {
+    var answerValidation = document.getElementById('answerValidation');
+    var answerForm = document.getElementById('formAnswer');
+    var answerId = answerForm.dataset.id;
+    var country = getCountryById(answerId);
+
+    answerValidation.textContent = 'The answer was ' + country.capital;
+
     moveToNextCountry();
 }
 
@@ -125,6 +136,9 @@ function getCountryById(id) {
         id: id,
         lat: country.points[0].position.lat(),
         lng: country.points[0].position.lng(),
+        midLat: country.lines[0].position.lat(),
+        midLng: country.lines[0].position.lng(),
+        zoomLevel: country.zoomLevel,
         name: country.name.trim(),
         capital: country.description.split(',')[1].trim()
     };
@@ -158,7 +172,7 @@ function loadJSON(filePath, callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', filePath, true);
-    
+
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200")
             callback(xobj.responseText);
