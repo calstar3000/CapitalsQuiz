@@ -7,7 +7,7 @@
             <name>Untitled layer</name>
             <Placemark>
 				<name>Australia</name>
-				<description><![CDATA[Parliament, Canberra, Australia]]></description>
+				<description>Canberra</description>
                 <landMass>7682300</landMass>
                 <zoomLevel>5</zoomLevel>
                 <Point>
@@ -19,7 +19,7 @@
 			</Placemark>
             <Placemark>
                 <name>New Zealand</name>
-                <description><![CDATA[Parliament, Wellington, New Zealand]]></description>
+                <description>Wellington</description>
                 <landMass>263310</landMass>
                 <zoomLevel>6</zoomLevel>
                 <Point>
@@ -29,6 +29,18 @@
                     <coordinates>174.885971,-40.900557,0.0</coordinates>
                 </LineString>
             </Placemark>
+            <Placemark>
+               <name>Trinidad &amp; Tobago</name>
+               <description>Port-of-Spain</description>
+               <landMass>263310</landMass>
+               <zoomLevel>6</zoomLevel>
+               <Point>
+                 <coordinates>-61.511802,10.653375000000002,0.0</coordinates>
+               </Point>
+               <LineString>
+                   <coordinates>-61.511802,10.653375000000002,0.0</coordinates>
+               </LineString>
+             </Placemark>
         </Folder>
     </Document>
 </kml>

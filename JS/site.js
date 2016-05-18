@@ -26,7 +26,8 @@ function initMap() {
 
     xml = new KmlMapParser({
         map: map,
-        kml: '/Data/world-capitals-test.kml',
+        kml: '/Data/world-capitals.kml',
+        //kml: '/Data/world-capitals-test.kml',
         afterParseFn: mapLoaded
     });
 }
@@ -57,8 +58,10 @@ function startGame() {
 function moveToNextCountry() {
     var country = getNextCountry();
 
-    map.setCenter({ lat: country.midLat, lng: country.midLng });
-    map.setZoom(parseInt(country.zoomLevel, 10));
+    //map.setCenter({ lat: country.midLat, lng: country.midLng });
+    //map.setZoom(parseInt(country.zoomLevel, 10));
+    map.setCenter({ lat: country.lat, lng: country.lng });
+    map.setZoom(6);
 
     window.setTimeout(function() {
         askQuestion(country);
@@ -95,10 +98,10 @@ function submitAnswer() {
         var country = getCountryById(answerId);
 
         if (guess.trim().toLowerCase() === country.capital.trim().toLowerCase()) {
-            answerValidation.textContent = 'You got it right!';
+            answerValidation.textContent = 'Correct!';
             playerScore += 1;
         } else {
-            answerValidation.textContent = 'You got it wrong! The answer was ' + country.capital;
+            answerValidation.textContent = 'Incorrect! The answer was ' + country.capital;
             playerScore -= 1;
         }
 
@@ -136,11 +139,11 @@ function getCountryById(id) {
         id: id,
         lat: country.points[0].position.lat(),
         lng: country.points[0].position.lng(),
-        midLat: country.lines[0].position.lat(),
-        midLng: country.lines[0].position.lng(),
-        zoomLevel: country.zoomLevel,
-        name: country.name.trim(),
-        capital: country.description.split(',')[1].trim()
+        //midLat: country.lines[0].position.lat(),
+        //midLng: country.lines[0].position.lng(),
+        //zoomLevel: country.zoomLevel,
+        name: country.name,
+        capital: country.description
     };
 }
 
