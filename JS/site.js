@@ -1,11 +1,13 @@
 var xml = null;
 var map = null;
+var geocoder = null;
 var playerScore = 0;
 var countries = null;
 var gameTime = 60 * 1;
 var hasTimer = false;
 
 function initMap() {
+    geocoder = new google.maps.Geocoder();
     var mapDiv = document.getElementById('map');
     map = new google.maps.Map(mapDiv, {
       center: {lat: 44.540, lng: -78.546},
@@ -58,14 +60,25 @@ function startGame() {
 function moveToNextCountry() {
     var country = getNextCountry();
 
-    //map.setCenter({ lat: country.midLat, lng: country.midLng });
-    //map.setZoom(parseInt(country.zoomLevel, 10));
-    map.setCenter({ lat: country.lat, lng: country.lng });
-    map.setZoom(6);
+    geocodeAddress(country);
 
     window.setTimeout(function() {
         askQuestion(country);
     }, 1000);
+}
+
+function geocodeAddress(country) {
+    geocoder.geocode({ 'address': country.name }, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
+            map.fitBounds(results[0].geometry.viewport);
+        } else {
+            // fallback
+            map.setCenter({ lat: country.lat, lng: country.lng });
+            map.setZoom(6);
+            console.log("Geocoding failed for country: " + country.name);
+        }
+    });
 }
 
 function updateScore() {
@@ -139,9 +152,6 @@ function getCountryById(id) {
         id: id,
         lat: country.points[0].position.lat(),
         lng: country.points[0].position.lng(),
-        //midLat: country.lines[0].position.lat(),
-        //midLng: country.lines[0].position.lng(),
-        //zoomLevel: country.zoomLevel,
         name: country.name,
         capital: country.description
     };

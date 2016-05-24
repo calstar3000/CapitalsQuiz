@@ -975,9 +975,7 @@ KmlMapParser.prototype = {
     		  		folderName: folder.name,
     		  		name:  this.getNodeValue(placemarkNode.getElementsByTagName('name')[0]),
     		  		description: this.getNodeValue(placemarkNode.getElementsByTagName('description')[0]),
-                    landMass: this.getNodeValue(placemarkNode.getElementsByTagName('landMass')[0]),
-                    zoomLevel: this.getNodeValue(placemarkNode.getElementsByTagName('zoomLevel')[0]),
-    		  		styleUrl: this.getNodeValue(placemarkNode.getElementsByTagName('styleUrl')[0]),
+                    styleUrl: this.getNodeValue(placemarkNode.getElementsByTagName('styleUrl')[0]),
     		  		shape: []
       				},
       	  inlineStyles = placemarkNode.getElementsByTagName('Style'),
