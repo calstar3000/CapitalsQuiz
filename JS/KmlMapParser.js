@@ -976,8 +976,10 @@ KmlMapParser.prototype = {
     		  		name:  this.getNodeValue(placemarkNode.getElementsByTagName('name')[0]),
     		  		description: this.getNodeValue(placemarkNode.getElementsByTagName('description')[0]),
                     styleUrl: this.getNodeValue(placemarkNode.getElementsByTagName('styleUrl')[0]),
+                    iso2: this.getNodeValue(placemarkNode.getElementsByTagName('Data')[1]),
+                    iso3: this.getNodeValue(placemarkNode.getElementsByTagName('Data')[0]),
     		  		shape: []
-      				},
+                },
       	  inlineStyles = placemarkNode.getElementsByTagName('Style'),
      	  regex = /^https?:\/\//,
       	  multi = placemarkNode.getElementsByTagName('MultiGeometry');

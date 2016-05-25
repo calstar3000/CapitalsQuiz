@@ -1,2348 +1,2930 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-	<name>world capitals</name>
-	<Folder>
-	  <Placemark>
-		<name>Afghanistan</name>
-		<description>Kabul</description>
-		<Point>
-		  <coordinates>69.142166,34.496897,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>AFG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Albania</name>
-		<description>Tirana</description>
-		<Point>
-		  <coordinates>19.823343,41.32603700000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ALB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Algeria</name>
-		<description>Alger</description>
-		<Point>
-		  <coordinates>3.060894,36.779135,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>DZA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Andorra</name>
-		<description>Andorra la Vella</description>
-		<Point>
-		  <coordinates>1.520257,42.506799,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>AND</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Angola</name>
-		<description>Luanda</description>
-		<Point>
-		  <coordinates>13.2284,-8.819478,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>AGO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Antigua and Barbuda</name>
-		<description>Saint John's</description>
-		<Point>
-		  <coordinates>-61.833200000000005,17.118188,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ATG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Argentina</name>
-		<description>Buenos Aires</description>
-		<Point>
-		  <coordinates>-58.39216,-34.60976,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ARG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Armenia</name>
-		<description>Yerevan</description>
-		<Point>
-		  <coordinates>44.509346,40.190412,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ARM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Australia</name>
-		<description>Canberra</description>
-		<Point>
-		  <coordinates>149.125344,-35.307189,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>AUS</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Austria</name>
-		<description>Vienna</description>
-		<Point>
-		  <coordinates>16.35934,48.207944,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>AUT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Azerbaijan</name>
-		<description>Baku</description>
-		<Point>
-		  <coordinates>49.825664,40.357699000000004,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>AZE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>The Bahamas</name>
-		<description>Nassau</description>
-		<Point>
-		  <coordinates>-77.34052600000001,25.077704,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BHS</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Bahrain</name>
-		<description>Manama</description>
-		<Point>
-		  <coordinates>50.593106,26.223032000000003,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BHR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Bangladesh</name>
-		<description>Dhaka</description>
-		<Point>
-		  <coordinates>90.378438,23.763249,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BGD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Barbados</name>
-		<description>Bridgetown</description>
-		<Point>
-		  <coordinates>-59.614145,13.097241,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BRB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Belarus</name>
-		<description>Minsk</description>
-		<Point>
-		  <coordinates>27.545187,53.895905,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BLR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Belgium</name>
-		<description>Brussels</description>
-		<Point>
-		  <coordinates>4.364863,50.846733,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BEL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Belize</name>
-		<description>Belmopan</description>
-		<Point>
-		  <coordinates>-88.773005,17.251006,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BLZ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Benin</name>
-		<description>Porto-Novo</description>
-		<Point>
-		  <coordinates>2.619789,6.469398,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BEN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Bhutan</name>
-		<description>Thimphu</description>
-		<Point>
-		  <coordinates>89.637816,27.489733,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BTN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Bolivia</name>
-		<description>Sucre</description>
-		<Point>
-		  <coordinates>-65.265044,-19.039787,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BOL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Bosnia and Herzegovina</name>
-		<description>Sarajevo</description>
-		<Point>
-		  <coordinates>18.40497,43.855028,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BIH</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Botswana</name>
-		<description>Gaborone</description>
-		<Point>
-		  <coordinates>25.91107,-24.658238,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BWA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Brazil</name>
-		<description>Brasilia</description>
-		<Point>
-		  <coordinates>-47.863805,-15.799821000000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BRA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Brunei Darussalam</name>
-		<description>Bandar Seri Begawan</description>
-		<Point>
-		  <coordinates>114.94888400000002,4.913903,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BRN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Bulgaria</name>
-		<description>Sofia</description>
-		<Point>
-		  <coordinates>23.332571,42.694089,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BGR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Burkina Faso</name>
-		<description>Ouagadougou</description>
-		<Point>
-		  <coordinates>-1.514423,12.372066,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BFA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Burundi</name>
-		<description>Bujumbura</description>
-		<Point>
-		  <coordinates>29.372635,-3.359953,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>BDI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Cambodia</name>
-		<description>Phnom Penh</description>
-		<Point>
-		  <coordinates>104.935605,11.554329,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KHM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Cameroon</name>
-		<description>Yaounde</description>
-		<Point>
-		  <coordinates>11.509064,3.857024,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CMR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Canada</name>
-		<description>Ottawa</description>
-		<Point>
-		  <coordinates>-75.699655,45.42476400000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CAN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Cape Verde</name>
-		<description>Praia</description>
-		<Point>
-		  <coordinates>-23.515256,14.906049,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CPV</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Central African Republic</name>
-		<description>Bangui</description>
-		<Point>
-		  <coordinates>18.562426,4.393002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CAF</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Chad</name>
-		<description>Ndjamena</description>
-		<Point>
-		  <coordinates>15.028535,12.123804,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TCD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Chile</name>
-		<description>Santiago</description>
-		<Point>
-		  <coordinates>-70.65286700000001,-33.438276,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CHL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>China</name>
-		<description>Beijing</description>
-		<Point>
-		  <coordinates>116.388388,39.903506,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CHN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Colombia</name>
-		<description>Bogota</description>
-		<Point>
-		  <coordinates>-74.07627,4.597637,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>COL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Comoros</name>
-		<description>Moroni</description>
-		<Point>
-		  <coordinates>43.24613,-11.718207,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>COM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Democratic Republic of the Congo</name>
-		<description>Kinshasa</description>
-		<Point>
-		  <coordinates>15.303322,-4.332712,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>COD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Republic of the Congo</name>
-		<description>Brazzaville</description>
-		<Point>
-		  <coordinates>15.258025000000002,-4.268087,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>COG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Costa Rica</name>
-		<description>San Jose</description>
-		<Point>
-		  <coordinates>-84.071798,9.933772,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CRI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Cote d'Ivoire</name>
-		<description>Yamoussoukro</description>
-		<Point>
-		  <coordinates>-5.279768,6.817885,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CIV</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Croatia</name>
-		<description>Zagreb</description>
-		<Point>
-		  <coordinates>15.974030000000003,45.816466,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>HRV</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Cuba</name>
-		<description>Havana</description>
-		<Point>
-		  <coordinates>-82.360243,23.135141000000004,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CUB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Cyprus</name>
-		<description>Nicosia</description>
-		<Point>
-		  <coordinates>33.354278,35.172094,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CYP</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Czech Republic</name>
-		<description>Prague</description>
-		<Point>
-		  <coordinates>14.403956999999998,50.089716,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CZE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Denmark</name>
-		<description>Copenhagen</description>
-		<Point>
-		  <coordinates>12.580817,55.676372,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>DNK</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Djibouti</name>
-		<description>Djibouti</description>
-		<Point>
-		  <coordinates>43.148927,11.595904000000003,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>DJI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Dominica</name>
-		<description>Roseau</description>
-		<Point>
-		  <coordinates>-61.385261,15.295106000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>DMA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Dominican Republic</name>
-		<description>Santo Domingo</description>
-		<Point>
-		  <coordinates>-69.925538,18.449135,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>DOM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Timor-Leste</name>
-		<description>Dili</description>
-		<Point>
-		  <coordinates>125.57852100000001,-8.55418,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TLS</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Ecuador</name>
-		<description>Quito</description>
-		<Point>
-		  <coordinates>-78.498586,-0.212929,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ECU</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Egypt</name>
-		<description>Cairo</description>
-		<Point>
-		  <coordinates>31.236695,30.039972,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>EGY</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>El Salvador</name>
-		<description>San Salvador</description>
-		<Point>
-		  <coordinates>-89.199149,13.705668,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SLV</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Equatorial Guinea</name>
-		<description>Malabo</description>
-		<Point>
-		  <coordinates>8.779079,3.756074,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GNQ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Eritrea</name>
-		<description>Asmara</description>
-		<Point>
-		  <coordinates>38.931615,15.336194999999998,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ERI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Estonia</name>
-		<description>Tallinn</description>
-		<Point>
-		  <coordinates>24.737273,59.43569899999999,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>EST</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Ethiopia</name>
-		<description>Addis Ababa</description>
-		<Point>
-		  <coordinates>38.764583,9.029951,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ETH</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Fiji</name>
-		<description>Suva</description>
-		<Point>
-		  <coordinates>178.43367,-18.158499,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>FJI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Finland</name>
-		<description>Helsinki</description>
-		<Point>
-		  <coordinates>24.933536,60.17263100000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>FIN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>France</name>
-		<description>Paris</description>
-		<Point>
-		  <coordinates>2.318405,48.86093900000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>FRA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Gabon</name>
-		<description>Libreville</description>
-		<Point>
-		  <coordinates>9.443007,0.411608,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GAB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>The Gambia</name>
-		<description>Banjul</description>
-		<Point>
-		  <coordinates>-16.580644,13.459940000000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GMB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Georgia</name>
-		<description>Tbilisi</description>
-		<Point>
-		  <coordinates>44.798759,41.696953,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GEO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Germany</name>
-		<description>Berlin</description>
-		<Point>
-		  <coordinates>13.375307,52.518636,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>DEU</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Ghana</name>
-		<description>Accra</description>
-		<Point>
-		  <coordinates>-0.19135400000000002,5.557599,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GHA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Greece</name>
-		<description>Athens</description>
-		<Point>
-		  <coordinates>23.736501,37.975306,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GRC</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Grenada</name>
-		<description>Saint George's</description>
-		<Point>
-		  <coordinates>-61.75233999999999,12.053181000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GRD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Guatemala</name>
-		<description>Guatemala City</description>
-		<Point>
-		  <coordinates>-90.511108,14.639204000000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GTM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Guinea-Bissau</name>
-		<description>Bissau</description>
-		<Point>
-		  <coordinates>-15.590552,11.858573,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GNB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Guinea</name>
-		<description>Conakry</description>
-		<Point>
-		  <coordinates>-13.692661,9.520137,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GIN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Guyana</name>
-		<description>Georgetown</description>
-		<Point>
-		  <coordinates>-58.166613,6.808697,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GUY</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Haiti</name>
-		<description>Port-au-Prince</description>
-		<Point>
-		  <coordinates>-72.347071,18.54912,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>HTI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Honduras</name>
-		<description>Tegucigalpa</description>
-		<Point>
-		  <coordinates>-87.205028,14.103809,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>HND</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Hungary</name>
-		<description>Budapest</description>
-		<Point>
-		  <coordinates>19.046624,47.507077,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>HUN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Iceland</name>
-		<description>Reykjavik</description>
-		<Point>
-		  <coordinates>-21.940282,64.146645,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ISL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>India</name>
-		<description>New Delhi</description>
-		<Point>
-		  <coordinates>77.208534,28.617886000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>IND</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Indonesia</name>
-		<description>Jakarta</description>
-		<Point>
-		  <coordinates>106.801229,-6.209066,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>IDN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Iran</name>
-		<description>Tehran</description>
-		<Point>
-		  <coordinates>51.434126,35.690895,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>IRN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Iraq</name>
-		<description>Baghdad</description>
-		<Point>
-		  <coordinates>44.381933,33.321353,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>IRQ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Ireland</name>
-		<description>Dublin</description>
-		<Point>
-		  <coordinates>-6.253769,53.340524,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>IRL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Israel</name>
-		<description>Jerusalem</description>
-		<Point>
-		  <coordinates>35.205447,31.776989000000004,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ISR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Italy</name>
-		<description>Rome</description>
-		<Point>
-		  <coordinates>12.478688,41.901243,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ITA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Jamaica</name>
-		<description>Kingston</description>
-		<Point>
-		  <coordinates>-76.790496,17.974103,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>JAM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Japan</name>
-		<description>Tokyo</description>
-		<Point>
-		  <coordinates>139.74545,35.676006,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>JPN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Jordan</name>
-		<description>Amman</description>
-		<Point>
-		  <coordinates>35.91252,31.962699,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>JOR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Kazakhstan</name>
-		<description>Astana</description>
-		<Point>
-		  <coordinates>71.440895,51.126192,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KAZ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Kenya</name>
-		<description>Nairobi</description>
-		<Point>
-		  <coordinates>36.820325,-1.290103,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KEN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Kiribati</name>
-		<description>South Tarawa</description>
-		<Point>
-		  <coordinates>173.039126,1.350094,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KIR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>North Korea</name>
-		<description>Pyongyang</description>
-		<Point>
-		  <coordinates>125.74934,39.027986,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PRK</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>South Korea</name>
-		<description>Seoul</description>
-		<Point>
-		  <coordinates>126.914636,37.531476,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KOR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Kuwait</name>
-		<description>Kuwait City</description>
-		<Point>
-		  <coordinates>47.964796,29.369759,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KWT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Kyrgyzstan</name>
-		<description>Bishkek</description>
-		<Point>
-		  <coordinates>74.604024,42.879565,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KGZ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Lao People's Democratic Republic</name>
-		<description>Vientiane</description>
-		<Point>
-		  <coordinates>102.633446,17.978376,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LAO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Latvia</name>
-		<description>Riga</description>
-		<Point>
-		  <coordinates>24.104674,56.951066,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LVA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Lebanon</name>
-		<description>Beirut</description>
-		<Point>
-		  <coordinates>35.504218,33.896753,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LBN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Lesotho</name>
-		<description>Maseru</description>
-		<Point>
-		  <coordinates>27.486476,-29.311133000000005,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LSO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Liberia</name>
-		<description>Montserrado</description>
-		<Point>
-		  <coordinates>-10.796004,6.30163,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LBR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Libya</name>
-		<description>Tripoli</description>
-		<Point>
-		  <coordinates>13.152416,32.879353,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LBY</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Liechtenstein</name>
-		<description>Vaduz</description>
-		<Point>
-		  <coordinates>9.522558,47.137063,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LIE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Lithuania</name>
-		<description>Vilnius</description>
-		<Point>
-		  <coordinates>25.261549,54.690478,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LTU</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Luxembourg</name>
-		<description>Luxembourg</description>
-		<Point>
-		  <coordinates>6.13304,49.61066300000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LUX</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Macedonia</name>
-		<description>Skopje</description>
-		<Point>
-		  <coordinates>21.433023,41.992988,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MKD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Madagascar</name>
-		<description>Antananarivo</description>
-		<Point>
-		  <coordinates>47.532048,-18.923921,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MDG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Malawi</name>
-		<description>Lilongwe</description>
-		<Point>
-		  <coordinates>33.787878,-13.953039,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MWI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Malaysia</name>
-		<description>Kuala Lumpur</description>
-		<Point>
-		  <coordinates>101.679022,3.149418,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MYS</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Maldives</name>
-		<description>Male</description>
-		<Point>
-		  <coordinates>73.513572,4.17753,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MDV</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Mali</name>
-		<description>Bamako</description>
-		<Point>
-		  <coordinates>-7.99375,12.649135,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MLI</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Malta</name>
-		<description>Valletta</description>
-		<Point>
-		  <coordinates>14.514482000000001,35.898826,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MLT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Marshall Islands</name>
-		<description>Majuro Atoll</description>
-		<Point>
-		  <coordinates>171.380526,7.0892,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MHL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Mauritania</name>
-		<description>Nouakchott</description>
-		<Point>
-		  <coordinates>-15.973852999999998,18.085062,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MRT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Mauritius</name>
-		<description>Port Louis</description>
-		<Point>
-		  <coordinates>57.50309099999999,-20.162762,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MUS</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Mexico</name>
-		<description>Mexico City</description>
-		<Point>
-		  <coordinates>-99.118416,19.430344,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MEX</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Micronesia</name>
-		<description>Palikir</description>
-		<Point>
-		  <coordinates>158.160059,6.924395,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>FSM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Moldova</name>
-		<description>Chisinau</description>
-		<Point>
-		  <coordinates>28.826698000000004,47.027473,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MDA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Monaco</name>
-		<description>Monaco</description>
-		<Point>
-		  <coordinates>7.422227999999999,43.729935,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MCO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Mongolia</name>
-		<description>Ulaanbaatar</description>
-		<Point>
-		  <coordinates>106.917454,47.919664,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MNG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Montenegro</name>
-		<description>Podgorica</description>
-		<Point>
-		  <coordinates>19.260385,42.439736,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MNE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Morocco</name>
-		<description>Rabat</description>
-		<Point>
-		  <coordinates>-6.836725,34.017734,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MAR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Mozambique</name>
-		<description>Maputo</description>
-		<Point>
-		  <coordinates>32.560717,-25.959123,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MOZ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Myanmar</name>
-		<description>Rangoon</description>
-		<Point>
-		  <coordinates>96.138203,16.79504,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>MMR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Namibia</name>
-		<description>Windhoek</description>
-		<Point>
-		  <coordinates>17.088804,-22.5668,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NAM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Nauru</name>
-		<description>Yaren</description>
-		<Point>
-		  <coordinates>166.917338,-0.547361,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NRU</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Nepal</name>
-		<description>Kathmandu</description>
-		<Point>
-		  <coordinates>85.313945,27.712364,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NPL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Netherlands</name>
-		<description>Amsterdam</description>
-		<Point>
-		  <coordinates>4.890686,52.37318900000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NLD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>New Zealand</name>
-		<description>Wellington</description>
-		<Point>
-		  <coordinates>174.776891,-41.277992000000005,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NZL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Nicaragua</name>
-		<description>Managua</description>
-		<Point>
-		  <coordinates>-86.272971,12.150207,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NIC</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Niger</name>
-		<description>Niamey</description>
-		<Point>
-		  <coordinates>2.114345,13.511383,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NER</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Nigeria</name>
-		<description>Abuja</description>
-		<Point>
-		  <coordinates>7.510818,9.067899,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NGA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Norway</name>
-		<description>Oslo</description>
-		<Point>
-		  <coordinates>10.739608,59.913109000000006,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>NOR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Oman</name>
-		<description>Muscat</description>
-		<Point>
-		  <coordinates>58.594685,23.615825,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>OMN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Pakistan</name>
-		<description>Islamabad</description>
-		<Point>
-		  <coordinates>73.097481,33.730385,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PAK</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Palau</name>
-		<description>Melekeok</description>
-		<Point>
-		  <coordinates>134.624013,7.499956,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PLW</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Panama</name>
-		<description>Panama City</description>
-		<Point>
-		  <coordinates>-79.542196,8.961864,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PAN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Papua New Guinea</name>
-		<description>Port Moresby</description>
-		<Point>
-		  <coordinates>147.192496,-9.428202,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PNG</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Paraguay</name>
-		<description>Asuncion</description>
-		<Point>
-		  <coordinates>-57.635787,-25.278585000000003,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PRY</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Peru</name>
-		<description>Lima</description>
-		<Point>
-		  <coordinates>-77.02502,-12.048145,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PER</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Philippines</name>
-		<description>Manila</description>
-		<Point>
-		  <coordinates>120.983891,14.547541,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PHL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Poland</name>
-		<description>Warsaw</description>
-		<Point>
-		  <coordinates>21.028497,52.22521,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>POL</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Portugal</name>
-		<description>Lisbon</description>
-		<Point>
-		  <coordinates>-9.153508,38.7124,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>PRT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Qatar</name>
-		<description>Doha</description>
-		<Point>
-		  <coordinates>51.527022,25.291912,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>QAT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Romania</name>
-		<description>Bucharest</description>
-		<Point>
-		  <coordinates>26.088667,44.427436,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ROU</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Russia</name>
-		<description>Moscow</description>
-		<Point>
-		  <coordinates>37.615718,55.757715,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>RUS</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Rwanda</name>
-		<description>Kigali</description>
-		<Point>
-		  <coordinates>30.099127,-1.9526540000000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>RWA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Saint Kitts and Nevis</name>
-		<description>Basseterre</description>
-		<Point>
-		  <coordinates>-62.724941,17.295605,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>KNA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Saint Lucia</name>
-		<description>Castries</description>
-		<Point>
-		  <coordinates>-60.989911,14.010206,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LCA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Saint Vincent and the Grenadines</name>
-		<description>Kingstown</description>
-		<Point>
-		  <coordinates>-61.22329799999999,13.153838,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>VCT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Samoa</name>
-		<description>Apia</description>
-		<Point>
-		  <coordinates>-171.778563,-13.819359,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>WSM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>San Marino</name>
-		<description>San Marino</description>
-		<Point>
-		  <coordinates>12.446453,43.936633,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SMR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Sao Tome and Principe</name>
-		<description>Sao Tome</description>
-		<Point>
-		  <coordinates>6.740426,0.331785,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>STP</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Saudi Arabia</name>
-		<description>Riyadh</description>
-		<Point>
-		  <coordinates>46.637403,24.663272,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SAU</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Senegal</name>
-		<description>Dakar</description>
-		<Point>
-		  <coordinates>-17.43821,14.662671,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SEN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Serbia</name>
-		<description>Belgrade</description>
-		<Point>
-		  <coordinates>20.465622,44.811481,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SRB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Seychelles</name>
-		<description>Victoria</description>
-		<Point>
-		  <coordinates>55.454205,-4.628559,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SYC</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Sierra Leone</name>
-		<description>Freetown</description>
-		<Point>
-		  <coordinates>-13.232855000000002,8.480729,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SLE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Singapore</name>
-		<description>Singapore</description>
-		<Point>
-		  <coordinates>103.850144,1.289256,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SGP</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Slovakia</name>
-		<description>Bratislava</description>
-		<Point>
-		  <coordinates>17.097479000000003,48.142049,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SVK</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Slovenia</name>
-		<description>Ljubljana</description>
-		<Point>
-		  <coordinates>14.501119,46.051335,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SVN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Solomon Islands</name>
-		<description>Honiara</description>
-		<Point>
-		  <coordinates>159.955863,-9.433737,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SLB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Somalia</name>
-		<description>Mogadishu</description>
-		<Point>
-		  <coordinates>45.32936500000001,2.038639,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SOM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>South Africa</name>
-		<description>Cape Town</description>
-		<Point>
-		  <coordinates>18.419059,-33.926958,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ZAF</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Spain</name>
-		<description>Madrid</description>
-		<Point>
-		  <coordinates>-3.6967130000000004,40.416102,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ESP</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Sri Lanka</name>
-		<description>Sri Jayewardenepura Kotte</description>
-		<Point>
-		  <coordinates>79.918724,6.887253000000001,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>LKA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Sudan</name>
-		<description>Khartoum</description>
-		<Point>
-		  <coordinates>32.486953,15.617927000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SDN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>South Sudan</name>
-		<description>Juba</description>
-		<Point>
-		  <coordinates>31.5421697,4.860776,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SSD</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Suriname</name>
-		<description>Paramaribo</description>
-		<Point>
-		  <coordinates>-55.150981,5.825365,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SUR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Swaziland</name>
-		<description>Lobamba</description>
-		<Point>
-		  <coordinates>31.206225000000003,-26.446498000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SWZ</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Sweden</name>
-		<description>Stockholm</description>
-		<Point>
-		  <coordinates>18.068969,59.327848,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SWE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Switzerland</name>
-		<description>Bern</description>
-		<Point>
-		  <coordinates>7.444127999999999,46.946866,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>CHE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Syria</name>
-		<description>Damascus</description>
-		<Point>
-		  <coordinates>36.293268,33.518157,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>SYR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Taiwan</name>
-		<description>Taipei</description>
-		<Point>
-		  <coordinates>121.4231635,25.0853403,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TWN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Tajikistan</name>
-		<description>Dushanbe</description>
-		<Point>
-		  <coordinates>68.787348,38.573946,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TJK</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Tanzania</name>
-		<description>Dodoma</description>
-		<Point>
-		  <coordinates>35.756665,-6.180286,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TZA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Thailand</name>
-		<description>Bangkok</description>
-		<Point>
-		  <coordinates>100.514466,13.774184,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>THA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Togo</name>
-		<description>Lome</description>
-		<Point>
-		  <coordinates>1.217101,6.130327,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TGO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Tonga</name>
-		<description>Nuku'alofa</description>
-		<Point>
-		  <coordinates>-175.198296,-21.132813,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TON</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Trinidad and Tobago</name>
-		<description>Port-of-Spain</description>
-		<Point>
-		  <coordinates>-61.511802,10.653375000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TTO</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Tunisia</name>
-		<description>Tunis</description>
-		<Point>
-		  <coordinates>10.13488,36.809048,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TUN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Turkey</name>
-		<description>Ankara</description>
-		<Point>
-		  <coordinates>32.851138,39.91218,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TUR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Turkmenistan</name>
-		<description>Ashgabat</description>
-		<Point>
-		  <coordinates>58.379052,37.93087,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TKM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Tuvalu</name>
-		<description>Vaiaku</description>
-		<Point>
-		  <coordinates>179.194946,-8.524902,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>TUV</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Uganda</name>
-		<description>Kampala</description>
-		<Point>
-		  <coordinates>32.587557,0.315273,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>UGA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Ukraine</name>
-		<description>Kyiv</description>
-		<Point>
-		  <coordinates>30.537317000000005,50.447155,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>UKR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>United Arab Emirates</name>
-		<description>Abu Dhabi</description>
-		<Point>
-		  <coordinates>54.331234,24.463093000000004,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ARE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>United Kingdom</name>
-		<description>London</description>
-		<Point>
-		  <coordinates>-0.125839,51.49944,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>GBR</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>The United States of America</name>
-		<description>Washington D.C.</description>
-		<Point>
-		  <coordinates>-77.009933,38.889814,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>USA</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Uruguay</name>
-		<description>Montevideo</description>
-		<Point>
-		  <coordinates>-56.186998,-34.890859,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>URY</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Uzbekistan</name>
-		<description>Tashkent</description>
-		<Point>
-		  <coordinates>69.265843,41.314297,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>UZB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Vanuatu</name>
-		<description>Port Vila</description>
-		<Point>
-		  <coordinates>168.315825,-17.745493,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>VUT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Vatican</name>
-		<description>Vatican City</description>
-		<Point>
-		  <coordinates>12.45575,41.902213,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>VAT</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Venezuela</name>
-		<description>Caracas</description>
-		<Point>
-		  <coordinates>-66.915783,10.505672000000002,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>VEN</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Vietnam</name>
-		<description>Hanoi</description>
-		<Point>
-		  <coordinates>105.854779,21.022362,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>VNM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Yemen</name>
-		<description>Sana'a</description>
-		<Point>
-		  <coordinates>44.202925,15.354933999999998,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>YEM</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Zambia</name>
-		<description>Lusaka</description>
-		<Point>
-		  <coordinates>28.309169,-15.392049,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ZMB</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	  <Placemark>
-		<name>Zimbabwe</name>
-		<description>Harare</description>
-		<Point>
-		  <coordinates>31.052231000000003,-17.828248,0.0</coordinates>
-		</Point>
-		<ExtendedData>
-		  <Data name="code">
-			<value>ZWE</value>
-		  </Data>
-		</ExtendedData>
-	  </Placemark>
-	</Folder>
+    <name>world capitals</name>
+    <Folder>
+      <Placemark>
+        <name>Afghanistan</name>
+        <description>Kabul</description>
+        <Point>
+          <coordinates>69.142166,34.496897,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>AFG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AF</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Albania</name>
+        <description>Tirana</description>
+        <Point>
+          <coordinates>19.823343,41.32603700000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ALB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Algeria</name>
+        <description>Alger</description>
+        <Point>
+          <coordinates>3.060894,36.779135,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>DZA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>DZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Andorra</name>
+        <description>Andorra la Vella</description>
+        <Point>
+          <coordinates>1.520257,42.506799,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>AND</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Angola</name>
+        <description>Luanda</description>
+        <Point>
+          <coordinates>13.2284,-8.819478,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>AGO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Antigua and Barbuda</name>
+        <description>Saint John's</description>
+        <Point>
+          <coordinates>-61.833200000000005,17.118188,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ATG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Argentina</name>
+        <description>Buenos Aires</description>
+        <Point>
+          <coordinates>-58.39216,-34.60976,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ARG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Armenia</name>
+        <description>Yerevan</description>
+        <Point>
+          <coordinates>44.509346,40.190412,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ARM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Australia</name>
+        <description>Canberra</description>
+        <Point>
+          <coordinates>149.125344,-35.307189,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>AUS</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Austria</name>
+        <description>Vienna</description>
+        <Point>
+          <coordinates>16.35934,48.207944,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>AUT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Azerbaijan</name>
+        <description>Baku</description>
+        <Point>
+          <coordinates>49.825664,40.357699000000004,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>AZE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Bahamas</name>
+        <description>Nassau</description>
+        <Point>
+          <coordinates>-77.34052600000001,25.077704,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BHS</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BS</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bahrain</name>
+        <description>Manama</description>
+        <Point>
+          <coordinates>50.593106,26.223032000000003,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BHR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bangladesh</name>
+        <description>Dhaka</description>
+        <Point>
+          <coordinates>90.378438,23.763249,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BGD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Barbados</name>
+        <description>Bridgetown</description>
+        <Point>
+          <coordinates>-59.614145,13.097241,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BRB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BB</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Belarus</name>
+        <description>Minsk</description>
+        <Point>
+          <coordinates>27.545187,53.895905,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BLR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Belgium</name>
+        <description>Brussels</description>
+        <Point>
+          <coordinates>4.364863,50.846733,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BEL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Belize</name>
+        <description>Belmopan</description>
+        <Point>
+          <coordinates>-88.773005,17.251006,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BLZ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Benin</name>
+        <description>Porto-Novo</description>
+        <Point>
+          <coordinates>2.619789,6.469398,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BEN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BJ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bhutan</name>
+        <description>Thimphu</description>
+        <Point>
+          <coordinates>89.637816,27.489733,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BTN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bolivia</name>
+        <description>Sucre</description>
+        <Point>
+          <coordinates>-65.265044,-19.039787,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BOL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bosnia and Herzegovina</name>
+        <description>Sarajevo</description>
+        <Point>
+          <coordinates>18.40497,43.855028,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BIH</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Botswana</name>
+        <description>Gaborone</description>
+        <Point>
+          <coordinates>25.91107,-24.658238,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BWA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Brazil</name>
+        <description>Brasilia</description>
+        <Point>
+          <coordinates>-47.863805,-15.799821000000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BRA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Brunei Darussalam</name>
+        <description>Bandar Seri Begawan</description>
+        <Point>
+          <coordinates>114.94888400000002,4.913903,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BRN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bulgaria</name>
+        <description>Sofia</description>
+        <Point>
+          <coordinates>23.332571,42.694089,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BGR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Burkina Faso</name>
+        <description>Ouagadougou</description>
+        <Point>
+          <coordinates>-1.514423,12.372066,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BFA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BF</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Burundi</name>
+        <description>Bujumbura</description>
+        <Point>
+          <coordinates>29.372635,-3.359953,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>BDI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>BI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cambodia</name>
+        <description>Phnom Penh</description>
+        <Point>
+          <coordinates>104.935605,11.554329,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KHM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cameroon</name>
+        <description>Yaounde</description>
+        <Point>
+          <coordinates>11.509064,3.857024,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CMR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Canada</name>
+        <description>Ottawa</description>
+        <Point>
+          <coordinates>-75.699655,45.42476400000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CAN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cape Verde</name>
+        <description>Praia</description>
+        <Point>
+          <coordinates>-23.515256,14.906049,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CPV</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CV</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Central African Republic</name>
+        <description>Bangui</description>
+        <Point>
+          <coordinates>18.562426,4.393002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CAF</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CF</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Chad</name>
+        <description>Ndjamena</description>
+        <Point>
+          <coordinates>15.028535,12.123804,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TCD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Chile</name>
+        <description>Santiago</description>
+        <Point>
+          <coordinates>-70.65286700000001,-33.438276,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CHL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>China</name>
+        <description>Beijing</description>
+        <Point>
+          <coordinates>116.388388,39.903506,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CHN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Colombia</name>
+        <description>Bogota</description>
+        <Point>
+          <coordinates>-74.07627,4.597637,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>COL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Comoros</name>
+        <description>Moroni</description>
+        <Point>
+          <coordinates>43.24613,-11.718207,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>COM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Democratic Republic of the Congo</name>
+        <description>Kinshasa</description>
+        <Point>
+          <coordinates>15.303322,-4.332712,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>COD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Republic of the Congo</name>
+        <description>Brazzaville</description>
+        <Point>
+          <coordinates>15.258025000000002,-4.268087,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>COG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Costa Rica</name>
+        <description>San Jose</description>
+        <Point>
+          <coordinates>-84.071798,9.933772,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CRI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cote d'Ivoire</name>
+        <description>Yamoussoukro</description>
+        <Point>
+          <coordinates>-5.279768,6.817885,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CIV</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Croatia</name>
+        <description>Zagreb</description>
+        <Point>
+          <coordinates>15.974030000000003,45.816466,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>HRV</value>
+          </Data>
+          <Data name="ISO2">
+            <value>HR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cuba</name>
+        <description>Havana</description>
+        <Point>
+          <coordinates>-82.360243,23.135141000000004,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CUB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cyprus</name>
+        <description>Nicosia</description>
+        <Point>
+          <coordinates>33.354278,35.172094,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CYP</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Czech Republic</name>
+        <description>Prague</description>
+        <Point>
+          <coordinates>14.403956999999998,50.089716,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CZE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Denmark</name>
+        <description>Copenhagen</description>
+        <Point>
+          <coordinates>12.580817,55.676372,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>DNK</value>
+          </Data>
+          <Data name="ISO2">
+            <value>DK</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Djibouti</name>
+        <description>Djibouti</description>
+        <Point>
+          <coordinates>43.148927,11.595904000000003,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>DJI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>DJ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Dominica</name>
+        <description>Roseau</description>
+        <Point>
+          <coordinates>-61.385261,15.295106000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>DMA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>DM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Dominican Republic</name>
+        <description>Santo Domingo</description>
+        <Point>
+          <coordinates>-69.925538,18.449135,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>DOM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>DO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Timor-Leste</name>
+        <description>Dili</description>
+        <Point>
+          <coordinates>125.57852100000001,-8.55418,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TLS</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ecuador</name>
+        <description>Quito</description>
+        <Point>
+          <coordinates>-78.498586,-0.212929,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ECU</value>
+          </Data>
+          <Data name="ISO2">
+            <value>EC</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Egypt</name>
+        <description>Cairo</description>
+        <Point>
+          <coordinates>31.236695,30.039972,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>EGY</value>
+          </Data>
+          <Data name="ISO2">
+            <value>EG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>El Salvador</name>
+        <description>San Salvador</description>
+        <Point>
+          <coordinates>-89.199149,13.705668,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SLV</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SV</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Equatorial Guinea</name>
+        <description>Malabo</description>
+        <Point>
+          <coordinates>8.779079,3.756074,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GNQ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GQ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Eritrea</name>
+        <description>Asmara</description>
+        <Point>
+          <coordinates>38.931615,15.336194999999998,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ERI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ER</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Estonia</name>
+        <description>Tallinn</description>
+        <Point>
+          <coordinates>24.737273,59.43569899999999,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>EST</value>
+          </Data>
+          <Data name="ISO2">
+            <value>EE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ethiopia</name>
+        <description>Addis Ababa</description>
+        <Point>
+          <coordinates>38.764583,9.029951,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ETH</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ET</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Fiji</name>
+        <description>Suva</description>
+        <Point>
+          <coordinates>178.43367,-18.158499,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>FJI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>FJ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Finland</name>
+        <description>Helsinki</description>
+        <Point>
+          <coordinates>24.933536,60.17263100000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>FIN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>FI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>France</name>
+        <description>Paris</description>
+        <Point>
+          <coordinates>2.318405,48.86093900000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>FRA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>FR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Gabon</name>
+        <description>Libreville</description>
+        <Point>
+          <coordinates>9.443007,0.411608,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GAB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Gambia</name>
+        <description>Banjul</description>
+        <Point>
+          <coordinates>-16.580644,13.459940000000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GMB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Georgia</name>
+        <description>Tbilisi</description>
+        <Point>
+          <coordinates>44.798759,41.696953,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GEO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Germany</name>
+        <description>Berlin</description>
+        <Point>
+          <coordinates>13.375307,52.518636,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>DEU</value>
+          </Data>
+          <Data name="ISO2">
+            <value>DE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ghana</name>
+        <description>Accra</description>
+        <Point>
+          <coordinates>-0.19135400000000002,5.557599,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GHA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Greece</name>
+        <description>Athens</description>
+        <Point>
+          <coordinates>23.736501,37.975306,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GRC</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Grenada</name>
+        <description>Saint George's</description>
+        <Point>
+          <coordinates>-61.75233999999999,12.053181000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GRD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Guatemala</name>
+        <description>Guatemala City</description>
+        <Point>
+          <coordinates>-90.511108,14.639204000000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GTM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Guinea-Bissau</name>
+        <description>Bissau</description>
+        <Point>
+          <coordinates>-15.590552,11.858573,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GNB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Guinea</name>
+        <description>Conakry</description>
+        <Point>
+          <coordinates>-13.692661,9.520137,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GIN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Guyana</name>
+        <description>Georgetown</description>
+        <Point>
+          <coordinates>-58.166613,6.808697,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GUY</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Haiti</name>
+        <description>Port-au-Prince</description>
+        <Point>
+          <coordinates>-72.347071,18.54912,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>HTI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>HT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Honduras</name>
+        <description>Tegucigalpa</description>
+        <Point>
+          <coordinates>-87.205028,14.103809,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>HND</value>
+          </Data>
+          <Data name="ISO2">
+            <value>HN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hungary</name>
+        <description>Budapest</description>
+        <Point>
+          <coordinates>19.046624,47.507077,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>HUN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>HU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Iceland</name>
+        <description>Reykjavik</description>
+        <Point>
+          <coordinates>-21.940282,64.146645,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ISL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IS</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>India</name>
+        <description>New Delhi</description>
+        <Point>
+          <coordinates>77.208534,28.617886000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>IND</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Indonesia</name>
+        <description>Jakarta</description>
+        <Point>
+          <coordinates>106.801229,-6.209066,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>IDN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ID</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Iran</name>
+        <description>Tehran</description>
+        <Point>
+          <coordinates>51.434126,35.690895,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>IRN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Iraq</name>
+        <description>Baghdad</description>
+        <Point>
+          <coordinates>44.381933,33.321353,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>IRQ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IQ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ireland</name>
+        <description>Dublin</description>
+        <Point>
+          <coordinates>-6.253769,53.340524,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>IRL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Israel</name>
+        <description>Jerusalem</description>
+        <Point>
+          <coordinates>35.205447,31.776989000000004,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ISR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Italy</name>
+        <description>Rome</description>
+        <Point>
+          <coordinates>12.478688,41.901243,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ITA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>IT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jamaica</name>
+        <description>Kingston</description>
+        <Point>
+          <coordinates>-76.790496,17.974103,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>JAM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>JM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Japan</name>
+        <description>Tokyo</description>
+        <Point>
+          <coordinates>139.74545,35.676006,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>JPN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>JP</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jordan</name>
+        <description>Amman</description>
+        <Point>
+          <coordinates>35.91252,31.962699,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>JOR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>JO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kazakhstan</name>
+        <description>Astana</description>
+        <Point>
+          <coordinates>71.440895,51.126192,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KAZ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kenya</name>
+        <description>Nairobi</description>
+        <Point>
+          <coordinates>36.820325,-1.290103,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KEN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kiribati</name>
+        <description>South Tarawa</description>
+        <Point>
+          <coordinates>173.039126,1.350094,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KIR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>North Korea</name>
+        <description>Pyongyang</description>
+        <Point>
+          <coordinates>125.74934,39.027986,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PRK</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KP</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>South Korea</name>
+        <description>Seoul</description>
+        <Point>
+          <coordinates>126.914636,37.531476,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KOR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kuwait</name>
+        <description>Kuwait City</description>
+        <Point>
+          <coordinates>47.964796,29.369759,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KWT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kyrgyzstan</name>
+        <description>Bishkek</description>
+        <Point>
+          <coordinates>74.604024,42.879565,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KGZ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lao People's Democratic Republic</name>
+        <description>Vientiane</description>
+        <Point>
+          <coordinates>102.633446,17.978376,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LAO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Latvia</name>
+        <description>Riga</description>
+        <Point>
+          <coordinates>24.104674,56.951066,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LVA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LV</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lebanon</name>
+        <description>Beirut</description>
+        <Point>
+          <coordinates>35.504218,33.896753,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LBN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LB</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lesotho</name>
+        <description>Maseru</description>
+        <Point>
+          <coordinates>27.486476,-29.311133000000005,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LSO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LS</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Liberia</name>
+        <description>Montserrado</description>
+        <Point>
+          <coordinates>-10.796004,6.30163,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LBR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Libya</name>
+        <description>Tripoli</description>
+        <Point>
+          <coordinates>13.152416,32.879353,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LBY</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Liechtenstein</name>
+        <description>Vaduz</description>
+        <Point>
+          <coordinates>9.522558,47.137063,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LIE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lithuania</name>
+        <description>Vilnius</description>
+        <Point>
+          <coordinates>25.261549,54.690478,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LTU</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Luxembourg</name>
+        <description>Luxembourg</description>
+        <Point>
+          <coordinates>6.13304,49.61066300000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LUX</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Macedonia</name>
+        <description>Skopje</description>
+        <Point>
+          <coordinates>21.433023,41.992988,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MKD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MK</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Madagascar</name>
+        <description>Antananarivo</description>
+        <Point>
+          <coordinates>47.532048,-18.923921,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MDG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Malawi</name>
+        <description>Lilongwe</description>
+        <Point>
+          <coordinates>33.787878,-13.953039,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MWI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Malaysia</name>
+        <description>Kuala Lumpur</description>
+        <Point>
+          <coordinates>101.679022,3.149418,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MYS</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Maldives</name>
+        <description>Male</description>
+        <Point>
+          <coordinates>73.513572,4.17753,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MDV</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MV</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mali</name>
+        <description>Bamako</description>
+        <Point>
+          <coordinates>-7.99375,12.649135,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MLI</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ML</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Malta</name>
+        <description>Valletta</description>
+        <Point>
+          <coordinates>14.514482000000001,35.898826,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MLT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Marshall Islands</name>
+        <description>Majuro Atoll</description>
+        <Point>
+          <coordinates>171.380526,7.0892,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MHL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mauritania</name>
+        <description>Nouakchott</description>
+        <Point>
+          <coordinates>-15.973852999999998,18.085062,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MRT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mauritius</name>
+        <description>Port Louis</description>
+        <Point>
+          <coordinates>57.50309099999999,-20.162762,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MUS</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mexico</name>
+        <description>Mexico City</description>
+        <Point>
+          <coordinates>-99.118416,19.430344,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MEX</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MX</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Micronesia</name>
+        <description>Palikir</description>
+        <Point>
+          <coordinates>158.160059,6.924395,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>FSM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>FM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Moldova</name>
+        <description>Chisinau</description>
+        <Point>
+          <coordinates>28.826698000000004,47.027473,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MDA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Monaco</name>
+        <description>Monaco</description>
+        <Point>
+          <coordinates>7.422227999999999,43.729935,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MCO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MC</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mongolia</name>
+        <description>Ulaanbaatar</description>
+        <Point>
+          <coordinates>106.917454,47.919664,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MNG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Montenegro</name>
+        <description>Podgorica</description>
+        <Point>
+          <coordinates>19.260385,42.439736,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MNE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ME</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Morocco</name>
+        <description>Rabat</description>
+        <Point>
+          <coordinates>-6.836725,34.017734,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MAR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mozambique</name>
+        <description>Maputo</description>
+        <Point>
+          <coordinates>32.560717,-25.959123,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MOZ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Myanmar</name>
+        <description>Rangoon</description>
+        <Point>
+          <coordinates>96.138203,16.79504,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>MMR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>MM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Namibia</name>
+        <description>Windhoek</description>
+        <Point>
+          <coordinates>17.088804,-22.5668,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NAM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nauru</name>
+        <description>Yaren</description>
+        <Point>
+          <coordinates>166.917338,-0.547361,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NRU</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nepal</name>
+        <description>Kathmandu</description>
+        <Point>
+          <coordinates>85.313945,27.712364,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NPL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NP</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Netherlands</name>
+        <description>Amsterdam</description>
+        <Point>
+          <coordinates>4.890686,52.37318900000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NLD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>New Zealand</name>
+        <description>Wellington</description>
+        <Point>
+          <coordinates>174.776891,-41.277992000000005,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NZL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nicaragua</name>
+        <description>Managua</description>
+        <Point>
+          <coordinates>-86.272971,12.150207,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NIC</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Niger</name>
+        <description>Niamey</description>
+        <Point>
+          <coordinates>2.114345,13.511383,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NER</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nigeria</name>
+        <description>Abuja</description>
+        <Point>
+          <coordinates>7.510818,9.067899,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NGA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Norway</name>
+        <description>Oslo</description>
+        <Point>
+          <coordinates>10.739608,59.913109000000006,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>NOR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>NO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Oman</name>
+        <description>Muscat</description>
+        <Point>
+          <coordinates>58.594685,23.615825,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>OMN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>OM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Pakistan</name>
+        <description>Islamabad</description>
+        <Point>
+          <coordinates>73.097481,33.730385,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PAK</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PK</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Palau</name>
+        <description>Melekeok</description>
+        <Point>
+          <coordinates>134.624013,7.499956,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PLW</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Panama</name>
+        <description>Panama City</description>
+        <Point>
+          <coordinates>-79.542196,8.961864,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PAN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Papua New Guinea</name>
+        <description>Port Moresby</description>
+        <Point>
+          <coordinates>147.192496,-9.428202,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PNG</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Paraguay</name>
+        <description>Asuncion</description>
+        <Point>
+          <coordinates>-57.635787,-25.278585000000003,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PRY</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Peru</name>
+        <description>Lima</description>
+        <Point>
+          <coordinates>-77.02502,-12.048145,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PER</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Philippines</name>
+        <description>Manila</description>
+        <Point>
+          <coordinates>120.983891,14.547541,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PHL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Poland</name>
+        <description>Warsaw</description>
+        <Point>
+          <coordinates>21.028497,52.22521,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>POL</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Portugal</name>
+        <description>Lisbon</description>
+        <Point>
+          <coordinates>-9.153508,38.7124,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>PRT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>PT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Qatar</name>
+        <description>Doha</description>
+        <Point>
+          <coordinates>51.527022,25.291912,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>QAT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>QA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Romania</name>
+        <description>Bucharest</description>
+        <Point>
+          <coordinates>26.088667,44.427436,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ROU</value>
+          </Data>
+          <Data name="ISO2">
+            <value>RO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Russia</name>
+        <description>Moscow</description>
+        <Point>
+          <coordinates>37.615718,55.757715,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>RUS</value>
+          </Data>
+          <Data name="ISO2">
+            <value>RU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rwanda</name>
+        <description>Kigali</description>
+        <Point>
+          <coordinates>30.099127,-1.9526540000000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>RWA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>RW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Saint Kitts and Nevis</name>
+        <description>Basseterre</description>
+        <Point>
+          <coordinates>-62.724941,17.295605,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>KNA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>KN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Saint Lucia</name>
+        <description>Castries</description>
+        <Point>
+          <coordinates>-60.989911,14.010206,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LCA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LC</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Saint Vincent and the Grenadines</name>
+        <description>Kingstown</description>
+        <Point>
+          <coordinates>-61.22329799999999,13.153838,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>VCT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>VC</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Samoa</name>
+        <description>Apia</description>
+        <Point>
+          <coordinates>-171.778563,-13.819359,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>WSM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>WS</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>San Marino</name>
+        <description>San Marino</description>
+        <Point>
+          <coordinates>12.446453,43.936633,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SMR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sao Tome and Principe</name>
+        <description>Sao Tome</description>
+        <Point>
+          <coordinates>6.740426,0.331785,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>STP</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ST</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Saudi Arabia</name>
+        <description>Riyadh</description>
+        <Point>
+          <coordinates>46.637403,24.663272,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SAU</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Senegal</name>
+        <description>Dakar</description>
+        <Point>
+          <coordinates>-17.43821,14.662671,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SEN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Serbia</name>
+        <description>Belgrade</description>
+        <Point>
+          <coordinates>20.465622,44.811481,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SRB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>RS</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Seychelles</name>
+        <description>Victoria</description>
+        <Point>
+          <coordinates>55.454205,-4.628559,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SYC</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SC</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sierra Leone</name>
+        <description>Freetown</description>
+        <Point>
+          <coordinates>-13.232855000000002,8.480729,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SLE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SL</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Singapore</name>
+        <description>Singapore</description>
+        <Point>
+          <coordinates>103.850144,1.289256,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SGP</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Slovakia</name>
+        <description>Bratislava</description>
+        <Point>
+          <coordinates>17.097479000000003,48.142049,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SVK</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SK</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Slovenia</name>
+        <description>Ljubljana</description>
+        <Point>
+          <coordinates>14.501119,46.051335,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SVN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SI</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Solomon Islands</name>
+        <description>Honiara</description>
+        <Point>
+          <coordinates>159.955863,-9.433737,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SLB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SB</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Somalia</name>
+        <description>Mogadishu</description>
+        <Point>
+          <coordinates>45.32936500000001,2.038639,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SOM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>South Africa</name>
+        <description>Cape Town</description>
+        <Point>
+          <coordinates>18.419059,-33.926958,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ZAF</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ZA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Spain</name>
+        <description>Madrid</description>
+        <Point>
+          <coordinates>-3.6967130000000004,40.416102,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ESP</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ES</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sri Lanka</name>
+        <description>Sri Jayewardenepura Kotte</description>
+        <Point>
+          <coordinates>79.918724,6.887253000000001,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>LKA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>LK</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sudan</name>
+        <description>Khartoum</description>
+        <Point>
+          <coordinates>32.486953,15.617927000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SDN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SD</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>South Sudan</name>
+        <description>Juba</description>
+        <Point>
+          <coordinates>31.5421697,4.860776,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SSD</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SS</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Suriname</name>
+        <description>Paramaribo</description>
+        <Point>
+          <coordinates>-55.150981,5.825365,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SUR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Swaziland</name>
+        <description>Lobamba</description>
+        <Point>
+          <coordinates>31.206225000000003,-26.446498000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SWZ</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sweden</name>
+        <description>Stockholm</description>
+        <Point>
+          <coordinates>18.068969,59.327848,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SWE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Switzerland</name>
+        <description>Bern</description>
+        <Point>
+          <coordinates>7.444127999999999,46.946866,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>CHE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>CH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Syria</name>
+        <description>Damascus</description>
+        <Point>
+          <coordinates>36.293268,33.518157,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>SYR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>SY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan</name>
+        <description>Taipei</description>
+        <Point>
+          <coordinates>121.4231635,25.0853403,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TWN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Tajikistan</name>
+        <description>Dushanbe</description>
+        <Point>
+          <coordinates>68.787348,38.573946,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TJK</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TJ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Tanzania</name>
+        <description>Dodoma</description>
+        <Point>
+          <coordinates>35.756665,-6.180286,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TZA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Thailand</name>
+        <description>Bangkok</description>
+        <Point>
+          <coordinates>100.514466,13.774184,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>THA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TH</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Togo</name>
+        <description>Lome</description>
+        <Point>
+          <coordinates>1.217101,6.130327,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TGO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Tonga</name>
+        <description>Nuku'alofa</description>
+        <Point>
+          <coordinates>-175.198296,-21.132813,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TON</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TO</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Trinidad and Tobago</name>
+        <description>Port-of-Spain</description>
+        <Point>
+          <coordinates>-61.511802,10.653375000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TTO</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TT</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Tunisia</name>
+        <description>Tunis</description>
+        <Point>
+          <coordinates>10.13488,36.809048,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TUN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Turkey</name>
+        <description>Ankara</description>
+        <Point>
+          <coordinates>32.851138,39.91218,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TUR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TR</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Turkmenistan</name>
+        <description>Ashgabat</description>
+        <Point>
+          <coordinates>58.379052,37.93087,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TKM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Tuvalu</name>
+        <description>Vaiaku</description>
+        <Point>
+          <coordinates>179.194946,-8.524902,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>TUV</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TV</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Uganda</name>
+        <description>Kampala</description>
+        <Point>
+          <coordinates>32.587557,0.315273,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>UGA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>UG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ukraine</name>
+        <description>Kyiv</description>
+        <Point>
+          <coordinates>30.537317000000005,50.447155,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>UKR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>UA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>United Arab Emirates</name>
+        <description>Abu Dhabi</description>
+        <Point>
+          <coordinates>54.331234,24.463093000000004,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ARE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>AE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The United Kingdom</name>
+        <description>London</description>
+        <Point>
+          <coordinates>-0.125839,51.49944,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>GBR</value>
+          </Data>
+          <Data name="ISO2">
+            <value>GB</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The United States of America</name>
+        <description>Washington D.C.</description>
+        <Point>
+          <coordinates>-77.009933,38.889814,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>USA</value>
+          </Data>
+          <Data name="ISO2">
+            <value>US</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Uruguay</name>
+        <description>Montevideo</description>
+        <Point>
+          <coordinates>-56.186998,-34.890859,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>URY</value>
+          </Data>
+          <Data name="ISO2">
+            <value>UY</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Uzbekistan</name>
+        <description>Tashkent</description>
+        <Point>
+          <coordinates>69.265843,41.314297,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>UZB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>UZ</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Vanuatu</name>
+        <description>Port Vila</description>
+        <Point>
+          <coordinates>168.315825,-17.745493,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>VUT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>VU</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Vatican</name>
+        <description>Vatican City</description>
+        <Point>
+          <coordinates>12.45575,41.902213,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>VAT</value>
+          </Data>
+          <Data name="ISO2">
+            <value>VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Venezuela</name>
+        <description>Caracas</description>
+        <Point>
+          <coordinates>-66.915783,10.505672000000002,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>VEN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>VE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Vietnam</name>
+        <description>Hanoi</description>
+        <Point>
+          <coordinates>105.854779,21.022362,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>VNM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>VN</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Yemen</name>
+        <description>Sana'a</description>
+        <Point>
+          <coordinates>44.202925,15.354933999999998,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>YEM</value>
+          </Data>
+          <Data name="ISO2">
+            <value>YE</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Zambia</name>
+        <description>Lusaka</description>
+        <Point>
+          <coordinates>28.309169,-15.392049,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ZMB</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ZM</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Zimbabwe</name>
+        <description>Harare</description>
+        <Point>
+          <coordinates>31.052231000000003,-17.828248,0.0</coordinates>
+        </Point>
+        <ExtendedData>
+          <Data name="ISO3">
+            <value>ZWE</value>
+          </Data>
+          <Data name="ISO2">
+            <value>ZW</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
   </Document>
 </kml>

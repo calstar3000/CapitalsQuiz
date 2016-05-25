@@ -1,14 +1,18 @@
 var xml = null;
 var map = null;
 var geocoder = null;
+var layer = null;
 var playerScore = 0;
-var countries = null;
+var countries = [];
+var answerLog = [];
 var gameTime = 60 * 1;
 var hasTimer = false;
 
 function initMap() {
     geocoder = new google.maps.Geocoder();
+    layer = new google.maps.FusionTablesLayer(null);
     var mapDiv = document.getElementById('map');
+
     map = new google.maps.Map(mapDiv, {
       center: {lat: 44.540, lng: -78.546},
       zoom: 8,
@@ -61,10 +65,28 @@ function moveToNextCountry() {
     var country = getNextCountry();
 
     geocodeAddress(country);
+    highlightCountry(country.iso2);
 
     window.setTimeout(function() {
         askQuestion(country);
     }, 1000);
+}
+
+function highlightCountry(countryCode) {
+    // remove any existing layers
+    layer.setMap(null);
+
+    // create the new layer
+    layer = new google.maps.FusionTablesLayer({
+        query: {
+            select: 'geometry',
+            from: '1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk',
+            where: "ISO_2DIGIT = '" + countryCode + "'"
+        },
+    });
+
+    // overlay the layer on the map
+    layer.setMap(map);
 }
 
 function geocodeAddress(country) {
@@ -81,8 +103,25 @@ function geocodeAddress(country) {
     });
 }
 
-function updateScore() {
+function updateScore(isCorrect) {
+    if (isCorrect != null)
+        playerScore += isCorrect ? 1 : -1;
+
     document.getElementById('txtScore').innerHTML = playerScore;
+    console.log("Answered", answerLog);
+    console.log("Unanswered", countries);
+}
+
+function updateAnswerLog(country, guess, isCorrect) {
+    var answerCountry = countries.splice(country.id, 1);
+
+    var answerEntry = {
+        country: answerCountry,
+        guess: guess,
+        isCorrect: isCorrect
+    };
+
+    answerLog.push(answerEntry);
 }
 
 function askQuestion(country) {
@@ -109,16 +148,17 @@ function submitAnswer() {
         var guess = answerInput.value;
         var answerId = answerForm.dataset.id;
         var country = getCountryById(answerId);
+        var isCorrect = false;
 
         if (guess.trim().toLowerCase() === country.capital.trim().toLowerCase()) {
             answerValidation.textContent = 'Correct!';
-            playerScore += 1;
+            isCorrect = true;
         } else {
             answerValidation.textContent = 'Incorrect! The answer was ' + country.capital;
-            playerScore -= 1;
         }
 
-        updateScore();
+        updateAnswerLog(country, guess, isCorrect);
+        updateScore(isCorrect);
         moveToNextCountry();
     } catch(e) {
         alert("Sorry, something went wrong.");
@@ -135,6 +175,8 @@ function skipQuestion() {
 
     answerValidation.textContent = 'The answer was ' + country.capital;
 
+    updateAnswerLog(country, "", null);
+    updateScore(null);
     moveToNextCountry();
 }
 
@@ -153,7 +195,9 @@ function getCountryById(id) {
         lat: country.points[0].position.lat(),
         lng: country.points[0].position.lng(),
         name: country.name,
-        capital: country.description
+        capital: country.description,
+        iso2: country.iso2,
+        iso3: country.iso2
     };
 }
 
