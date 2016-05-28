@@ -6,22 +6,23 @@
     <title>Joey vs The World: Capitals Quiz</title>
     <link href="./CSS/normalize.css" rel="stylesheet" title="Normalize">
     <link href="./CSS/site.css" rel="stylesheet">
+    <link href="./CSS/skeleton.css" rel="stylesheet">
 </head>
 <body>
     <div class="map-container">
 
         <div id="map"></div>
 
-        <button id="startButton" class="start-button" onclick="startGame()">Start</button>
+        <button id="startButton" class="start-button button-primary" onclick="startGame()">Start</button>
 
         <div id="pnlAnswerContainer" class="answer-container panel">
             <form id="formAnswer" onsubmit="return submitAnswer()">
                 <label for="txtAnswer" id="lblAnswer">What's the capital of...?</label>
                 <input type="text" id="txtAnswer" name="textAnswer" required="required" />
-                <div id="answerValidation"></div>
-                <input  class="button-submit" type="submit" value="Submit" />
+                <input class="button-submit u-pull-left" type="submit" value="Submit" />
             </form>
-            <button class="button-skip" onclick="skipQuestion()">Skip</button>
+            <button class="button-skip u-pull-right" onclick="skipQuestion()">Skip</button>
+            <div id="answerValidation" class="u-cf"></div>
         </div>
 
         <div id="pnlScoreboard" class="scoreboard panel">

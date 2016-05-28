@@ -10,7 +10,7 @@ var hasTimer = false;
 
 function initMap() {
     geocoder = new google.maps.Geocoder();
-    layer = new google.maps.FusionTablesLayer(null);
+    //layer = new google.maps.FusionTablesLayer(null);
     var mapDiv = document.getElementById('map');
 
     map = new google.maps.Map(mapDiv, {
@@ -65,7 +65,7 @@ function moveToNextCountry() {
     var country = getNextCountry();
 
     geocodeAddress(country);
-    highlightCountry(country.iso2);
+    //highlightCountry(country.iso2);
 
     window.setTimeout(function() {
         askQuestion(country);

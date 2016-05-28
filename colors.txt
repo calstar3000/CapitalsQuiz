@@ -1,0 +1,7 @@
+Colors:
+-------
+#EFEFEF // White
+#3454D1 // Blue
+#34D1BF // Turquoise
+#070707 // Black
+#D1345B // Pink

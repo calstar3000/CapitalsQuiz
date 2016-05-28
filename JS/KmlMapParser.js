@@ -989,7 +989,7 @@ KmlMapParser.prototype = {
 
       // inline style overrides shared style
       if (inlineStyles && (inlineStyles.length > 0)){
-          style = this.findStyle(node,docStyles,'inline');
+          style = this.findStyle(placemarkNode,docStyles,'inline');
           this.convertKmlStyle(style);
           if (style){ placemark.style = style;}
       }

@@ -2,10 +2,18 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>world capitals</name>
+    <Style id="bluePin">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/icons/ltblu-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Folder>
       <Placemark>
         <name>Afghanistan</name>
         <description>Kabul</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>69.142166,34.496897,0.0</coordinates>
         </Point>
@@ -21,6 +29,7 @@
       <Placemark>
         <name>Albania</name>
         <description>Tirana</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>19.823343,41.32603700000001,0.0</coordinates>
         </Point>
@@ -36,6 +45,7 @@
       <Placemark>
         <name>Algeria</name>
         <description>Alger</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>3.060894,36.779135,0.0</coordinates>
         </Point>
@@ -51,6 +61,7 @@
       <Placemark>
         <name>Andorra</name>
         <description>Andorra la Vella</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>1.520257,42.506799,0.0</coordinates>
         </Point>
@@ -66,6 +77,7 @@
       <Placemark>
         <name>Angola</name>
         <description>Luanda</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>13.2284,-8.819478,0.0</coordinates>
         </Point>
@@ -81,6 +93,7 @@
       <Placemark>
         <name>Antigua and Barbuda</name>
         <description>Saint John's</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-61.833200000000005,17.118188,0.0</coordinates>
         </Point>
@@ -96,6 +109,7 @@
       <Placemark>
         <name>Argentina</name>
         <description>Buenos Aires</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-58.39216,-34.60976,0.0</coordinates>
         </Point>
@@ -111,6 +125,7 @@
       <Placemark>
         <name>Armenia</name>
         <description>Yerevan</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>44.509346,40.190412,0.0</coordinates>
         </Point>
@@ -126,6 +141,7 @@
       <Placemark>
         <name>Australia</name>
         <description>Canberra</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>149.125344,-35.307189,0.0</coordinates>
         </Point>
@@ -141,6 +157,7 @@
       <Placemark>
         <name>Austria</name>
         <description>Vienna</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>16.35934,48.207944,0.0</coordinates>
         </Point>
@@ -156,6 +173,7 @@
       <Placemark>
         <name>Azerbaijan</name>
         <description>Baku</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>49.825664,40.357699000000004,0.0</coordinates>
         </Point>
@@ -171,6 +189,7 @@
       <Placemark>
         <name>The Bahamas</name>
         <description>Nassau</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-77.34052600000001,25.077704,0.0</coordinates>
         </Point>
@@ -186,6 +205,7 @@
       <Placemark>
         <name>Bahrain</name>
         <description>Manama</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>50.593106,26.223032000000003,0.0</coordinates>
         </Point>
@@ -201,6 +221,7 @@
       <Placemark>
         <name>Bangladesh</name>
         <description>Dhaka</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>90.378438,23.763249,0.0</coordinates>
         </Point>
@@ -216,6 +237,7 @@
       <Placemark>
         <name>Barbados</name>
         <description>Bridgetown</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-59.614145,13.097241,0.0</coordinates>
         </Point>
@@ -231,6 +253,7 @@
       <Placemark>
         <name>Belarus</name>
         <description>Minsk</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>27.545187,53.895905,0.0</coordinates>
         </Point>
@@ -246,6 +269,7 @@
       <Placemark>
         <name>Belgium</name>
         <description>Brussels</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>4.364863,50.846733,0.0</coordinates>
         </Point>
@@ -261,6 +285,7 @@
       <Placemark>
         <name>Belize</name>
         <description>Belmopan</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-88.773005,17.251006,0.0</coordinates>
         </Point>
@@ -276,6 +301,7 @@
       <Placemark>
         <name>Benin</name>
         <description>Porto-Novo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>2.619789,6.469398,0.0</coordinates>
         </Point>
@@ -291,6 +317,7 @@
       <Placemark>
         <name>Bhutan</name>
         <description>Thimphu</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>89.637816,27.489733,0.0</coordinates>
         </Point>
@@ -306,6 +333,7 @@
       <Placemark>
         <name>Bolivia</name>
         <description>Sucre</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-65.265044,-19.039787,0.0</coordinates>
         </Point>
@@ -321,6 +349,7 @@
       <Placemark>
         <name>Bosnia and Herzegovina</name>
         <description>Sarajevo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>18.40497,43.855028,0.0</coordinates>
         </Point>
@@ -336,6 +365,7 @@
       <Placemark>
         <name>Botswana</name>
         <description>Gaborone</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>25.91107,-24.658238,0.0</coordinates>
         </Point>
@@ -351,6 +381,7 @@
       <Placemark>
         <name>Brazil</name>
         <description>Brasilia</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-47.863805,-15.799821000000001,0.0</coordinates>
         </Point>
@@ -366,6 +397,7 @@
       <Placemark>
         <name>Brunei Darussalam</name>
         <description>Bandar Seri Begawan</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>114.94888400000002,4.913903,0.0</coordinates>
         </Point>
@@ -381,6 +413,7 @@
       <Placemark>
         <name>Bulgaria</name>
         <description>Sofia</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>23.332571,42.694089,0.0</coordinates>
         </Point>
@@ -396,6 +429,7 @@
       <Placemark>
         <name>Burkina Faso</name>
         <description>Ouagadougou</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-1.514423,12.372066,0.0</coordinates>
         </Point>
@@ -411,6 +445,7 @@
       <Placemark>
         <name>Burundi</name>
         <description>Bujumbura</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>29.372635,-3.359953,0.0</coordinates>
         </Point>
@@ -426,6 +461,7 @@
       <Placemark>
         <name>Cambodia</name>
         <description>Phnom Penh</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>104.935605,11.554329,0.0</coordinates>
         </Point>
@@ -441,6 +477,7 @@
       <Placemark>
         <name>Cameroon</name>
         <description>Yaounde</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>11.509064,3.857024,0.0</coordinates>
         </Point>
@@ -456,6 +493,7 @@
       <Placemark>
         <name>Canada</name>
         <description>Ottawa</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-75.699655,45.42476400000001,0.0</coordinates>
         </Point>
@@ -471,6 +509,7 @@
       <Placemark>
         <name>Cape Verde</name>
         <description>Praia</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-23.515256,14.906049,0.0</coordinates>
         </Point>
@@ -486,6 +525,7 @@
       <Placemark>
         <name>The Central African Republic</name>
         <description>Bangui</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>18.562426,4.393002,0.0</coordinates>
         </Point>
@@ -501,6 +541,7 @@
       <Placemark>
         <name>Chad</name>
         <description>Ndjamena</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>15.028535,12.123804,0.0</coordinates>
         </Point>
@@ -516,6 +557,7 @@
       <Placemark>
         <name>Chile</name>
         <description>Santiago</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-70.65286700000001,-33.438276,0.0</coordinates>
         </Point>
@@ -531,6 +573,7 @@
       <Placemark>
         <name>China</name>
         <description>Beijing</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>116.388388,39.903506,0.0</coordinates>
         </Point>
@@ -546,6 +589,7 @@
       <Placemark>
         <name>Colombia</name>
         <description>Bogota</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-74.07627,4.597637,0.0</coordinates>
         </Point>
@@ -561,6 +605,7 @@
       <Placemark>
         <name>Comoros</name>
         <description>Moroni</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>43.24613,-11.718207,0.0</coordinates>
         </Point>
@@ -576,6 +621,7 @@
       <Placemark>
         <name>The Democratic Republic of the Congo</name>
         <description>Kinshasa</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>15.303322,-4.332712,0.0</coordinates>
         </Point>
@@ -591,6 +637,7 @@
       <Placemark>
         <name>The Republic of the Congo</name>
         <description>Brazzaville</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>15.258025000000002,-4.268087,0.0</coordinates>
         </Point>
@@ -606,6 +653,7 @@
       <Placemark>
         <name>Costa Rica</name>
         <description>San Jose</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-84.071798,9.933772,0.0</coordinates>
         </Point>
@@ -621,6 +669,7 @@
       <Placemark>
         <name>Cote d'Ivoire</name>
         <description>Yamoussoukro</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-5.279768,6.817885,0.0</coordinates>
         </Point>
@@ -636,6 +685,7 @@
       <Placemark>
         <name>Croatia</name>
         <description>Zagreb</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>15.974030000000003,45.816466,0.0</coordinates>
         </Point>
@@ -651,6 +701,7 @@
       <Placemark>
         <name>Cuba</name>
         <description>Havana</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-82.360243,23.135141000000004,0.0</coordinates>
         </Point>
@@ -666,6 +717,7 @@
       <Placemark>
         <name>Cyprus</name>
         <description>Nicosia</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>33.354278,35.172094,0.0</coordinates>
         </Point>
@@ -681,6 +733,7 @@
       <Placemark>
         <name>Czech Republic</name>
         <description>Prague</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>14.403956999999998,50.089716,0.0</coordinates>
         </Point>
@@ -696,6 +749,7 @@
       <Placemark>
         <name>Denmark</name>
         <description>Copenhagen</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>12.580817,55.676372,0.0</coordinates>
         </Point>
@@ -711,6 +765,7 @@
       <Placemark>
         <name>Djibouti</name>
         <description>Djibouti</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>43.148927,11.595904000000003,0.0</coordinates>
         </Point>
@@ -726,6 +781,7 @@
       <Placemark>
         <name>Dominica</name>
         <description>Roseau</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-61.385261,15.295106000000002,0.0</coordinates>
         </Point>
@@ -741,6 +797,7 @@
       <Placemark>
         <name>The Dominican Republic</name>
         <description>Santo Domingo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-69.925538,18.449135,0.0</coordinates>
         </Point>
@@ -756,6 +813,7 @@
       <Placemark>
         <name>Timor-Leste</name>
         <description>Dili</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>125.57852100000001,-8.55418,0.0</coordinates>
         </Point>
@@ -771,6 +829,7 @@
       <Placemark>
         <name>Ecuador</name>
         <description>Quito</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-78.498586,-0.212929,0.0</coordinates>
         </Point>
@@ -786,6 +845,7 @@
       <Placemark>
         <name>Egypt</name>
         <description>Cairo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>31.236695,30.039972,0.0</coordinates>
         </Point>
@@ -801,6 +861,7 @@
       <Placemark>
         <name>El Salvador</name>
         <description>San Salvador</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-89.199149,13.705668,0.0</coordinates>
         </Point>
@@ -816,6 +877,7 @@
       <Placemark>
         <name>Equatorial Guinea</name>
         <description>Malabo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>8.779079,3.756074,0.0</coordinates>
         </Point>
@@ -831,6 +893,7 @@
       <Placemark>
         <name>Eritrea</name>
         <description>Asmara</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>38.931615,15.336194999999998,0.0</coordinates>
         </Point>
@@ -846,6 +909,7 @@
       <Placemark>
         <name>Estonia</name>
         <description>Tallinn</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>24.737273,59.43569899999999,0.0</coordinates>
         </Point>
@@ -861,6 +925,7 @@
       <Placemark>
         <name>Ethiopia</name>
         <description>Addis Ababa</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>38.764583,9.029951,0.0</coordinates>
         </Point>
@@ -876,6 +941,7 @@
       <Placemark>
         <name>Fiji</name>
         <description>Suva</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>178.43367,-18.158499,0.0</coordinates>
         </Point>
@@ -891,6 +957,7 @@
       <Placemark>
         <name>Finland</name>
         <description>Helsinki</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>24.933536,60.17263100000001,0.0</coordinates>
         </Point>
@@ -906,6 +973,7 @@
       <Placemark>
         <name>France</name>
         <description>Paris</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>2.318405,48.86093900000001,0.0</coordinates>
         </Point>
@@ -921,6 +989,7 @@
       <Placemark>
         <name>Gabon</name>
         <description>Libreville</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>9.443007,0.411608,0.0</coordinates>
         </Point>
@@ -936,6 +1005,7 @@
       <Placemark>
         <name>The Gambia</name>
         <description>Banjul</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-16.580644,13.459940000000001,0.0</coordinates>
         </Point>
@@ -951,6 +1021,7 @@
       <Placemark>
         <name>Georgia</name>
         <description>Tbilisi</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>44.798759,41.696953,0.0</coordinates>
         </Point>
@@ -966,6 +1037,7 @@
       <Placemark>
         <name>Germany</name>
         <description>Berlin</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>13.375307,52.518636,0.0</coordinates>
         </Point>
@@ -981,6 +1053,7 @@
       <Placemark>
         <name>Ghana</name>
         <description>Accra</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-0.19135400000000002,5.557599,0.0</coordinates>
         </Point>
@@ -996,6 +1069,7 @@
       <Placemark>
         <name>Greece</name>
         <description>Athens</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>23.736501,37.975306,0.0</coordinates>
         </Point>
@@ -1011,6 +1085,7 @@
       <Placemark>
         <name>Grenada</name>
         <description>Saint George's</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-61.75233999999999,12.053181000000002,0.0</coordinates>
         </Point>
@@ -1026,6 +1101,7 @@
       <Placemark>
         <name>Guatemala</name>
         <description>Guatemala City</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-90.511108,14.639204000000001,0.0</coordinates>
         </Point>
@@ -1041,6 +1117,7 @@
       <Placemark>
         <name>Guinea-Bissau</name>
         <description>Bissau</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-15.590552,11.858573,0.0</coordinates>
         </Point>
@@ -1056,6 +1133,7 @@
       <Placemark>
         <name>Guinea</name>
         <description>Conakry</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-13.692661,9.520137,0.0</coordinates>
         </Point>
@@ -1071,6 +1149,7 @@
       <Placemark>
         <name>Guyana</name>
         <description>Georgetown</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-58.166613,6.808697,0.0</coordinates>
         </Point>
@@ -1086,6 +1165,7 @@
       <Placemark>
         <name>Haiti</name>
         <description>Port-au-Prince</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-72.347071,18.54912,0.0</coordinates>
         </Point>
@@ -1101,6 +1181,7 @@
       <Placemark>
         <name>Honduras</name>
         <description>Tegucigalpa</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-87.205028,14.103809,0.0</coordinates>
         </Point>
@@ -1116,6 +1197,7 @@
       <Placemark>
         <name>Hungary</name>
         <description>Budapest</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>19.046624,47.507077,0.0</coordinates>
         </Point>
@@ -1131,6 +1213,7 @@
       <Placemark>
         <name>Iceland</name>
         <description>Reykjavik</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-21.940282,64.146645,0.0</coordinates>
         </Point>
@@ -1146,6 +1229,7 @@
       <Placemark>
         <name>India</name>
         <description>New Delhi</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>77.208534,28.617886000000002,0.0</coordinates>
         </Point>
@@ -1161,6 +1245,7 @@
       <Placemark>
         <name>Indonesia</name>
         <description>Jakarta</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>106.801229,-6.209066,0.0</coordinates>
         </Point>
@@ -1176,6 +1261,7 @@
       <Placemark>
         <name>Iran</name>
         <description>Tehran</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>51.434126,35.690895,0.0</coordinates>
         </Point>
@@ -1191,6 +1277,7 @@
       <Placemark>
         <name>Iraq</name>
         <description>Baghdad</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>44.381933,33.321353,0.0</coordinates>
         </Point>
@@ -1206,6 +1293,7 @@
       <Placemark>
         <name>Ireland</name>
         <description>Dublin</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-6.253769,53.340524,0.0</coordinates>
         </Point>
@@ -1221,6 +1309,7 @@
       <Placemark>
         <name>Israel</name>
         <description>Jerusalem</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>35.205447,31.776989000000004,0.0</coordinates>
         </Point>
@@ -1236,6 +1325,7 @@
       <Placemark>
         <name>Italy</name>
         <description>Rome</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>12.478688,41.901243,0.0</coordinates>
         </Point>
@@ -1251,6 +1341,7 @@
       <Placemark>
         <name>Jamaica</name>
         <description>Kingston</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-76.790496,17.974103,0.0</coordinates>
         </Point>
@@ -1266,6 +1357,7 @@
       <Placemark>
         <name>Japan</name>
         <description>Tokyo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>139.74545,35.676006,0.0</coordinates>
         </Point>
@@ -1281,6 +1373,7 @@
       <Placemark>
         <name>Jordan</name>
         <description>Amman</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>35.91252,31.962699,0.0</coordinates>
         </Point>
@@ -1296,6 +1389,7 @@
       <Placemark>
         <name>Kazakhstan</name>
         <description>Astana</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>71.440895,51.126192,0.0</coordinates>
         </Point>
@@ -1311,6 +1405,7 @@
       <Placemark>
         <name>Kenya</name>
         <description>Nairobi</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>36.820325,-1.290103,0.0</coordinates>
         </Point>
@@ -1326,6 +1421,7 @@
       <Placemark>
         <name>Kiribati</name>
         <description>South Tarawa</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>173.039126,1.350094,0.0</coordinates>
         </Point>
@@ -1341,6 +1437,7 @@
       <Placemark>
         <name>North Korea</name>
         <description>Pyongyang</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>125.74934,39.027986,0.0</coordinates>
         </Point>
@@ -1356,6 +1453,7 @@
       <Placemark>
         <name>South Korea</name>
         <description>Seoul</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>126.914636,37.531476,0.0</coordinates>
         </Point>
@@ -1371,6 +1469,7 @@
       <Placemark>
         <name>Kuwait</name>
         <description>Kuwait City</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>47.964796,29.369759,0.0</coordinates>
         </Point>
@@ -1386,6 +1485,7 @@
       <Placemark>
         <name>Kyrgyzstan</name>
         <description>Bishkek</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>74.604024,42.879565,0.0</coordinates>
         </Point>
@@ -1401,6 +1501,7 @@
       <Placemark>
         <name>Lao People's Democratic Republic</name>
         <description>Vientiane</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>102.633446,17.978376,0.0</coordinates>
         </Point>
@@ -1416,6 +1517,7 @@
       <Placemark>
         <name>Latvia</name>
         <description>Riga</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>24.104674,56.951066,0.0</coordinates>
         </Point>
@@ -1431,6 +1533,7 @@
       <Placemark>
         <name>Lebanon</name>
         <description>Beirut</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>35.504218,33.896753,0.0</coordinates>
         </Point>
@@ -1446,6 +1549,7 @@
       <Placemark>
         <name>Lesotho</name>
         <description>Maseru</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>27.486476,-29.311133000000005,0.0</coordinates>
         </Point>
@@ -1461,6 +1565,7 @@
       <Placemark>
         <name>Liberia</name>
         <description>Montserrado</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-10.796004,6.30163,0.0</coordinates>
         </Point>
@@ -1476,6 +1581,7 @@
       <Placemark>
         <name>Libya</name>
         <description>Tripoli</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>13.152416,32.879353,0.0</coordinates>
         </Point>
@@ -1491,6 +1597,7 @@
       <Placemark>
         <name>Liechtenstein</name>
         <description>Vaduz</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>9.522558,47.137063,0.0</coordinates>
         </Point>
@@ -1506,6 +1613,7 @@
       <Placemark>
         <name>Lithuania</name>
         <description>Vilnius</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>25.261549,54.690478,0.0</coordinates>
         </Point>
@@ -1521,6 +1629,7 @@
       <Placemark>
         <name>Luxembourg</name>
         <description>Luxembourg</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>6.13304,49.61066300000001,0.0</coordinates>
         </Point>
@@ -1536,6 +1645,7 @@
       <Placemark>
         <name>Macedonia</name>
         <description>Skopje</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>21.433023,41.992988,0.0</coordinates>
         </Point>
@@ -1551,6 +1661,7 @@
       <Placemark>
         <name>Madagascar</name>
         <description>Antananarivo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>47.532048,-18.923921,0.0</coordinates>
         </Point>
@@ -1566,6 +1677,7 @@
       <Placemark>
         <name>Malawi</name>
         <description>Lilongwe</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>33.787878,-13.953039,0.0</coordinates>
         </Point>
@@ -1581,6 +1693,7 @@
       <Placemark>
         <name>Malaysia</name>
         <description>Kuala Lumpur</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>101.679022,3.149418,0.0</coordinates>
         </Point>
@@ -1596,6 +1709,7 @@
       <Placemark>
         <name>The Maldives</name>
         <description>Male</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>73.513572,4.17753,0.0</coordinates>
         </Point>
@@ -1611,6 +1725,7 @@
       <Placemark>
         <name>Mali</name>
         <description>Bamako</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-7.99375,12.649135,0.0</coordinates>
         </Point>
@@ -1626,6 +1741,7 @@
       <Placemark>
         <name>Malta</name>
         <description>Valletta</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>14.514482000000001,35.898826,0.0</coordinates>
         </Point>
@@ -1641,6 +1757,7 @@
       <Placemark>
         <name>The Marshall Islands</name>
         <description>Majuro Atoll</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>171.380526,7.0892,0.0</coordinates>
         </Point>
@@ -1656,6 +1773,7 @@
       <Placemark>
         <name>Mauritania</name>
         <description>Nouakchott</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-15.973852999999998,18.085062,0.0</coordinates>
         </Point>
@@ -1671,6 +1789,7 @@
       <Placemark>
         <name>Mauritius</name>
         <description>Port Louis</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>57.50309099999999,-20.162762,0.0</coordinates>
         </Point>
@@ -1686,6 +1805,7 @@
       <Placemark>
         <name>Mexico</name>
         <description>Mexico City</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-99.118416,19.430344,0.0</coordinates>
         </Point>
@@ -1701,6 +1821,7 @@
       <Placemark>
         <name>Micronesia</name>
         <description>Palikir</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>158.160059,6.924395,0.0</coordinates>
         </Point>
@@ -1716,6 +1837,7 @@
       <Placemark>
         <name>Moldova</name>
         <description>Chisinau</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>28.826698000000004,47.027473,0.0</coordinates>
         </Point>
@@ -1731,6 +1853,7 @@
       <Placemark>
         <name>Monaco</name>
         <description>Monaco</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>7.422227999999999,43.729935,0.0</coordinates>
         </Point>
@@ -1746,6 +1869,7 @@
       <Placemark>
         <name>Mongolia</name>
         <description>Ulaanbaatar</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>106.917454,47.919664,0.0</coordinates>
         </Point>
@@ -1761,6 +1885,7 @@
       <Placemark>
         <name>Montenegro</name>
         <description>Podgorica</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>19.260385,42.439736,0.0</coordinates>
         </Point>
@@ -1776,6 +1901,7 @@
       <Placemark>
         <name>Morocco</name>
         <description>Rabat</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-6.836725,34.017734,0.0</coordinates>
         </Point>
@@ -1791,6 +1917,7 @@
       <Placemark>
         <name>Mozambique</name>
         <description>Maputo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>32.560717,-25.959123,0.0</coordinates>
         </Point>
@@ -1806,6 +1933,7 @@
       <Placemark>
         <name>Myanmar</name>
         <description>Rangoon</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>96.138203,16.79504,0.0</coordinates>
         </Point>
@@ -1821,6 +1949,7 @@
       <Placemark>
         <name>Namibia</name>
         <description>Windhoek</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>17.088804,-22.5668,0.0</coordinates>
         </Point>
@@ -1836,6 +1965,7 @@
       <Placemark>
         <name>Nauru</name>
         <description>Yaren</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>166.917338,-0.547361,0.0</coordinates>
         </Point>
@@ -1851,6 +1981,7 @@
       <Placemark>
         <name>Nepal</name>
         <description>Kathmandu</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>85.313945,27.712364,0.0</coordinates>
         </Point>
@@ -1866,6 +1997,7 @@
       <Placemark>
         <name>The Netherlands</name>
         <description>Amsterdam</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>4.890686,52.37318900000001,0.0</coordinates>
         </Point>
@@ -1881,6 +2013,7 @@
       <Placemark>
         <name>New Zealand</name>
         <description>Wellington</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>174.776891,-41.277992000000005,0.0</coordinates>
         </Point>
@@ -1896,6 +2029,7 @@
       <Placemark>
         <name>Nicaragua</name>
         <description>Managua</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-86.272971,12.150207,0.0</coordinates>
         </Point>
@@ -1911,6 +2045,7 @@
       <Placemark>
         <name>Niger</name>
         <description>Niamey</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>2.114345,13.511383,0.0</coordinates>
         </Point>
@@ -1926,6 +2061,7 @@
       <Placemark>
         <name>Nigeria</name>
         <description>Abuja</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>7.510818,9.067899,0.0</coordinates>
         </Point>
@@ -1941,6 +2077,7 @@
       <Placemark>
         <name>Norway</name>
         <description>Oslo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>10.739608,59.913109000000006,0.0</coordinates>
         </Point>
@@ -1956,6 +2093,7 @@
       <Placemark>
         <name>Oman</name>
         <description>Muscat</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>58.594685,23.615825,0.0</coordinates>
         </Point>
@@ -1971,6 +2109,7 @@
       <Placemark>
         <name>Pakistan</name>
         <description>Islamabad</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>73.097481,33.730385,0.0</coordinates>
         </Point>
@@ -1986,6 +2125,7 @@
       <Placemark>
         <name>Palau</name>
         <description>Melekeok</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>134.624013,7.499956,0.0</coordinates>
         </Point>
@@ -2001,6 +2141,7 @@
       <Placemark>
         <name>Panama</name>
         <description>Panama City</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-79.542196,8.961864,0.0</coordinates>
         </Point>
@@ -2016,6 +2157,7 @@
       <Placemark>
         <name>Papua New Guinea</name>
         <description>Port Moresby</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>147.192496,-9.428202,0.0</coordinates>
         </Point>
@@ -2031,6 +2173,7 @@
       <Placemark>
         <name>Paraguay</name>
         <description>Asuncion</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-57.635787,-25.278585000000003,0.0</coordinates>
         </Point>
@@ -2046,6 +2189,7 @@
       <Placemark>
         <name>Peru</name>
         <description>Lima</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-77.02502,-12.048145,0.0</coordinates>
         </Point>
@@ -2061,6 +2205,7 @@
       <Placemark>
         <name>The Philippines</name>
         <description>Manila</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>120.983891,14.547541,0.0</coordinates>
         </Point>
@@ -2076,6 +2221,7 @@
       <Placemark>
         <name>Poland</name>
         <description>Warsaw</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>21.028497,52.22521,0.0</coordinates>
         </Point>
@@ -2091,6 +2237,7 @@
       <Placemark>
         <name>Portugal</name>
         <description>Lisbon</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-9.153508,38.7124,0.0</coordinates>
         </Point>
@@ -2106,6 +2253,7 @@
       <Placemark>
         <name>Qatar</name>
         <description>Doha</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>51.527022,25.291912,0.0</coordinates>
         </Point>
@@ -2121,6 +2269,7 @@
       <Placemark>
         <name>Romania</name>
         <description>Bucharest</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>26.088667,44.427436,0.0</coordinates>
         </Point>
@@ -2136,6 +2285,7 @@
       <Placemark>
         <name>Russia</name>
         <description>Moscow</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>37.615718,55.757715,0.0</coordinates>
         </Point>
@@ -2151,6 +2301,7 @@
       <Placemark>
         <name>Rwanda</name>
         <description>Kigali</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>30.099127,-1.9526540000000001,0.0</coordinates>
         </Point>
@@ -2166,6 +2317,7 @@
       <Placemark>
         <name>Saint Kitts and Nevis</name>
         <description>Basseterre</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-62.724941,17.295605,0.0</coordinates>
         </Point>
@@ -2181,6 +2333,7 @@
       <Placemark>
         <name>Saint Lucia</name>
         <description>Castries</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-60.989911,14.010206,0.0</coordinates>
         </Point>
@@ -2196,6 +2349,7 @@
       <Placemark>
         <name>Saint Vincent and the Grenadines</name>
         <description>Kingstown</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-61.22329799999999,13.153838,0.0</coordinates>
         </Point>
@@ -2211,6 +2365,7 @@
       <Placemark>
         <name>Samoa</name>
         <description>Apia</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-171.778563,-13.819359,0.0</coordinates>
         </Point>
@@ -2226,6 +2381,7 @@
       <Placemark>
         <name>San Marino</name>
         <description>San Marino</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>12.446453,43.936633,0.0</coordinates>
         </Point>
@@ -2241,6 +2397,7 @@
       <Placemark>
         <name>Sao Tome and Principe</name>
         <description>Sao Tome</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>6.740426,0.331785,0.0</coordinates>
         </Point>
@@ -2256,6 +2413,7 @@
       <Placemark>
         <name>Saudi Arabia</name>
         <description>Riyadh</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>46.637403,24.663272,0.0</coordinates>
         </Point>
@@ -2271,6 +2429,7 @@
       <Placemark>
         <name>Senegal</name>
         <description>Dakar</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-17.43821,14.662671,0.0</coordinates>
         </Point>
@@ -2286,6 +2445,7 @@
       <Placemark>
         <name>Serbia</name>
         <description>Belgrade</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>20.465622,44.811481,0.0</coordinates>
         </Point>
@@ -2301,6 +2461,7 @@
       <Placemark>
         <name>The Seychelles</name>
         <description>Victoria</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>55.454205,-4.628559,0.0</coordinates>
         </Point>
@@ -2316,6 +2477,7 @@
       <Placemark>
         <name>Sierra Leone</name>
         <description>Freetown</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-13.232855000000002,8.480729,0.0</coordinates>
         </Point>
@@ -2331,6 +2493,7 @@
       <Placemark>
         <name>Singapore</name>
         <description>Singapore</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>103.850144,1.289256,0.0</coordinates>
         </Point>
@@ -2346,6 +2509,7 @@
       <Placemark>
         <name>Slovakia</name>
         <description>Bratislava</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>17.097479000000003,48.142049,0.0</coordinates>
         </Point>
@@ -2361,6 +2525,7 @@
       <Placemark>
         <name>Slovenia</name>
         <description>Ljubljana</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>14.501119,46.051335,0.0</coordinates>
         </Point>
@@ -2376,6 +2541,7 @@
       <Placemark>
         <name>The Solomon Islands</name>
         <description>Honiara</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>159.955863,-9.433737,0.0</coordinates>
         </Point>
@@ -2391,6 +2557,7 @@
       <Placemark>
         <name>Somalia</name>
         <description>Mogadishu</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>45.32936500000001,2.038639,0.0</coordinates>
         </Point>
@@ -2406,6 +2573,7 @@
       <Placemark>
         <name>South Africa</name>
         <description>Cape Town</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>18.419059,-33.926958,0.0</coordinates>
         </Point>
@@ -2421,6 +2589,7 @@
       <Placemark>
         <name>Spain</name>
         <description>Madrid</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-3.6967130000000004,40.416102,0.0</coordinates>
         </Point>
@@ -2436,6 +2605,7 @@
       <Placemark>
         <name>Sri Lanka</name>
         <description>Sri Jayewardenepura Kotte</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>79.918724,6.887253000000001,0.0</coordinates>
         </Point>
@@ -2451,6 +2621,7 @@
       <Placemark>
         <name>Sudan</name>
         <description>Khartoum</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>32.486953,15.617927000000002,0.0</coordinates>
         </Point>
@@ -2466,6 +2637,7 @@
       <Placemark>
         <name>South Sudan</name>
         <description>Juba</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>31.5421697,4.860776,0.0</coordinates>
         </Point>
@@ -2481,6 +2653,7 @@
       <Placemark>
         <name>Suriname</name>
         <description>Paramaribo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-55.150981,5.825365,0.0</coordinates>
         </Point>
@@ -2496,6 +2669,7 @@
       <Placemark>
         <name>Swaziland</name>
         <description>Lobamba</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>31.206225000000003,-26.446498000000002,0.0</coordinates>
         </Point>
@@ -2511,6 +2685,7 @@
       <Placemark>
         <name>Sweden</name>
         <description>Stockholm</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>18.068969,59.327848,0.0</coordinates>
         </Point>
@@ -2526,6 +2701,7 @@
       <Placemark>
         <name>Switzerland</name>
         <description>Bern</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>7.444127999999999,46.946866,0.0</coordinates>
         </Point>
@@ -2541,6 +2717,7 @@
       <Placemark>
         <name>Syria</name>
         <description>Damascus</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>36.293268,33.518157,0.0</coordinates>
         </Point>
@@ -2556,6 +2733,7 @@
       <Placemark>
         <name>Taiwan</name>
         <description>Taipei</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>121.4231635,25.0853403,0.0</coordinates>
         </Point>
@@ -2568,6 +2746,7 @@
       <Placemark>
         <name>Tajikistan</name>
         <description>Dushanbe</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>68.787348,38.573946,0.0</coordinates>
         </Point>
@@ -2583,6 +2762,7 @@
       <Placemark>
         <name>Tanzania</name>
         <description>Dodoma</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>35.756665,-6.180286,0.0</coordinates>
         </Point>
@@ -2598,6 +2778,7 @@
       <Placemark>
         <name>Thailand</name>
         <description>Bangkok</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>100.514466,13.774184,0.0</coordinates>
         </Point>
@@ -2613,6 +2794,7 @@
       <Placemark>
         <name>Togo</name>
         <description>Lome</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>1.217101,6.130327,0.0</coordinates>
         </Point>
@@ -2628,6 +2810,7 @@
       <Placemark>
         <name>Tonga</name>
         <description>Nuku'alofa</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-175.198296,-21.132813,0.0</coordinates>
         </Point>
@@ -2643,6 +2826,7 @@
       <Placemark>
         <name>Trinidad and Tobago</name>
         <description>Port-of-Spain</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-61.511802,10.653375000000002,0.0</coordinates>
         </Point>
@@ -2658,6 +2842,7 @@
       <Placemark>
         <name>Tunisia</name>
         <description>Tunis</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>10.13488,36.809048,0.0</coordinates>
         </Point>
@@ -2673,6 +2858,7 @@
       <Placemark>
         <name>Turkey</name>
         <description>Ankara</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>32.851138,39.91218,0.0</coordinates>
         </Point>
@@ -2688,6 +2874,7 @@
       <Placemark>
         <name>Turkmenistan</name>
         <description>Ashgabat</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>58.379052,37.93087,0.0</coordinates>
         </Point>
@@ -2703,6 +2890,7 @@
       <Placemark>
         <name>Tuvalu</name>
         <description>Vaiaku</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>179.194946,-8.524902,0.0</coordinates>
         </Point>
@@ -2718,6 +2906,7 @@
       <Placemark>
         <name>Uganda</name>
         <description>Kampala</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>32.587557,0.315273,0.0</coordinates>
         </Point>
@@ -2733,6 +2922,7 @@
       <Placemark>
         <name>Ukraine</name>
         <description>Kyiv</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>30.537317000000005,50.447155,0.0</coordinates>
         </Point>
@@ -2748,6 +2938,7 @@
       <Placemark>
         <name>United Arab Emirates</name>
         <description>Abu Dhabi</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>54.331234,24.463093000000004,0.0</coordinates>
         </Point>
@@ -2763,6 +2954,7 @@
       <Placemark>
         <name>The United Kingdom</name>
         <description>London</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-0.125839,51.49944,0.0</coordinates>
         </Point>
@@ -2778,6 +2970,7 @@
       <Placemark>
         <name>The United States of America</name>
         <description>Washington D.C.</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-77.009933,38.889814,0.0</coordinates>
         </Point>
@@ -2793,6 +2986,7 @@
       <Placemark>
         <name>Uruguay</name>
         <description>Montevideo</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-56.186998,-34.890859,0.0</coordinates>
         </Point>
@@ -2808,6 +3002,7 @@
       <Placemark>
         <name>Uzbekistan</name>
         <description>Tashkent</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>69.265843,41.314297,0.0</coordinates>
         </Point>
@@ -2823,6 +3018,7 @@
       <Placemark>
         <name>Vanuatu</name>
         <description>Port Vila</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>168.315825,-17.745493,0.0</coordinates>
         </Point>
@@ -2838,6 +3034,7 @@
       <Placemark>
         <name>The Vatican</name>
         <description>Vatican City</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>12.45575,41.902213,0.0</coordinates>
         </Point>
@@ -2853,6 +3050,7 @@
       <Placemark>
         <name>Venezuela</name>
         <description>Caracas</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>-66.915783,10.505672000000002,0.0</coordinates>
         </Point>
@@ -2868,6 +3066,7 @@
       <Placemark>
         <name>Vietnam</name>
         <description>Hanoi</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>105.854779,21.022362,0.0</coordinates>
         </Point>
@@ -2883,6 +3082,7 @@
       <Placemark>
         <name>Yemen</name>
         <description>Sana'a</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>44.202925,15.354933999999998,0.0</coordinates>
         </Point>
@@ -2898,6 +3098,7 @@
       <Placemark>
         <name>Zambia</name>
         <description>Lusaka</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>28.309169,-15.392049,0.0</coordinates>
         </Point>
@@ -2913,6 +3114,7 @@
       <Placemark>
         <name>Zimbabwe</name>
         <description>Harare</description>
+        <styleUrl>#bluePin</styleUrl>
         <Point>
           <coordinates>31.052231000000003,-17.828248,0.0</coordinates>
         </Point>
