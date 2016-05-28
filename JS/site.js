@@ -40,6 +40,36 @@ function initMap() {
 
 function mapLoaded() {
     countries = xml.docSet.docs[0].folders[0].placemarks;
+    addScriptAsync('/JS/maplabel.js', mapLabelLoaded);
+}
+
+function addScriptAsync(src, callback) {
+    var script = document.createElement('script');
+    script.src = src;
+    script.async = false;
+     if (callback) {
+         script.addEventListener('load', function (e) {
+             callback(null, e);
+         }, false);
+     }
+    document.head.appendChild(script);
+}
+
+function mapLabelLoaded() {
+    for (var i = 0; i < countries.length; i++) {
+        var c = getCountryById(i);
+        var lat = c.coords[0].coordinates[0].lat;
+        var lng = c.coords[0].coordinates[0].lng;
+        //var lat = c.lat;
+        //var lng = c.lng;
+        //debugger;
+        new MapLabel({
+            position: new google.maps.LatLng({ lat: lat, lng: lng }),
+            text: c.name,
+            fontSize: 24,
+            map: map
+        });
+    }
 }
 
 function reset() {
@@ -197,7 +227,8 @@ function getCountryById(id) {
         name: country.name,
         capital: country.description,
         iso2: country.iso2,
-        iso3: country.iso2
+        iso3: country.iso2,
+        coords: country.coords
     };
 }
 

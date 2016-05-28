@@ -24,6 +24,9 @@
           <Data name="ISO2">
             <value>AF</value>
           </Data>
+          <Data name="coords">
+            <value>67.709953,33.93911</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -39,6 +42,9 @@
           </Data>
           <Data name="ISO2">
             <value>AL</value>
+          </Data>
+          <Data name="coords">
+            <value>20.168331,41.153332</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -56,6 +62,9 @@
           <Data name="ISO2">
             <value>DZ</value>
           </Data>
+          <Data name="coords">
+            <value>1.659626,28.033886</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -71,6 +80,9 @@
           </Data>
           <Data name="ISO2">
             <value>AD</value>
+          </Data>
+          <Data name="coords">
+            <value>1.601554,42.546245</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -88,6 +100,9 @@
           <Data name="ISO2">
             <value>AO</value>
           </Data>
+          <Data name="coords">
+            <value>17.873887,-11.202692</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -103,6 +118,9 @@
           </Data>
           <Data name="ISO2">
             <value>AG</value>
+          </Data>
+          <Data name="coords">
+            <value>-61.796428,17.060816</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -120,6 +138,9 @@
           <Data name="ISO2">
             <value>AR</value>
           </Data>
+          <Data name="coords">
+            <value>-63.616672,-38.416097</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -135,6 +156,9 @@
           </Data>
           <Data name="ISO2">
             <value>AM</value>
+          </Data>
+          <Data name="coords">
+            <value>45.038189,40.069099</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -152,6 +176,9 @@
           <Data name="ISO2">
             <value>AU</value>
           </Data>
+          <Data name="coords">
+            <value>133.775136,-25.274398</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -167,6 +194,9 @@
           </Data>
           <Data name="ISO2">
             <value>AT</value>
+          </Data>
+          <Data name="coords">
+            <value>14.550072,47.516231</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -184,6 +214,9 @@
           <Data name="ISO2">
             <value>AZ</value>
           </Data>
+          <Data name="coords">
+            <value>47.576927,40.143105</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -199,6 +232,9 @@
           </Data>
           <Data name="ISO2">
             <value>BS</value>
+          </Data>
+          <Data name="coords">
+            <value>-77.39628,25.03428</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -216,6 +252,9 @@
           <Data name="ISO2">
             <value>BH</value>
           </Data>
+          <Data name="coords">
+            <value>50.637772,25.930414</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -231,6 +270,9 @@
           </Data>
           <Data name="ISO2">
             <value>BD</value>
+          </Data>
+          <Data name="coords">
+            <value>90.356331,23.684994</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -248,6 +290,9 @@
           <Data name="ISO2">
             <value>BB</value>
           </Data>
+          <Data name="coords">
+            <value>-59.543198,13.193887</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -263,6 +308,9 @@
           </Data>
           <Data name="ISO2">
             <value>BY</value>
+          </Data>
+          <Data name="coords">
+            <value>27.953389,53.709807</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -280,6 +328,9 @@
           <Data name="ISO2">
             <value>BE</value>
           </Data>
+          <Data name="coords">
+            <value>4.469936,50.503887</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -295,6 +346,9 @@
           </Data>
           <Data name="ISO2">
             <value>BZ</value>
+          </Data>
+          <Data name="coords">
+            <value>-88.49765,17.189877</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -312,6 +366,9 @@
           <Data name="ISO2">
             <value>BJ</value>
           </Data>
+          <Data name="coords">
+            <value>2.315834,9.30769</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -327,6 +384,9 @@
           </Data>
           <Data name="ISO2">
             <value>BT</value>
+          </Data>
+          <Data name="coords">
+            <value>90.433601,27.514162</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -344,6 +404,9 @@
           <Data name="ISO2">
             <value>BO</value>
           </Data>
+          <Data name="coords">
+            <value>-63.588653,-16.290154</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -359,6 +422,9 @@
           </Data>
           <Data name="ISO2">
             <value>BA</value>
+          </Data>
+          <Data name="coords">
+            <value>17.679076,43.915886</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -376,6 +442,9 @@
           <Data name="ISO2">
             <value>BW</value>
           </Data>
+          <Data name="coords">
+            <value>24.684866,-22.328474</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -391,6 +460,9 @@
           </Data>
           <Data name="ISO2">
             <value>BR</value>
+          </Data>
+          <Data name="coords">
+            <value>-51.92528,-14.235004</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -408,6 +480,9 @@
           <Data name="ISO2">
             <value>BN</value>
           </Data>
+          <Data name="coords">
+            <value>114.727669,4.535277</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -423,6 +498,9 @@
           </Data>
           <Data name="ISO2">
             <value>BG</value>
+          </Data>
+          <Data name="coords">
+            <value>25.48583,42.733883</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -440,6 +518,9 @@
           <Data name="ISO2">
             <value>BF</value>
           </Data>
+          <Data name="coords">
+            <value>-1.561593,12.238333</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -455,6 +536,9 @@
           </Data>
           <Data name="ISO2">
             <value>BI</value>
+          </Data>
+          <Data name="coords">
+            <value>29.918886,-3.373056</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -472,6 +556,9 @@
           <Data name="ISO2">
             <value>KH</value>
           </Data>
+          <Data name="coords">
+            <value>104.990963,12.565679</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -487,6 +574,9 @@
           </Data>
           <Data name="ISO2">
             <value>CM</value>
+          </Data>
+          <Data name="coords">
+            <value>12.354722,7.369722</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -504,6 +594,9 @@
           <Data name="ISO2">
             <value>CA</value>
           </Data>
+          <Data name="coords">
+            <value>-106.346771,56.130366</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -519,6 +612,9 @@
           </Data>
           <Data name="ISO2">
             <value>CV</value>
+          </Data>
+          <Data name="coords">
+            <value>-24.013197,16.002082</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -536,6 +632,9 @@
           <Data name="ISO2">
             <value>CF</value>
           </Data>
+          <Data name="coords">
+            <value>20.939444,6.611111</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -551,6 +650,9 @@
           </Data>
           <Data name="ISO2">
             <value>TD</value>
+          </Data>
+          <Data name="coords">
+            <value>18.732207,15.454166</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -568,6 +670,9 @@
           <Data name="ISO2">
             <value>CL</value>
           </Data>
+          <Data name="coords">
+            <value>-71.542969,-35.675147</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -583,6 +688,9 @@
           </Data>
           <Data name="ISO2">
             <value>CN</value>
+          </Data>
+          <Data name="coords">
+            <value>104.195397,35.86166</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -600,6 +708,9 @@
           <Data name="ISO2">
             <value>CO</value>
           </Data>
+          <Data name="coords">
+            <value>-74.297333,4.570868</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -615,6 +726,9 @@
           </Data>
           <Data name="ISO2">
             <value>KM</value>
+          </Data>
+          <Data name="coords">
+            <value>43.872219,-11.875001</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -632,6 +746,9 @@
           <Data name="ISO2">
             <value>CD</value>
           </Data>
+          <Data name="coords">
+            <value>21.758664,-4.038333</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -647,6 +764,9 @@
           </Data>
           <Data name="ISO2">
             <value>CG</value>
+          </Data>
+          <Data name="coords">
+            <value>15.827659,-0.228021</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -664,6 +784,9 @@
           <Data name="ISO2">
             <value>CR</value>
           </Data>
+          <Data name="coords">
+            <value>-83.753428,9.748917</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -679,6 +802,9 @@
           </Data>
           <Data name="ISO2">
             <value>CI</value>
+          </Data>
+          <Data name="coords">
+            <value>-5.54708,7.539989</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -696,6 +822,9 @@
           <Data name="ISO2">
             <value>HR</value>
           </Data>
+          <Data name="coords">
+            <value>15.2,45.1</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -711,6 +840,9 @@
           </Data>
           <Data name="ISO2">
             <value>CU</value>
+          </Data>
+          <Data name="coords">
+            <value>-77.781167,21.521757</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -728,6 +860,9 @@
           <Data name="ISO2">
             <value>CY</value>
           </Data>
+          <Data name="coords">
+            <value>33.429859,35.126413</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -743,6 +878,9 @@
           </Data>
           <Data name="ISO2">
             <value>CZ</value>
+          </Data>
+          <Data name="coords">
+            <value>15.472962,49.817492</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -760,6 +898,9 @@
           <Data name="ISO2">
             <value>DK</value>
           </Data>
+          <Data name="coords">
+            <value>9.501785,56.26392</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -775,6 +916,9 @@
           </Data>
           <Data name="ISO2">
             <value>DJ</value>
+          </Data>
+          <Data name="coords">
+            <value>42.590275,11.825138</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -792,6 +936,9 @@
           <Data name="ISO2">
             <value>DM</value>
           </Data>
+          <Data name="coords">
+            <value>-61.370976,15.414999</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -807,6 +954,9 @@
           </Data>
           <Data name="ISO2">
             <value>DO</value>
+          </Data>
+          <Data name="coords">
+            <value>-70.162651,18.735693</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -824,6 +974,9 @@
           <Data name="ISO2">
             <value>TL</value>
           </Data>
+          <Data name="coords">
+            <value>125.727539,-8.874217</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -839,6 +992,9 @@
           </Data>
           <Data name="ISO2">
             <value>EC</value>
+          </Data>
+          <Data name="coords">
+            <value>-78.183406,-1.831239</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -856,6 +1012,9 @@
           <Data name="ISO2">
             <value>EG</value>
           </Data>
+          <Data name="coords">
+            <value>30.802498,26.820553</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -871,6 +1030,9 @@
           </Data>
           <Data name="ISO2">
             <value>SV</value>
+          </Data>
+          <Data name="coords">
+            <value>-88.89653,13.794185</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -888,6 +1050,9 @@
           <Data name="ISO2">
             <value>GQ</value>
           </Data>
+          <Data name="coords">
+            <value>10.267895,1.650801</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -903,6 +1068,9 @@
           </Data>
           <Data name="ISO2">
             <value>ER</value>
+          </Data>
+          <Data name="coords">
+            <value>39.782334,15.179384</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -920,6 +1088,9 @@
           <Data name="ISO2">
             <value>EE</value>
           </Data>
+          <Data name="coords">
+            <value>25.013607,58.595272</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -935,6 +1106,9 @@
           </Data>
           <Data name="ISO2">
             <value>ET</value>
+          </Data>
+          <Data name="coords">
+            <value>40.489673,9.145</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -952,6 +1126,9 @@
           <Data name="ISO2">
             <value>FJ</value>
           </Data>
+          <Data name="coords">
+            <value>179.414413,-16.578193</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -967,6 +1144,9 @@
           </Data>
           <Data name="ISO2">
             <value>FI</value>
+          </Data>
+          <Data name="coords">
+            <value>25.748151,61.92411</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -984,6 +1164,9 @@
           <Data name="ISO2">
             <value>FR</value>
           </Data>
+          <Data name="coords">
+            <value>2.213749,46.227638</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -999,6 +1182,9 @@
           </Data>
           <Data name="ISO2">
             <value>GA</value>
+          </Data>
+          <Data name="coords">
+            <value>11.609444,-0.803689</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1016,6 +1202,9 @@
           <Data name="ISO2">
             <value>GM</value>
           </Data>
+          <Data name="coords">
+            <value>-15.310139,13.443182</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1031,6 +1220,9 @@
           </Data>
           <Data name="ISO2">
             <value>GE</value>
+          </Data>
+          <Data name="coords">
+            <value>43.356892,42.315407</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1048,6 +1240,9 @@
           <Data name="ISO2">
             <value>DE</value>
           </Data>
+          <Data name="coords">
+            <value>10.451526,51.165691</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1063,6 +1258,9 @@
           </Data>
           <Data name="ISO2">
             <value>GH</value>
+          </Data>
+          <Data name="coords">
+            <value>-1.023194,7.946527</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1080,6 +1278,9 @@
           <Data name="ISO2">
             <value>GR</value>
           </Data>
+          <Data name="coords">
+            <value>21.824312,39.074208</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1095,6 +1296,9 @@
           </Data>
           <Data name="ISO2">
             <value>GD</value>
+          </Data>
+          <Data name="coords">
+            <value>-61.604171,12.262776</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1112,6 +1316,9 @@
           <Data name="ISO2">
             <value>GT</value>
           </Data>
+          <Data name="coords">
+            <value>-90.230759,15.783471</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1127,6 +1334,9 @@
           </Data>
           <Data name="ISO2">
             <value>GW</value>
+          </Data>
+          <Data name="coords">
+            <value>-15.180413,11.803749</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1144,6 +1354,9 @@
           <Data name="ISO2">
             <value>GN</value>
           </Data>
+          <Data name="coords">
+            <value>-9.696645,9.945587</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1159,6 +1372,9 @@
           </Data>
           <Data name="ISO2">
             <value>GY</value>
+          </Data>
+          <Data name="coords">
+            <value>-58.93018,4.860416</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1176,6 +1392,9 @@
           <Data name="ISO2">
             <value>HT</value>
           </Data>
+          <Data name="coords">
+            <value>-72.285215,18.971187</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1191,6 +1410,9 @@
           </Data>
           <Data name="ISO2">
             <value>HN</value>
+          </Data>
+          <Data name="coords">
+            <value>-86.241905,15.199999</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1208,6 +1430,9 @@
           <Data name="ISO2">
             <value>HU</value>
           </Data>
+          <Data name="coords">
+            <value>19.503304,47.162494</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1223,6 +1448,9 @@
           </Data>
           <Data name="ISO2">
             <value>IS</value>
+          </Data>
+          <Data name="coords">
+            <value>-19.020835,64.963051</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1240,6 +1468,9 @@
           <Data name="ISO2">
             <value>IN</value>
           </Data>
+          <Data name="coords">
+            <value>78.96288,20.593684</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1255,6 +1486,9 @@
           </Data>
           <Data name="ISO2">
             <value>ID</value>
+          </Data>
+          <Data name="coords">
+            <value>113.921327,-0.789275</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1272,6 +1506,9 @@
           <Data name="ISO2">
             <value>IR</value>
           </Data>
+          <Data name="coords">
+            <value>53.688046,32.427908</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1287,6 +1524,9 @@
           </Data>
           <Data name="ISO2">
             <value>IQ</value>
+          </Data>
+          <Data name="coords">
+            <value>43.679291,33.223191</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1304,6 +1544,9 @@
           <Data name="ISO2">
             <value>IE</value>
           </Data>
+          <Data name="coords">
+            <value>-8.24389,53.41291</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1319,6 +1562,9 @@
           </Data>
           <Data name="ISO2">
             <value>IL</value>
+          </Data>
+          <Data name="coords">
+            <value>34.851612,31.046051</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1336,6 +1582,9 @@
           <Data name="ISO2">
             <value>IT</value>
           </Data>
+          <Data name="coords">
+            <value>12.56738,41.87194</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1351,6 +1600,9 @@
           </Data>
           <Data name="ISO2">
             <value>JM</value>
+          </Data>
+          <Data name="coords">
+            <value>-77.297508,18.109581</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1368,6 +1620,9 @@
           <Data name="ISO2">
             <value>JP</value>
           </Data>
+          <Data name="coords">
+            <value>138.252924,36.204824</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1383,6 +1638,9 @@
           </Data>
           <Data name="ISO2">
             <value>JO</value>
+          </Data>
+          <Data name="coords">
+            <value>36.238414,30.585164</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1400,6 +1658,9 @@
           <Data name="ISO2">
             <value>KZ</value>
           </Data>
+          <Data name="coords">
+            <value>66.923684,48.019573</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1415,6 +1676,9 @@
           </Data>
           <Data name="ISO2">
             <value>KE</value>
+          </Data>
+          <Data name="coords">
+            <value>37.906193,-0.023559</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1432,6 +1696,9 @@
           <Data name="ISO2">
             <value>KI</value>
           </Data>
+          <Data name="coords">
+            <value>-168.734039,-3.370417</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1447,6 +1714,9 @@
           </Data>
           <Data name="ISO2">
             <value>KP</value>
+          </Data>
+          <Data name="coords">
+            <value>127.510093,40.339852</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1464,6 +1734,9 @@
           <Data name="ISO2">
             <value>KR</value>
           </Data>
+          <Data name="coords">
+            <value>127.766922,35.907757</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1479,6 +1752,9 @@
           </Data>
           <Data name="ISO2">
             <value>KW</value>
+          </Data>
+          <Data name="coords">
+            <value>47.481766,29.31166</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1496,6 +1772,9 @@
           <Data name="ISO2">
             <value>KG</value>
           </Data>
+          <Data name="coords">
+            <value>74.766098,41.20438</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1511,6 +1790,9 @@
           </Data>
           <Data name="ISO2">
             <value>LA</value>
+          </Data>
+          <Data name="coords">
+            <value>102.495496,19.85627</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1528,6 +1810,9 @@
           <Data name="ISO2">
             <value>LV</value>
           </Data>
+          <Data name="coords">
+            <value>24.603189,56.879635</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1543,6 +1828,9 @@
           </Data>
           <Data name="ISO2">
             <value>LB</value>
+          </Data>
+          <Data name="coords">
+            <value>35.862285,33.854721</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1560,6 +1848,9 @@
           <Data name="ISO2">
             <value>LS</value>
           </Data>
+          <Data name="coords">
+            <value>28.233608,-29.609988</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1575,6 +1866,9 @@
           </Data>
           <Data name="ISO2">
             <value>LR</value>
+          </Data>
+          <Data name="coords">
+            <value>-9.429499,6.428055</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1592,6 +1886,9 @@
           <Data name="ISO2">
             <value>LY</value>
           </Data>
+          <Data name="coords">
+            <value>17.228331,26.3351</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1608,6 +1905,9 @@
           <Data name="ISO2">
             <value>LI</value>
           </Data>
+          <Data name="coords">
+            <value>9.555373,47.166</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1622,7 +1922,10 @@
             <value>LTU</value>
           </Data>
           <Data name="ISO2">
-            <value>LY</value>
+            <value>LT</value>
+          </Data>
+          <Data name="coords">
+            <value>23.881275,55.169438</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1640,6 +1943,9 @@
           <Data name="ISO2">
             <value>LU</value>
           </Data>
+          <Data name="coords">
+            <value>6.129583,49.815273</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1655,6 +1961,9 @@
           </Data>
           <Data name="ISO2">
             <value>MK</value>
+          </Data>
+          <Data name="coords">
+            <value>21.745275,41.608635</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1672,6 +1981,9 @@
           <Data name="ISO2">
             <value>MG</value>
           </Data>
+          <Data name="coords">
+            <value>46.869107,-18.766947</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1687,6 +1999,9 @@
           </Data>
           <Data name="ISO2">
             <value>MW</value>
+          </Data>
+          <Data name="coords">
+            <value>34.301525,-13.254308</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1704,6 +2019,9 @@
           <Data name="ISO2">
             <value>MY</value>
           </Data>
+          <Data name="coords">
+            <value>101.975766,4.210484</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1719,6 +2037,9 @@
           </Data>
           <Data name="ISO2">
             <value>MV</value>
+          </Data>
+          <Data name="coords">
+            <value>73.22068,3.202778</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1736,6 +2057,9 @@
           <Data name="ISO2">
             <value>ML</value>
           </Data>
+          <Data name="coords">
+            <value>-3.996166,17.570692</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1751,6 +2075,9 @@
           </Data>
           <Data name="ISO2">
             <value>MT</value>
+          </Data>
+          <Data name="coords">
+            <value>14.375416,35.937496</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1768,6 +2095,9 @@
           <Data name="ISO2">
             <value>MH</value>
           </Data>
+          <Data name="coords">
+            <value>171.184478,7.131474</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1783,6 +2113,9 @@
           </Data>
           <Data name="ISO2">
             <value>MR</value>
+          </Data>
+          <Data name="coords">
+            <value>-10.940835,21.00789</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1800,6 +2133,9 @@
           <Data name="ISO2">
             <value>MU</value>
           </Data>
+          <Data name="coords">
+            <value>57.552152,-20.348404</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1815,6 +2151,9 @@
           </Data>
           <Data name="ISO2">
             <value>MX</value>
+          </Data>
+          <Data name="coords">
+            <value>-102.552784,23.634501</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1832,6 +2171,9 @@
           <Data name="ISO2">
             <value>FM</value>
           </Data>
+          <Data name="coords">
+            <value>150.550812,7.425554</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1847,6 +2189,9 @@
           </Data>
           <Data name="ISO2">
             <value>MD</value>
+          </Data>
+          <Data name="coords">
+            <value>28.369885,47.411631</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1864,6 +2209,9 @@
           <Data name="ISO2">
             <value>MC</value>
           </Data>
+          <Data name="coords">
+            <value>7.412841,43.750298</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1879,6 +2227,9 @@
           </Data>
           <Data name="ISO2">
             <value>MN</value>
+          </Data>
+          <Data name="coords">
+            <value>103.846656,46.862496</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1896,6 +2247,9 @@
           <Data name="ISO2">
             <value>ME</value>
           </Data>
+          <Data name="coords">
+            <value>19.37439,42.708678</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1911,6 +2265,9 @@
           </Data>
           <Data name="ISO2">
             <value>MA</value>
+          </Data>
+          <Data name="coords">
+            <value>-7.09262,31.791702</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1928,6 +2285,9 @@
           <Data name="ISO2">
             <value>MZ</value>
           </Data>
+          <Data name="coords">
+            <value>35.529562,-18.665695</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1943,6 +2303,9 @@
           </Data>
           <Data name="ISO2">
             <value>MM</value>
+          </Data>
+          <Data name="coords">
+            <value>95.956223,21.913965</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1960,6 +2323,9 @@
           <Data name="ISO2">
             <value>NA</value>
           </Data>
+          <Data name="coords">
+            <value>18.49041,-22.95764</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -1975,6 +2341,9 @@
           </Data>
           <Data name="ISO2">
             <value>NR</value>
+          </Data>
+          <Data name="coords">
+            <value>166.931503,-0.522778</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -1992,6 +2361,9 @@
           <Data name="ISO2">
             <value>NP</value>
           </Data>
+          <Data name="coords">
+            <value>84.124008,28.394857</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2007,6 +2379,9 @@
           </Data>
           <Data name="ISO2">
             <value>NL</value>
+          </Data>
+          <Data name="coords">
+            <value>5.291266,52.132633</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2024,6 +2399,9 @@
           <Data name="ISO2">
             <value>NZ</value>
           </Data>
+          <Data name="coords">
+            <value>174.885971,-40.900557</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2039,6 +2417,9 @@
           </Data>
           <Data name="ISO2">
             <value>NI</value>
+          </Data>
+          <Data name="coords">
+            <value>-85.207229,12.865416</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2056,6 +2437,9 @@
           <Data name="ISO2">
             <value>NE</value>
           </Data>
+          <Data name="coords">
+            <value>8.081666,17.607789</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2071,6 +2455,9 @@
           </Data>
           <Data name="ISO2">
             <value>NG</value>
+          </Data>
+          <Data name="coords">
+            <value>8.675277,9.081999</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2088,6 +2475,9 @@
           <Data name="ISO2">
             <value>NO</value>
           </Data>
+          <Data name="coords">
+            <value>8.468946,60.472024</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2103,6 +2493,9 @@
           </Data>
           <Data name="ISO2">
             <value>OM</value>
+          </Data>
+          <Data name="coords">
+            <value>55.923255,21.512583</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2120,6 +2513,9 @@
           <Data name="ISO2">
             <value>PK</value>
           </Data>
+          <Data name="coords">
+            <value>69.345116,30.375321</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2135,6 +2531,9 @@
           </Data>
           <Data name="ISO2">
             <value>PW</value>
+          </Data>
+          <Data name="coords">
+            <value>134.58252,7.51498</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2152,6 +2551,9 @@
           <Data name="ISO2">
             <value>PA</value>
           </Data>
+          <Data name="coords">
+            <value>-80.782127,8.537981</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2167,6 +2569,9 @@
           </Data>
           <Data name="ISO2">
             <value>PG</value>
+          </Data>
+          <Data name="coords">
+            <value>143.95555,-6.314993</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2184,6 +2589,9 @@
           <Data name="ISO2">
             <value>PY</value>
           </Data>
+          <Data name="coords">
+            <value>-58.443832,-23.442503</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2199,6 +2607,9 @@
           </Data>
           <Data name="ISO2">
             <value>PE</value>
+          </Data>
+          <Data name="coords">
+            <value>-75.015152,-9.189967</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2216,6 +2627,9 @@
           <Data name="ISO2">
             <value>PH</value>
           </Data>
+          <Data name="coords">
+            <value>121.774017,12.879721</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2231,6 +2645,9 @@
           </Data>
           <Data name="ISO2">
             <value>PL</value>
+          </Data>
+          <Data name="coords">
+            <value>19.145136,51.919438</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2248,6 +2665,9 @@
           <Data name="ISO2">
             <value>PT</value>
           </Data>
+          <Data name="coords">
+            <value>-8.224454,39.399872</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2263,6 +2683,9 @@
           </Data>
           <Data name="ISO2">
             <value>QA</value>
+          </Data>
+          <Data name="coords">
+            <value>51.183884,25.354826</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2280,6 +2703,9 @@
           <Data name="ISO2">
             <value>RO</value>
           </Data>
+          <Data name="coords">
+            <value>24.96676,45.943161</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2295,6 +2721,9 @@
           </Data>
           <Data name="ISO2">
             <value>RU</value>
+          </Data>
+          <Data name="coords">
+            <value>105.318756,61.52401</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2312,6 +2741,9 @@
           <Data name="ISO2">
             <value>RW</value>
           </Data>
+          <Data name="coords">
+            <value>29.873888,-1.940278</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2327,6 +2759,9 @@
           </Data>
           <Data name="ISO2">
             <value>KN</value>
+          </Data>
+          <Data name="coords">
+            <value>-62.782998,17.357822</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2344,6 +2779,9 @@
           <Data name="ISO2">
             <value>LC</value>
           </Data>
+          <Data name="coords">
+            <value>-60.978893,13.909444</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2359,6 +2797,9 @@
           </Data>
           <Data name="ISO2">
             <value>VC</value>
+          </Data>
+          <Data name="coords">
+            <value>-61.287228,12.984305</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2376,6 +2817,9 @@
           <Data name="ISO2">
             <value>WS</value>
           </Data>
+          <Data name="coords">
+            <value>-172.104629,-13.759029</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2391,6 +2835,9 @@
           </Data>
           <Data name="ISO2">
             <value>SM</value>
+          </Data>
+          <Data name="coords">
+            <value>12.457777,43.94236</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2408,6 +2855,9 @@
           <Data name="ISO2">
             <value>ST</value>
           </Data>
+          <Data name="coords">
+            <value>6.613081,0.18636</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2423,6 +2873,9 @@
           </Data>
           <Data name="ISO2">
             <value>SA</value>
+          </Data>
+          <Data name="coords">
+            <value>45.079162,23.885942</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2440,6 +2893,9 @@
           <Data name="ISO2">
             <value>SN</value>
           </Data>
+          <Data name="coords">
+            <value>-14.452362,14.497401</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2455,6 +2911,9 @@
           </Data>
           <Data name="ISO2">
             <value>RS</value>
+          </Data>
+          <Data name="coords">
+            <value>21.005859,44.016521</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2472,6 +2931,9 @@
           <Data name="ISO2">
             <value>SC</value>
           </Data>
+          <Data name="coords">
+            <value>55.491977,-4.679574</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2487,6 +2949,9 @@
           </Data>
           <Data name="ISO2">
             <value>SL</value>
+          </Data>
+          <Data name="coords">
+            <value>-11.779889,8.460555</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2504,6 +2969,9 @@
           <Data name="ISO2">
             <value>SG</value>
           </Data>
+          <Data name="coords">
+            <value>103.819836,1.352083</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2519,6 +2987,9 @@
           </Data>
           <Data name="ISO2">
             <value>SK</value>
+          </Data>
+          <Data name="coords">
+            <value>19.699024,48.669026</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2536,6 +3007,9 @@
           <Data name="ISO2">
             <value>SI</value>
           </Data>
+          <Data name="coords">
+            <value>14.995463,46.151241</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2551,6 +3025,9 @@
           </Data>
           <Data name="ISO2">
             <value>SB</value>
+          </Data>
+          <Data name="coords">
+            <value>160.156194,-9.64571</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2568,6 +3045,9 @@
           <Data name="ISO2">
             <value>SO</value>
           </Data>
+          <Data name="coords">
+            <value>46.199616,5.152149</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2583,6 +3063,9 @@
           </Data>
           <Data name="ISO2">
             <value>ZA</value>
+          </Data>
+          <Data name="coords">
+            <value>22.937506,-30.559482</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2600,6 +3083,9 @@
           <Data name="ISO2">
             <value>ES</value>
           </Data>
+          <Data name="coords">
+            <value>-3.74922,40.463667</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2615,6 +3101,9 @@
           </Data>
           <Data name="ISO2">
             <value>LK</value>
+          </Data>
+          <Data name="coords">
+            <value>80.771797,7.873054</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2632,6 +3121,9 @@
           <Data name="ISO2">
             <value>SD</value>
           </Data>
+          <Data name="coords">
+            <value>30.217636,12.862807</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2647,6 +3139,9 @@
           </Data>
           <Data name="ISO2">
             <value>SS</value>
+          </Data>
+          <Data name="coords">
+            <value>30.217636,12.862807</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2664,6 +3159,9 @@
           <Data name="ISO2">
             <value>SR</value>
           </Data>
+          <Data name="coords">
+            <value>-56.027783,3.919305</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2679,6 +3177,9 @@
           </Data>
           <Data name="ISO2">
             <value>SZ</value>
+          </Data>
+          <Data name="coords">
+            <value>31.465866,-26.522503</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2696,6 +3197,9 @@
           <Data name="ISO2">
             <value>SE</value>
           </Data>
+          <Data name="coords">
+            <value>18.643501,60.128161</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2711,6 +3215,9 @@
           </Data>
           <Data name="ISO2">
             <value>CH</value>
+          </Data>
+          <Data name="coords">
+            <value>8.227512,46.818188</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2728,6 +3235,9 @@
           <Data name="ISO2">
             <value>SY</value>
           </Data>
+          <Data name="coords">
+            <value>38.996815,34.802075</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2740,6 +3250,12 @@
         <ExtendedData>
           <Data name="ISO3">
             <value>TWN</value>
+          </Data>
+          <Data name="ISO2">
+            <value>TW</value>
+          </Data>
+          <Data name="coords">
+            <value>120.960515,23.69781</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2757,6 +3273,9 @@
           <Data name="ISO2">
             <value>TJ</value>
           </Data>
+          <Data name="coords">
+            <value>71.276093,38.861034</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2772,6 +3291,9 @@
           </Data>
           <Data name="ISO2">
             <value>TZ</value>
+          </Data>
+          <Data name="coords">
+            <value>34.888822,-6.369028</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2789,6 +3311,9 @@
           <Data name="ISO2">
             <value>TH</value>
           </Data>
+          <Data name="coords">
+            <value>100.992541,15.870032</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2804,6 +3329,9 @@
           </Data>
           <Data name="ISO2">
             <value>TG</value>
+          </Data>
+          <Data name="coords">
+            <value>0.824782,8.619543</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2821,6 +3349,9 @@
           <Data name="ISO2">
             <value>TO</value>
           </Data>
+          <Data name="coords">
+            <value>-175.198242,-21.178986</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2836,6 +3367,9 @@
           </Data>
           <Data name="ISO2">
             <value>TT</value>
+          </Data>
+          <Data name="coords">
+            <value>-61.222503,10.691803</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2853,6 +3387,9 @@
           <Data name="ISO2">
             <value>TN</value>
           </Data>
+          <Data name="coords">
+            <value>9.537499,33.886917</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2868,6 +3405,9 @@
           </Data>
           <Data name="ISO2">
             <value>TR</value>
+          </Data>
+          <Data name="coords">
+            <value>35.243322,38.963745</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2885,6 +3425,9 @@
           <Data name="ISO2">
             <value>TM</value>
           </Data>
+          <Data name="coords">
+            <value>59.556278,38.969719</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2900,6 +3443,9 @@
           </Data>
           <Data name="ISO2">
             <value>TV</value>
+          </Data>
+          <Data name="coords">
+            <value>177.64933,-7.109535</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2917,6 +3463,9 @@
           <Data name="ISO2">
             <value>UG</value>
           </Data>
+          <Data name="coords">
+            <value>32.290275,1.373333</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2932,6 +3481,9 @@
           </Data>
           <Data name="ISO2">
             <value>UA</value>
+          </Data>
+          <Data name="coords">
+            <value>31.16558,48.379433</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2949,6 +3501,9 @@
           <Data name="ISO2">
             <value>AE</value>
           </Data>
+          <Data name="coords">
+            <value>53.847818,23.424076</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2964,6 +3519,9 @@
           </Data>
           <Data name="ISO2">
             <value>GB</value>
+          </Data>
+          <Data name="coords">
+            <value>-3.435973,55.378051</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -2981,6 +3539,9 @@
           <Data name="ISO2">
             <value>US</value>
           </Data>
+          <Data name="coords">
+            <value>-95.712891,37.09024</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -2996,6 +3557,9 @@
           </Data>
           <Data name="ISO2">
             <value>UY</value>
+          </Data>
+          <Data name="coords">
+            <value>-55.765835,-32.522779</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -3013,6 +3577,9 @@
           <Data name="ISO2">
             <value>UZ</value>
           </Data>
+          <Data name="coords">
+            <value>64.585262,41.377491</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -3028,6 +3595,9 @@
           </Data>
           <Data name="ISO2">
             <value>VU</value>
+          </Data>
+          <Data name="coords">
+            <value>166.959158,-15.376706</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -3045,6 +3615,9 @@
           <Data name="ISO2">
             <value>VA</value>
           </Data>
+          <Data name="coords">
+            <value>12.453389,41.902916</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -3060,6 +3633,9 @@
           </Data>
           <Data name="ISO2">
             <value>VE</value>
+          </Data>
+          <Data name="coords">
+            <value>-66.58973,6.42375</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -3077,6 +3653,9 @@
           <Data name="ISO2">
             <value>VN</value>
           </Data>
+          <Data name="coords">
+            <value>108.277199,14.058324</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -3092,6 +3671,9 @@
           </Data>
           <Data name="ISO2">
             <value>YE</value>
+          </Data>
+          <Data name="coords">
+            <value>48.516388,15.552727</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -3109,6 +3691,9 @@
           <Data name="ISO2">
             <value>ZM</value>
           </Data>
+          <Data name="coords">
+            <value>27.849332,-13.133897</value>
+          </Data>
         </ExtendedData>
       </Placemark>
       <Placemark>
@@ -3124,6 +3709,9 @@
           </Data>
           <Data name="ISO2">
             <value>ZW</value>
+          </Data>
+          <Data name="coords">
+            <value>29.154857,-19.015438</value>
           </Data>
         </ExtendedData>
       </Placemark>

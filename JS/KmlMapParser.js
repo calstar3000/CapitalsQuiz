@@ -978,6 +978,7 @@ KmlMapParser.prototype = {
                     styleUrl: this.getNodeValue(placemarkNode.getElementsByTagName('styleUrl')[0]),
                     iso2: this.getNodeValue(placemarkNode.getElementsByTagName('Data')[1]),
                     iso3: this.getNodeValue(placemarkNode.getElementsByTagName('Data')[0]),
+                    coords: this.getCoords(placemarkNode.getElementsByTagName('Data')[2], "Point", 'value'),
     		  		shape: []
                 },
       	  inlineStyles = placemarkNode.getElementsByTagName('Style'),
@@ -1252,19 +1253,19 @@ KmlMapParser.prototype = {
             this.processPlacemarkCoords(placemark, node);
             break;
           case "LinearRing":
-            placemark.shape.push({ polygon: this.getCoords(node,"LinearRing")});
+            placemark.shape.push({ polygon: this.getCoords(node,"LinearRing", 'coordinates')});
             break;
           case "Polygon":
-            placemark.shape.push({ polygon: this.getCoords(node,"LinearRing")});
+            placemark.shape.push({ polygon: this.getCoords(node,"LinearRing", 'coordinates')});
             break;
           case "Point":
-            placemark.shape.push({ point: this.getCoords(node, "Point")[0]});
+            placemark.shape.push({ point: this.getCoords(node, "Point", 'coordinates')[0]});
             break;
           case "Circle":
-            placemark.shape.push({ circle: this.getCoords(node, "Point")[0]});
+            placemark.shape.push({ circle: this.getCoords(node, "Point", 'coordinates')[0]});
             break;
           case "LineString":
-            placemark.shape.push({ linestring: this.getCoords(node,"LineString")});
+            placemark.shape.push({ linestring: this.getCoords(node,"LineString", 'coordinates')});
             break;
           default:
             break;
@@ -1318,9 +1319,9 @@ KmlMapParser.prototype = {
   /*
   * get coordinates for lat/longs and return them in an array (currently, altitude is not being used).
   */
-  getCoords : function (node, tag) {
+  getCoords : function (node, tag, tagName) {
       var coordListA = [], i, j, coords, path, pathLength, coordList, k,
-          coordNodes = node.getElementsByTagName('coordinates');
+          coordNodes = node.getElementsByTagName(tagName);
 
       if (!coordNodes){
           return [{coordinates: []}];
