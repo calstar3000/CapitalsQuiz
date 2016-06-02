@@ -1,4 +1,5 @@
 var xml = null;
+var kml = null;
 var map = null;
 var geocoder = null;
 var layer = null;
@@ -23,24 +24,70 @@ function initMap() {
       scrollwheel: false
     });
 
-    loadJSON('/JS/mapStyles.json', function(response) {
-        map.setOptions({ styles: JSON.parse(response).mapStyles });
-    });
+    setMapStyles();
 
     mapDiv.style.width = window.outerWidth + 'px';
     mapDiv.style.height = window.outerHeight + 'px';
 
+    loadFile('/Data/world-capitals.kml', "application/xml", function(response) {
+        xml = response.responseXML;
+        mapLoaded();
+    });
+
+    /*
     xml = new KmlMapParser({
         map: map,
         kml: '/Data/world-capitals.kml',
         //kml: '/Data/world-capitals-test.kml',
         afterParseFn: mapLoaded
     });
+    */
+}
+
+function setMapStyles() {
+    loadFile('/JS/mapStyles.json', "application/json", function(response) {
+        map.setOptions({ styles: JSON.parse(response.responseText).mapStyles });
+    });
 }
 
 function mapLoaded() {
-    countries = xml.docSet.docs[0].folders[0].placemarks;
-    addScriptAsync('/JS/maplabel.js', mapLabelLoaded);
+    countries = getCountries();
+    addScriptAsync('/JS/maplabel.js'); //, mapLabelLoaded);
+}
+
+function getCountries() {
+    var marks = xml.getElementsByTagName("Placemark"),
+        mark = null,
+        country = null,
+        capitalCoords = null,
+        countryCoords = null;
+
+    for (var markIndex = 0, markCount = marks.length; markIndex < markCount; markIndex++) {
+        mark = marks[markIndex];
+        capitalCoords = getCoords(mark.getElementsByTagName("coordinates")[0].textContent);
+        countryCoords = getCoords(mark.getElementsByTagName("Data")[2].getElementsByTagName("value")[0].textContent);
+        country = {
+            id: markIndex,
+            lat: capitalCoords.lat,
+            lng: capitalCoords.lng,
+            name: mark.getElementsByTagName("name")[0].textContent,
+            capital: mark.getElementsByTagName("description")[0].textContent,
+            iso3: mark.getElementsByTagName("Data")[0].getElementsByTagName("value")[0].textContent,
+            iso2: mark.getElementsByTagName("Data")[1].getElementsByTagName("value")[0].textContent,
+            coords: countryCoords
+        };
+
+        countries.push(country);
+    }
+
+    return countries;
+}
+
+function getCoords(coordText) {
+    return {
+        lat: parseFloat(coordText.split(",")[1]),
+        lng: parseFloat(coordText.split(",")[0])
+    };
 }
 
 function addScriptAsync(src, callback) {
@@ -53,23 +100,6 @@ function addScriptAsync(src, callback) {
          }, false);
      }
     document.head.appendChild(script);
-}
-
-function mapLabelLoaded() {
-    for (var i = 0; i < countries.length; i++) {
-        var c = getCountryById(i);
-        var lat = c.coords[0].coordinates[0].lat;
-        var lng = c.coords[0].coordinates[0].lng;
-        //var lat = c.lat;
-        //var lng = c.lng;
-        //debugger;
-        new MapLabel({
-            position: new google.maps.LatLng({ lat: lat, lng: lng }),
-            text: c.name,
-            fontSize: 24,
-            map: map
-        });
-    }
 }
 
 function reset() {
@@ -94,8 +124,9 @@ function startGame() {
 function moveToNextCountry() {
     var country = getNextCountry();
 
+    addMarker(country);
+    addLabel(country);
     geocodeAddress(country);
-    //highlightCountry(country.iso2);
 
     window.setTimeout(function() {
         askQuestion(country);
@@ -117,6 +148,22 @@ function highlightCountry(countryCode) {
 
     // overlay the layer on the map
     layer.setMap(map);
+}
+
+function addMarker(country) {
+    new google.maps.Marker({
+        position: new google.maps.LatLng(country.lat, country.lng),
+        map: map,
+    });
+}
+
+function addLabel(country) {
+    new MapLabel({
+        position: new google.maps.LatLng({ lat: country.coords.lat, lng: country.coords.lng }),
+        text: country.name,
+        fontSize: 24,
+        map: map
+    });
 }
 
 function geocodeAddress(country) {
@@ -211,25 +258,17 @@ function skipQuestion() {
 }
 
 function getNextCountry() {
-    var countryCount = countries.length;
-    var countryId = getRandomInt(0, countryCount);
-
-    return getCountryById(countryId);
+    return countries[getRandomInt(0, countries.length)];
 }
 
 function getCountryById(id) {
-    var country = countries[id];
-
-    return {
-        id: id,
-        lat: country.points[0].position.lat(),
-        lng: country.points[0].position.lng(),
-        name: country.name,
-        capital: country.description,
-        iso2: country.iso2,
-        iso3: country.iso2,
-        coords: country.coords
-    };
+    var country = null;
+    for (var i = 0, count = countries.length; i < count; i++) {
+        country = countries[i];
+        if (countries[i].id == id) {
+            return country;
+        }
+    }
 }
 
 // Returns a random integer between min (included) and max (excluded)
@@ -256,14 +295,14 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-function loadJSON(filePath, callback) {
+function loadFile(filePath, mimeType, callback) {
     var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
+    xobj.overrideMimeType(mimeType);
     xobj.open('GET', filePath, true);
 
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200")
-            callback(xobj.responseText);
+            callback(xobj);
     };
 
     xobj.send(null);
