@@ -10,11 +10,8 @@
 </head>
 <body>
     <div class="map-container">
-
         <div id="map"></div>
-
         <button id="startButton" class="start-button button-primary" onclick="startGame()">Start</button>
-
         <div id="pnlAnswerContainer" class="answer-container panel">
             <form id="formAnswer" onsubmit="return submitAnswer()">
                 <label for="txtAnswer" id="lblAnswer">What's the capital of...?</label>
@@ -38,6 +35,11 @@
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYfhjXRD0kJzsiiW5CfUBYUd8cZVymACw&callback=initMap" async defer></script>
     <script src="./JS/KmlMapParser.js"></script>
+    <script src="./JS/utilities.js"></script>
+    <script src="./JS/worldMap.js"></script>
+    <script src="./JS/world.js"></script>
+    <script src="./JS/game.js"></script>
+    <script src="./JS/mapMarker.js"></script>
     <script src="./JS/site.js"></script>
 </body>
 </html>
