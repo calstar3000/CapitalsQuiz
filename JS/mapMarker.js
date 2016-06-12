@@ -26,6 +26,7 @@ var mapMarker = (function() {
         new google.maps.Marker({
             position: new google.maps.LatLng(country.lat, country.lng),
             map: map,
+            icon: "../IMG/map-marker-50.png"
         });
     }
 
