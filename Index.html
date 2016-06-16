@@ -18,18 +18,30 @@
                 <input type="text" id="txtAnswer" name="textAnswer" required="required" />
                 <input class="button-submit u-pull-left" type="submit" value="Submit" />
             </form>
-            <button class="button-skip u-pull-right" onclick="skipQuestion()">Skip</button>
-            <div id="answerValidation" class="u-cf"></div>
+            <button class="button-skip u-pull-right" onclick="return submitAnswer()">Skip</button>
         </div>
 
         <div id="pnlScoreboard" class="scoreboard panel">
-            <div class="time">
-                <div>Time:</div>
+            <div class="time u-half-width u-pull-left">
+                <strong>Time</strong>
                 <div id="time">01:00</div>
             </div>
-            <div class="score">
-                <div>Score:</div>
+            <div class="score u-half-width u-pull-left">
+                <strong>Score</strong>
                 <div id="txtScore">0</div>
+            </div>
+            <div class="log u-cf">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Country</th>
+                            <th>Answer</th>
+                            <th>Your guess</th>
+                        </tr>
+                    </thead>
+                    <tbody id="answerLog"></tbody>
+                </table>
             </div>
         </div>
     </div>

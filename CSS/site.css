@@ -64,7 +64,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 100px;
+    width: auto;
+    max-height: 100%;
+    overflow-y: auto;
 }
 
 .panel {
@@ -79,10 +81,23 @@
     text-align: center;
 }
 
-.scoreboard > div > div:first-child {
-    text-decoration: underline;
+.log {
+    padding-top: 10px;
 }
 
-.scoreboard > div > div:last-child {
-    font-size: 24px;
+.log > table {
+    border-top: 1px solid #E1E1E1;
+}
+
+.log > table td,
+.log > table th {
+    width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.log > table td:first-child,
+.log > table th:first-child {
+    width: 10px;
 }

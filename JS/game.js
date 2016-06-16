@@ -15,15 +15,13 @@ var game = (function() {
     }
 
     function _askQuestion(country) {
-        var answerValidation = document.getElementById('answerValidation');
         var answerContainer = document.getElementById('pnlAnswerContainer');
         var answerForm = answerContainer.getElementsByTagName('form')[0];
         var answerLabel = answerForm.getElementsByTagName('label')[0];
         var answerInput = answerForm.getElementsByTagName('input')[0];
 
-        answerValidation.textContent = "";
         answerForm.dataset.id = country.id;
-        answerInput.value = "";
+        answerInput.value = '';
         answerLabel.textContent = "What's the capital of " + country.name + "?";
         answerContainer.style.display = 'block';
         answerInput.focus();
@@ -34,8 +32,8 @@ var game = (function() {
             _playerScore += isCorrect ? 1 : -1;
 
         document.getElementById('txtScore').innerHTML = _playerScore;
-        console.log("Answered", _answerLog);
-        console.log("Unanswered", world.getCountries());
+        console.log('Answered', _answerLog);
+        console.log('Unanswered', world.getCountries());
     }
 
     function _updateAnswerLog(country, guess, isCorrect) {
@@ -44,6 +42,25 @@ var game = (function() {
             guess: guess,
             isCorrect: isCorrect
         });
+
+        var table = document.getElementById('answerLog');
+
+        table.appendChild(_createAnswerLogRow(country, guess));
+    }
+
+    function _createAnswerLogRow(country, guess) {
+        var row = document.createElement('tr');
+        row.appendChild(_createAnswerLogCell(_answerLog.length.toString()));
+        row.appendChild(_createAnswerLogCell(country.name));
+        row.appendChild(_createAnswerLogCell(country.capital));
+        row.appendChild(_createAnswerLogCell(guess));
+        return row;
+    }
+
+    function _createAnswerLogCell(text) {
+        var td = document.createElement('td');
+        td.appendChild(document.createTextNode(text == "" ? "Skipped" : text));
+        return td;
     }
 
     function _startTimer(duration, display) {

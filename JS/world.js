@@ -56,7 +56,9 @@ var world = (function() {
     }
 
     function _spliceCountry(id) {
-        return _countries.splice(id, 1);
+        var country = _countries[id];
+        _countries.splice(id, 1);
+        return country;
     }
 
     function _getCountryById(id) {
