@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>world capitals</name>
@@ -3122,7 +3122,7 @@
             <value>SD</value>
           </Data>
           <Data name="coords">
-            <value>30.217636,12.862807</value>
+            <value>32.565041,15.506166</value>
           </Data>
         </ExtendedData>
       </Placemark>
@@ -3141,7 +3141,7 @@
             <value>SS</value>
           </Data>
           <Data name="coords">
-            <value>30.217636,12.862807</value>
+            <value>31.5421697,4.860776</value>
           </Data>
         </ExtendedData>
       </Placemark>

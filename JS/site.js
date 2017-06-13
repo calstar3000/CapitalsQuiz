@@ -4,6 +4,18 @@ function initMap() {
     worldMap.initMap();
 }
 
+function toggleRevisionSheet() {
+    game.toggleRevisionSheet();
+}
+
+function toggleScorecard() {
+    game.toggleScorecard();
+}
+
+function closePanels() {
+    game.closePanels();
+}
+
 function startGame() {
     game.startGame();
 }

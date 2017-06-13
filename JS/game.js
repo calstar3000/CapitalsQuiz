@@ -4,11 +4,46 @@ var game = (function() {
     var _answerLog = [];
     var _hasTimer = false;
 
-    function _startGame() {
-         document.getElementById('startButton').style.display = "none";
-         var display = document.getElementById('time');
+    function _closePanels() {
+        // Hide the revision sheet and scorecard
+        document.getElementById('pnlRevisionSheet').style.display = "none";
+        document.getElementById('pnlScoreboard').style.display = "none";
+    }
 
-         if (_hasTimer)
+    function _toggleRevisionSheet() {
+        // Toggle revision sheet visibility
+        if (document.getElementById('pnlRevisionSheet').style.display === "block") {
+            document.getElementById('pnlRevisionSheet').style.display = "none";
+        } else {
+            document.getElementById('pnlRevisionSheet').style.display = "block";
+            
+            // Hide the scorecard
+            document.getElementById('pnlScoreboard').style.display = "none";
+        }
+    }
+    
+    function _toggleScorecard() {
+        if (document.getElementById('pnlScoreboard').style.display === "block") {
+            document.getElementById('pnlScoreboard').style.display = "none";
+        } else {
+            document.getElementById('pnlScoreboard').style.display = "block";
+
+            // Hide the revision sheet
+            document.getElementById('pnlRevisionSheet').style.display = "none";
+        }
+    }
+
+    function _startGame() {
+        _playerScore = 0;
+        _answerLog = [];
+        _updateScore(null);
+        var table = document.getElementById('answerLog');
+        table.innerHTML = "";
+        document.getElementById('startButton').style.display = "none";
+
+        var display = document.getElementById('time');
+
+        if (_hasTimer)
             _startTimer(_gameTime, display);
 
          world.moveToNextCountry();
@@ -45,15 +80,16 @@ var game = (function() {
 
         var table = document.getElementById('answerLog');
 
-        table.appendChild(_createAnswerLogRow(country, guess));
+        table.appendChild(_createAnswerLogRow(country, guess, isCorrect));
     }
 
-    function _createAnswerLogRow(country, guess) {
+    function _createAnswerLogRow(country, guess, isCorrect) {
         var row = document.createElement('tr');
         row.appendChild(_createAnswerLogCell(_answerLog.length.toString()));
         row.appendChild(_createAnswerLogCell(country.name));
         row.appendChild(_createAnswerLogCell(country.capital));
         row.appendChild(_createAnswerLogCell(guess));
+        row.appendChild(_createAnswerLogCell(isCorrect ? "1" : "-1"));
         return row;
     }
 
@@ -92,6 +128,15 @@ var game = (function() {
     }
 
     return {
+        closePanels: function() {
+            _closePanels();
+        },
+        toggleRevisionSheet: function() {
+            _toggleRevisionSheet();
+        },
+        toggleScorecard: function() {
+            _toggleScorecard();
+        },
         startGame: function() {
             _startGame();
         },
