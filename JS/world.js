@@ -86,7 +86,7 @@ var world = (function() {
             _moveToNextCountry();
         },
         getNextCountry: function() {
-            _getNextCountry();
+            return _getNextCountry();
         },
         spliceCountry: function(id) {
             return _spliceCountry(id);

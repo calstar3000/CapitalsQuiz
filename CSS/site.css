@@ -20,7 +20,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 42px;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -39,27 +39,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 265px;
     
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
 
+.panel.answer-container {
+    padding-bottom: 0;
+}
+
 .answer-container > form > label {
     display: block;
+    text-align: center;
 }
 
 .answer-container > form > input,
 .answer-container > form > button {
     display: block;
-}
-
-.button-skip {
-    margin-top: -10px;
-}
-
-.answer-container > form > input[type=text] {
-    width: 100%;
 }
 
 .revision-sheet,
@@ -152,4 +150,15 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 /* Skeleton overrides */
 button {
     padding: 0 10px !important;
+}
+
+.answer-list {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.answer-list li input,
+.answer-list li button {
+    display: block;
+    width: 100%;
 }

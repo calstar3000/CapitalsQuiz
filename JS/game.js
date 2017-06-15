@@ -2,7 +2,7 @@ var game = (function() {
     var _playerScore = 0;
     var _gameTime = 60 * 1;
     var _answerLog = [];
-    var _hasTimer = false;
+    var _hasTimer = true;
 
     function _closePanels() {
         // Hide the revision sheet and scorecard
@@ -53,13 +53,33 @@ var game = (function() {
         var answerContainer = document.getElementById('pnlAnswerContainer');
         var answerForm = answerContainer.getElementsByTagName('form')[0];
         var answerLabel = answerForm.getElementsByTagName('label')[0];
-        var answerInput = answerForm.getElementsByTagName('input')[0];
-
+        
         answerForm.dataset.id = country.id;
-        answerInput.value = '';
         answerLabel.textContent = "What's the capital of " + country.name + "?";
         answerContainer.style.display = 'block';
-        answerInput.focus();
+        
+        _populatePossibleAnswers(country);
+    }
+
+    function _populatePossibleAnswers(country) {
+        _populateRandomAnswers();
+
+        var possibleAnswers = 5;
+        var answerIndex = utilities.getRandomInt(1, possibleAnswers + 1);
+
+        var button = document.getElementById('answer' + answerIndex.toString());
+        button.setAttribute('value', country.capital);
+    }
+
+    function _populateRandomAnswers()
+    {
+        var answerList = document.getElementById('answerList');
+        var answerButtons = answerList.getElementsByTagName('input');
+
+        for (var i = 0, count = answerButtons.length; i < count; i++) {
+            answerButtons[i].setAttribute('value', world.getNextCountry().capital);
+            answerButtons[i].style.border = '1px solid #bbb';
+        }
     }
 
     function _updateScore(isCorrect) {
@@ -87,8 +107,8 @@ var game = (function() {
         var row = document.createElement('tr');
         row.appendChild(_createAnswerLogCell(_answerLog.length.toString()));
         row.appendChild(_createAnswerLogCell(country.name));
-        row.appendChild(_createAnswerLogCell(country.capital));
         row.appendChild(_createAnswerLogCell(guess));
+        row.appendChild(_createAnswerLogCell(country.capital));
         row.appendChild(_createAnswerLogCell(isCorrect ? "1" : "-1"));
         return row;
     }

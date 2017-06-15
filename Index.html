@@ -46,8 +46,8 @@
                             <tr>
                                 <th>Question</th>
                                 <th>Country</th>
-                                <th>Answer</th>
                                 <th>Your guess</th>
+                                <th>Answer</th>
                                 <th>Points</th>
                             </tr>
                         </thead>
@@ -284,12 +284,19 @@
         
         <!-- Answer box start -->
         <div id="pnlAnswerContainer" class="answer-container panel">
-            <form id="formAnswer" onsubmit="return submitAnswer()">
+            <form id="formAnswer">
                 <label for="txtAnswer" id="lblAnswer">What's the capital of...?</label>
-                <input type="text" id="txtAnswer" name="textAnswer" required="required" />
-                <input class="button-primary button-submit u-pull-left" type="submit" value="Submit" />
-            </form>
-            <button class="button-skip u-pull-right" onclick="return submitAnswer()">Skip</button>
+                <ul id="answerList" class="answer-list">
+                    <li><input id="answer1" class="button" type="submit" value="" onclick="return submitAnswer(this.value, 1)" /></li>
+                    <li><input id="answer2" class="button" type="submit" value="" onclick="return submitAnswer(this.value, 2)" /></li>
+                    <li><input id="answer3" class="button" type="submit" value="" onclick="return submitAnswer(this.value, 3)" /></li>
+                    <li><input id="answer4" class="button" type="submit" value="" onclick="return submitAnswer(this.value, 4)" /></li>
+                    <li><input id="answer5" class="button" type="submit" value="" onclick="return submitAnswer(this.value, 5)" /></li>
+                </ul>
+                <ul class="answer-list">
+                    <li><button class="button-primary" onclick="return submitAnswer('Skip', 0)">Skip</button></li>
+                </ul>
+            </form>  
         </div>
         <!-- Answer box end -->
 
@@ -314,7 +321,7 @@
         <!-- Footer end -->
 
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYfhjXRD0kJzsiiW5CfUBYUd8cZVymACw&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyV54Oa3YEh4qS1YNXEZxeMWa3XjR8T7I&callback=initMap" async defer></script>
     <script src="./JS/KmlMapParser.js"></script>
     <script src="./JS/utilities.js"></script>
     <script src="./JS/worldMap.js"></script>
